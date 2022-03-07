@@ -1,0 +1,162 @@
+version: "3.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - thank
+  - inform
+  - covid_faq
+  - check_covid_symptom
+
+slots:
+  gender:
+    type: text
+    influence_conversation: false
+    mappings:
+    - type: from_text
+      conditions:
+      - active_loop: user_info_form
+        requested_slot: gender
+  age:
+    type: text
+    influence_conversation: false
+    mappings:
+    - type: from_text
+      conditions:
+      - active_loop: user_info_form
+        requested_slot: age
+
+responses:
+  utter_greet:
+  - text: Xin chào, tôi có thể giúp gì cho bạn?
+
+  utter_guide:
+  - text: "Bạn có thể hỏi các thông tin về COVID-19 bằng cách nhập câu hỏi(ví dụ: Covid 19 là gì?)  \n  \nHoặc bạn có thể chọn nút bên dưới để kiểm tra triệu chứng COVID-19"
+    buttons:
+    - payload: /check_covid_symptom
+      title: Kiểm tra triệu chứng COVID-19
+
+  utter_disclaimer:
+  - text: "Mục đích của tính năng kiểm tra triệu chứng COVID là để giúp bạn đưa ra quyết định về việc tìm kiếm dịch vụ chăm sóc y tế thích hợp. Hệ thống này không dùng để chẩn đoán hoặc điều trị bệnh, kể cả COVID-19.  \n  \nĐể tiếp tục sử dụng công cụ này, vui lòng đồng ý rằng bạn đã đọc và hiểu nội dung của tuyên bố từ chối trách nhiệm này."
+    buttons:
+    - payload: /affirm
+      title: Tôi đồng ý
+    - payload: /deny
+      title: Tôi không đồng ý
+
+  utter_introduction:
+  - text: "Tôi sẽ hỏi bạn một số câu hỏi. Tôi sẽ sử dụng câu trả lời của bạn để cung cấp cho bạn lời khuyên về mức độ chăm sóc y tế mà bạn nên tìm kiếm.  \n  \nNếu bạn đang gặp trường hợp khẩn cấp đe dọa tính mạng, vui lòng gọi 115 ngay lập tức."
+  
+  utter_ask_fever:
+  - text: Bạn đang bị sốt trên 37.8 độ C không?
+    buttons:
+      - payload: /affirm
+        title: Có
+      - payload: /deny
+        title: Không
+      - payload: /affirm
+        title: Tôi bị sốt nhưng không biết bao nhiêu độ
+
+  utter_ask_fever_period:
+  - text: Bạn bị sốt bao nhiêu ngày rồi?
+    buttons:
+      - payload: /affirm
+        title: Nhiều hơn 3 ngày
+      - payload: /deny
+        title: Ít hơn 3 ngày
+  
+  utter_ask_cough:
+  - text: Bạn đang bị ho và mức độ ho dần chuyển nặng hơn không?
+    buttons:
+      - payload: /affirm
+        title: Có
+      - payload: /deny
+        title: Không
+
+  utter_ask_serious_symptom:
+  - text: "Bạn có bất kỳ triệu chứng đe dọa đến tính mạng nào dưới đây không?  \n
+            - Khó thở  \n
+            - Đau hoặc tức ngực dai dẳng  \n
+            - Tình trạng lẫn lộn mới xuất hiện  \n
+            - Không có khả năng tỉnh hoặc thức dậy  \n
+            - Da, môi hoặc móng tay màu nhợt nhạt, xám hoặc xanh, tùy thuộc vào tông màu da  \n
+            - Chóng mặt, ngất xỉu  \n
+          *Danh sách này không phải là tất cả các triệu chứng có thể xảy ra. Vui lòng gọi cho phòng khám nếu có bất kỳ triệu chứng khác nghiêm trọng hoặc khiến bạn lo lắng."
+    buttons:
+      - payload: /affirm
+        title: Có
+      - payload: /deny
+        title: Không
+
+  utter_ask_weaken_immune:
+  - text: "Bạn có bất kỳ tình trạng nào sau đây không làm suy yếu hệ thống miễn dịch của bạn không?  \n
+            - Bệnh ung thư, không bao gồm bệnh ung thư đã được điều trị trước đó thuyên giảm  \n
+            - Cấy ghép nội tạng hoặc cấy ghép tủy xương  \n
+            - Rối loạn tự miễn dịch (chẳng hạn như viêm khớp dạng thấp hoặc lupus)  \n
+            - Sử dụng các loại thuốc làm suy yếu hệ thống miễn dịch của bạn(chẳng hạn như steroid)  \n
+            - Bất kỳ tình trạng nào khác ảnh hưởng đến hệ thống miễn dịch của bạn, chẳng hạn như HIV"
+    buttons:
+      - payload: /affirm
+        title: Có
+      - payload: /deny
+        title: Không
+
+  utter_ask_common_symptom:
+  - text: "Bạn đã có một hoặc nhiều các triệu chứng sau:  \n
+            • Lắc liên tục kèm theo ớn lạnh  \n
+            • Mất vị giác hoặc mùi mới  \n
+            • Viêm họng  \n
+            • Chảy nước mũi hoặc nghẹt mũi  \n
+            • Đau nhức cơ, nhức mỏi cơ thể, hay đau đầu  \n
+            • Mệt mỏi hoặc khó chịu  \n
+            • Buồn nôn, nôn mửa hoặc tiêu chảy  \n
+            • Phát ban"
+    buttons:
+      - payload: /affirm
+        title: Có
+      - payload: /deny
+        title: Không
+  
+  utter_emergency:
+  - text: "**Dựa trên các triệu chứng của bạn, bạn có thể cần được chăm sóc y tế khẩn cấp. **Vui lòng gọi 115 hoặc đến phòng cấp cứu gần nhất."
+
+  utter_low_risk:
+  - text: "**Bạn có khả năng bị Covid thấp và thể tự theo dõi các tình trạng của bản thân.  \n  \n Nếu có bạn cảm thấy có bất kỳ triệu chứng nào nặng hơn **Vui lòng gọi 115 hoặc đến phòng cấp cứu gần nhất."
+
+  utter_high_risk:
+  - text: "**Bạn có khả năng đã bị nhiễm Covid** Bạn nên thực hiện test Covid để có kết quả chính xác hơn.  \n  \n Nếu có bạn cảm thấy có bất kỳ triệu chứng nào nặng hơn **Vui lòng gọi 115 hoặc đến phòng cấp cứu gần nhất."
+
+  utter_ask_if_need_help:
+  - text: Bạn cần giúp gì nữa không?
+
+  utter_default:
+  - text: Xin lỗi tôi không hiểu ý bạn.
+
+  utter_ask_gender:
+  - text: Giới tính của bạn là gì?
+    buttons:
+      - payload: /inform
+        title: Nam
+      - payload: /inform
+        title: Nữ
+      - payload: /inform
+        title: Tôi không biết
+
+  utter_ask_age:
+  - text: Bạn bao nhiêu tuổi?
+
+
+actions:
+  - action_covid_faq
+
+forms:
+  user_info_form:
+    required_slots:
+        - age
+        - gender
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

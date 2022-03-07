@@ -1,0 +1,2412 @@
+- intent: covid_faq/q_0
+  examples: |
+    - 'COVID kéo dài' là gì? Trẻ em có bị ảnh hưởng gì không?
+- intent: covid_faq/q_1
+  examples: |
+    - AY.3 có khả năng lây nhiễm cao hơn, gây chết người hay kháng thuốc?
+- intent: covid_faq/q_2
+  examples: |
+    - AY.3 khác với biến thể Delta Plus ra sao?
+- intent: covid_faq/q_3
+  examples: |
+    - AY.3 phát hiện lần đầu tiên ở đâu?
+- intent: covid_faq/q_4
+  examples: |
+    - Ai có nguy cơ mắc các vấn đề sức khỏe nghiêm trọng từ Covid-19?
+- intent: covid_faq/q_5
+  examples: |
+    - Ai có nhiều nguy cơ nhất mắc bệnh nghiêm trọng?
+- intent: covid_faq/q_6
+  examples: |
+    - Ai cần cách ly?
+- intent: covid_faq/q_7
+  examples: |
+    - Ai nên tiêm phòng trước?
+- intent: covid_faq/q_8
+  examples: |
+    - Ai được coi là tiếp xúc gần với người nhiễm COVID-19?
+- intent: covid_faq/q_9
+  examples: |
+    - Biến chủng AY.3 lây lan như thế nào?
+- intent: covid_faq/q_10
+  examples: |
+    - Biến chủng Delta Plus lây lan như thế nào?
+- intent: covid_faq/q_11
+  examples: |
+    - Biến chủng virus Corona là gì?
+- intent: covid_faq/q_12
+  examples: |
+    - Biến chứng do virus Covid-19
+- intent: covid_faq/q_13
+  examples: |
+    - Biến thể AY3 là gì?
+- intent: covid_faq/q_14
+  examples: |
+    - Biến thể Delta Plus liệu có gây ra làn sóng đại dịch tiếp theo?
+- intent: covid_faq/q_15
+  examples: |
+    - Biến thể Delta Plus là gì?
+- intent: covid_faq/q_16
+  examples: |
+    - Biến thể Delta Plus nguy hiểm tới mức nào?
+- intent: covid_faq/q_17
+  examples: |
+    - Biến thể Delta có nguy cơ dễ lây lan hơn hay không?
+- intent: covid_faq/q_18
+  examples: |
+    - Biến thể Delta khác biệt như thế nào?
+- intent: covid_faq/q_19
+  examples: |
+    - Biến thể Delta là gì?
+- intent: covid_faq/q_20
+  examples: |
+    - Biến thể Lambda có kháng vaccine không?
+- intent: covid_faq/q_21
+  examples: |
+    - Biến thể Lambda là gì?
+- intent: covid_faq/q_22
+  examples: |
+    - Biến thể Omicron có gây ra những triệu chứng khác hay không?
+- intent: covid_faq/q_23
+  examples: |
+    - Biến thể Omicron có lây lan nhanh hơn không?
+- intent: covid_faq/q_24
+  examples: |
+    - Biến thể Omicron là gì? 
+- intent: covid_faq/q_25
+  examples: |
+    - Biến thể Omicron phát triển như thế nào?
+- intent: covid_faq/q_26
+  examples: |
+    - Biến thể Omicron xuất hiện ở đâu?
+- intent: covid_faq/q_27
+  examples: |
+    - Biểu hiện Covid-19 có sổ mũi không?
+- intent: covid_faq/q_28
+  examples: |
+    - Biểu hiện sớm nhất của bệnh virus corona là gì?
+- intent: covid_faq/q_29
+  examples: |
+    - Bác sĩ nào phát hiện ra biến chủng Omicron đầu tiên?
+- intent: covid_faq/q_30
+  examples: |
+    - Bác sĩ ơi, Covid-19 là dịch bệnh gì ạ?
+- intent: covid_faq/q_31
+  examples: |
+    - Bác sĩ ơi, bệnh Covid-19 lây từ người này sang người khác bằng cách nào ạ?
+- intent: covid_faq/q_32
+  examples: |
+    - Bác sĩ ơi, bệnh Covid-19 nguy hiểm như thế nào ạ?
+- intent: covid_faq/q_33
+  examples: |
+    - Bác sĩ ơi, con thấy trên TV còn bảo bệnh Covid-19 là bệnh đặc biệt nguy hiểm có phải không ạ?
+- intent: covid_faq/q_34
+  examples: |
+    - Bác sĩ ơi, con virus Corona mới nhìn như thế nào ạ?
+- intent: covid_faq/q_35
+  examples: |
+    - Bác sĩ ơi, cứ bị nhiễm con virus “vương miện mới” này là bị bệnh Covid-19 phải không?
+- intent: covid_faq/q_36
+  examples: |
+    - Bác sĩ ơi, thế cứ bị bệnh Covid-19 là chết phải không ạ?
+- intent: covid_faq/q_37
+  examples: |
+    - Bác sĩ ơi, viêm phổi là bệnh như thế nào ạ?
+- intent: covid_faq/q_38
+  examples: |
+    - Bên cạnh việc đeo khẩu trang, những biện pháp phòng ngừa nhiễm trùng đường hô hấp nào khác nên được áp dụng?
+- intent: covid_faq/q_39
+  examples: |
+    - Bắt tay có làm lây Covid-19 không?
+- intent: covid_faq/q_40
+  examples: |
+    - Bảo quản vắc xin BNT162b2
+- intent: covid_faq/q_41
+  examples: |
+    - Bảo quản vắc xin mRNA-1273 của Moderna
+- intent: covid_faq/q_42
+  examples: |
+    - Bảo quản vắc xin phòng COVID-19 của AstraZeneca
+- intent: covid_faq/q_43
+  examples: |
+    - Bệnh Covid-19 lây truyền bằng cách nào?
+- intent: covid_faq/q_44
+  examples: |
+    - Bệnh Covid-19 nguy hiểm như thế nào?
+- intent: covid_faq/q_45
+  examples: |
+    - Bệnh truyền nhiễm do tác nhân Novel là gì?
+- intent: covid_faq/q_46
+  examples: |
+    - Bệnh viêm đường hô hấp cấp do chủng mới của virus corona được phát hiện lần đầu tiên ở đâu?
+- intent: covid_faq/q_47
+  examples: |
+    - Bệnh viện có biện pháp gì để phòng ngừa virus lây lan?
+- intent: covid_faq/q_48
+  examples: |
+    - Bị bệnh Covid-19 nếu không được điều trị có thể dẫn đến những hậu quả gì?
+- intent: covid_faq/q_49
+  examples: |
+    - Bị bệnh xuất huyết giảm tiểu cầu vô căn, tiền căn nổi mẩn ngứa mệt khi truyền tiểu cầu phải tiêm hydrocortison, pipolphen; giảm tiểu cầu khi tiêm ngừa sởi – quai bị – rubella thì có tiêm vắc xin Covid-19 không?
+- intent: covid_faq/q_50
+  examples: |
+    - Bị nhiễm COVID-19 từ trước có hiệu quả đối với biến thể Omicron?
+- intent: covid_faq/q_51
+  examples: |
+    - CDC xác định Cấp Độ Thông Báo Y Tế Du Lịch COVID-19 của một điểm đến như thế nào?
+- intent: covid_faq/q_52
+  examples: |
+    - COVAX là gì?
+- intent: covid_faq/q_53
+  examples: |
+    - COVID-19 có giống với virus gây bệnh MERS-CoV hoặc SARS?
+- intent: covid_faq/q_54
+  examples: |
+    - COVID-19 có lây thể truyền qua đường không khí?
+- intent: covid_faq/q_55
+  examples: |
+    - COVID-19 có thể lan truyền ngoài trời không?
+- intent: covid_faq/q_56
+  examples: |
+    - COVID-19 có thể lây truyền qua ruồi, muỗi không?
+- intent: covid_faq/q_57
+  examples: |
+    - COVID-19 không có triệu chứng phát ra bên ngoài đúng không? Bệnh nhân có thể đột ngột tử vong khi đang đi trên phố?
+- intent: covid_faq/q_58
+  examples: |
+    - COVID-19 là gì?
+- intent: covid_faq/q_59
+  examples: |
+    - COVID-19 lây lan như thế nào?
+- intent: covid_faq/q_60
+  examples: |
+    - COVID-19 sẽ tự biến mất khi thời tiết ấm lên?
+- intent: covid_faq/q_61
+  examples: |
+    - COVID-19 vaccines có an toàn không?
+- intent: covid_faq/q_62
+  examples: |
+    - COVID-19 đã được mô tả là một “đại dịch”. Điều đó nghĩa là gì?
+- intent: covid_faq/q_63
+  examples: |
+    - COVID-19 ảnh hưởng đến trẻ em như thế nào?
+- intent: covid_faq/q_64
+  examples: |
+    - Cho con đi tiêm có an toàn không?
+- intent: covid_faq/q_65
+  examples: |
+    - Chuyện gì sẽ xảy ra với thông tin cá nhân của tôi trong khi truy tìm người tiếp xúc?
+- intent: covid_faq/q_66
+  examples: |
+    - Chúng ta cần làm gì nếu chúng ta có dự định đi nghỉ qua đêm?
+- intent: covid_faq/q_67
+  examples: |
+    - Chúng ta nên làm gì khi trở về nhà?
+- intent: covid_faq/q_68
+  examples: |
+    - Chúng ta nên thực hiện những biện pháp phòng ngừa an toàn nào khi đi du lịch?
+- intent: covid_faq/q_69
+  examples: |
+    - Chất tẩy rửa nào thường được sử dụng để vệ sinh đồ vật và môi trường dự phòng lây nhiễm virus gây bệnh Covid-19?
+- intent: covid_faq/q_70
+  examples: |
+    - Chỉ thị 11 là gì?
+- intent: covid_faq/q_71
+  examples: |
+    - Chỉ thị số 10 là gì?
+- intent: covid_faq/q_72
+  examples: |
+    - Chỉ đeo khẩu trang đã đủ để phòng dịch bệnh chưa?
+- intent: covid_faq/q_73
+  examples: |
+    - Cocktail kháng thể Evusheld có chống được biến thể Omicron không?
+- intent: covid_faq/q_74
+  examples: |
+    - Con cần làm gì để có sức đề kháng chống bệnh Covid-19?
+- intent: covid_faq/q_75
+  examples: |
+    - Con tôi bị sốt trong đợt nghỉ vừa rồi nhưng con đã đã hết sốt, vậy khi con đi học trở lại tôi có phải báo cho nhà trường biết điều này không? nếu có thì cần chuẩn bị thông tin gì về bệnh của con để báo cho nhà trường biết?
+- intent: covid_faq/q_76
+  examples: |
+    - Con tôi có nên tiêm vắc xin COVID-19 không?
+- intent: covid_faq/q_77
+  examples: |
+    - Con tôi không đến trường đã chắc chắn tránh được dịch bệnh Covid-19 hay chưa?
+- intent: covid_faq/q_78
+  examples: |
+    - Covid 19 là gì?
+- intent: covid_faq/q_79
+  examples: |
+    - Covid 19 sốt bao nhiêu độ?
+- intent: covid_faq/q_80
+  examples: |
+    - Covid-19 có gây quái thai không?
+- intent: covid_faq/q_81
+  examples: |
+    - Covid-19 có lây qua đường máu không?
+- intent: covid_faq/q_82
+  examples: |
+    - Covid-19 có lây từ mẹ sang con không?
+- intent: covid_faq/q_83
+  examples: |
+    - Covid-19 có dấu hiệu da nổi mẩn không?
+- intent: covid_faq/q_84
+  examples: |
+    - Covid-19 có triệu chứng buồn nôn không?
+- intent: covid_faq/q_85
+  examples: |
+    - Covid-19 có triệu chứng chảy nước mũi không?
+- intent: covid_faq/q_86
+  examples: |
+    - Covid-19 có triệu chứng khó thở không?
+- intent: covid_faq/q_87
+  examples: |
+    - Covid-19 có triệu chứng tiêu chảy không?
+- intent: covid_faq/q_88
+  examples: |
+    - Covid-19 có đau họng không?
+- intent: covid_faq/q_89
+  examples: |
+    - Có ai có đề kháng tự nhiên với Covid-19 hay không?
+- intent: covid_faq/q_90
+  examples: |
+    - Có thể lấy huyết tương của người bị bệnh Covid-19 đã khỏi bệnh để chữa cho người đang bị bệnh hay không?
+- intent: covid_faq/q_91
+  examples: |
+    - Cơ thể người đề kháng với Covid-19 như thế nào?
+- intent: covid_faq/q_92
+  examples: |
+    - Các biến chủng virus Corona mới nhất hiện nay là gì?
+- intent: covid_faq/q_93
+  examples: |
+    - Các biện pháp chính để điều trị bệnh Covid-19 là gì?
+- intent: covid_faq/q_94
+  examples: |
+    - Các bác sĩ cần lưu ý gì khi khám sàng lọc trước tiêm cho mẹ bầu?
+- intent: covid_faq/q_95
+  examples: |
+    - Các chuyên gia quản lý trường học, văn phòng và các tòa nhà thương mại có thể lấy thông tin về thông gió và lọc để đối phó với COVID-19 ở đâu?
+- intent: covid_faq/q_96
+  examples: |
+    - Các loại biến thể Covid hiện nay trên toàn thế giới?
+- intent: covid_faq/q_97
+  examples: |
+    - Các loại thuốc kháng thể đơn dòng hỗ trợ điều trị Covid-19
+- intent: covid_faq/q_98
+  examples: |
+    - Các loại thuốc kháng thể đơn dòng hỗ trợ điều trị ung thư
+- intent: covid_faq/q_99
+  examples: |
+    - Các loại vaccine Covid hiện nay có chống lại các biến thể virus Corona mới này được không?
+- intent: covid_faq/q_100
+  examples: |
+    - Các loại vaccine Covid-19 có chống được AY.3 không?
+- intent: covid_faq/q_101
+  examples: |
+    - Các loại vaccine Covid-19 có chống được Delta không?
+- intent: covid_faq/q_102
+  examples: |
+    - Các loại vaccine Covid-19 nào chống được Lambda?
+- intent: covid_faq/q_103
+  examples: |
+    - Các loại vắc xin ngừa COVID-19 có hiệu quả trước biến thể Delta không?
+- intent: covid_faq/q_104
+  examples: |
+    - Các loại vắc-xin đã được phát triển quá nhanh. Có chắc là chúng an toàn không?
+- intent: covid_faq/q_105
+  examples: |
+    - Các mức độ rủi ro lây nhiễm Covid-19?
+- intent: covid_faq/q_106
+  examples: |
+    - Các nhà máy xử lý nước thải có xử lý được COVID-19 không?
+- intent: covid_faq/q_107
+  examples: |
+    - Các nhân viên y tế đang cho con bú không tiêm vắc-xin phòng COVID-19 có được được ưu tiên sử dụng thiết bị bảo hộ cá nhân (PPE) hoặc được giao nhiệm vụ có nguy cơ phơi nhiễm thấp không?
+- intent: covid_faq/q_108
+  examples: |
+    - Các phản ứng sau khi tiêm?
+- intent: covid_faq/q_109
+  examples: |
+    - Các sự kiện trong nhà như phòng tập thể dục, quán bar, rạp chiếu phim và nhà hàng thì sao?
+- intent: covid_faq/q_110
+  examples: |
+    - Các thành phần trong vắc-xin COVID-19 bao gồm những gì?
+- intent: covid_faq/q_111
+  examples: |
+    - Các triệu chứng của COVID-19 là gì?
+- intent: covid_faq/q_112
+  examples: |
+    - Các triệu chứng khởi phát thường gặp khi nhiễm bệnh COVID-19 là gì?
+- intent: covid_faq/q_113
+  examples: |
+    - Các tác dụng phụ khi tiêm Evusheld là gì?
+- intent: covid_faq/q_114
+  examples: |
+    - Các tác dụng phụ sau khi tiêm vaccine Covid-19 thường gặp
+- intent: covid_faq/q_115
+  examples: |
+    - Các xét nghiệm COVID-19 hiện nay có thể phát hiện biến thể Omicron không?
+- intent: covid_faq/q_116
+  examples: |
+    - Các đường lây nhiễm Covid-19?
+- intent: covid_faq/q_117
+  examples: |
+    - Cách chẩn đoán và xét nghiệm Covid 19
+- intent: covid_faq/q_118
+  examples: |
+    - Cách hoạt động của vaccine dựa trên Vector Adenovirus
+- intent: covid_faq/q_119
+  examples: |
+    - Cách ly tại nhà nghĩa là gì?
+- intent: covid_faq/q_120
+  examples: |
+    - Cách ly và giản cách xã hội là gì?
+- intent: covid_faq/q_121
+  examples: |
+    - Cách làm sạch khẩu trang vải như thế nào?
+- intent: covid_faq/q_122
+  examples: |
+    - Cách nào tốt hơn: rửa tay bằng xà phòng và nước hay dùng nước rửa tay?
+- intent: covid_faq/q_123
+  examples: |
+    - Cách phòng ngừa cho trẻ em?
+- intent: covid_faq/q_124
+  examples: |
+    - Cách phòng ngừa virus Corona?
+- intent: covid_faq/q_125
+  examples: |
+    - Cách sử dụng gel rửa tay
+- intent: covid_faq/q_126
+  examples: |
+    - Cách thức lây nhiễm COVID-19 là gì?
+- intent: covid_faq/q_127
+  examples: |
+    - Cách thức để tôi bảo vệ bản thân khỏi COVID-19 khi dùng các phương tiện giao thông khác nhau?
+- intent: covid_faq/q_128
+  examples: |
+    - Cách tốt nhất để phòng ngừa bảo vệ trẻ khỏi virus Sars-Cov-2
+- intent: covid_faq/q_129
+  examples: |
+    - Cách xử lý khi bị ho là gì?
+- intent: covid_faq/q_130
+  examples: |
+    - Cần vệ sinh nhà cửa như thế nào để hạn chế lây nhiễm Covid-19?
+- intent: covid_faq/q_131
+  examples: |
+    - Còn các phản ứng dị ứng do vắc-xin thì sao?
+- intent: covid_faq/q_132
+  examples: |
+    - Còn tấm che mặt thì sao?
+- intent: covid_faq/q_133
+  examples: |
+    - Có an toàn cho con tôi đi bơi (cả trong nhà và ngoài trời) không?
+- intent: covid_faq/q_134
+  examples: |
+    - Có an toàn cho người mẹ cho con bú nếu bị nhiễm COVID-19 không?
+- intent: covid_faq/q_135
+  examples: |
+    - Có dịch vụ lấy mẫu hoặc xét nghiệm tại nhà không?
+- intent: covid_faq/q_136
+  examples: |
+    - Có giấy xác nhận đã tiêm vắc xin phòng COVID-19 sau khi tiêm hay không?
+- intent: covid_faq/q_137
+  examples: |
+    - Có hướng dẫn HVAC nào mà các chuyên gia xây dựng và bảo trì có thể tuân theo để giúp bảo vệ khỏi COVID-19 không?
+- intent: covid_faq/q_138
+  examples: |
+    - Có nên tiêm chủng phòng bệnh trong giai đoạn dịch bệnh này không?
+- intent: covid_faq/q_139
+  examples: |
+    - Có nên tiêm vaccine Covid-19 không?
+- intent: covid_faq/q_140
+  examples: |
+    - Có nên tiến hành nghiên cứu về tiêm chủng đối với phụ nữ đang cho con bú không?
+- intent: covid_faq/q_141
+  examples: |
+    - Có nên đến bệnh viện và cơ sở y tế khám bệnh lúc này (nếu không phải nhiễm bệnh về hô hấp)?
+- intent: covid_faq/q_142
+  examples: |
+    - Có nước nào cho học sinh sinh viên nghỉ học trong đại dịch Covid-19 này không?
+- intent: covid_faq/q_143
+  examples: |
+    - Có phải các loại vắc-xin đều có chung tuyên bố về phòng ngừa/dị ứng không?
+- intent: covid_faq/q_144
+  examples: |
+    - Có phải cứ ho, sốt là bị bệnh do Covid-19 hay không?
+- intent: covid_faq/q_145
+  examples: |
+    - Có phải tỷ lệ tử vong do dịch COVID-19 là rất cao?
+- intent: covid_faq/q_146
+  examples: |
+    - Có rất nhiều thông tin sai lệch về COVID-19 trên mạng. Tôi nên làm gì?
+- intent: covid_faq/q_147
+  examples: |
+    - Có thể dùng thuốc HIV (ART) để điều trị COVID-19 không?
+- intent: covid_faq/q_148
+  examples: |
+    - Có thể tiêm vắc xin covid-19 của Pfizer-BioNTech với các loại vắc xin khác không?
+- intent: covid_faq/q_149
+  examples: |
+    - Có thể xả giấy lau khử trùng vào bồn cầu không?
+- intent: covid_faq/q_150
+  examples: |
+    - Có thể đi du lịch trong mùa dịch COVID-19 không?
+- intent: covid_faq/q_151
+  examples: |
+    - Công nhân nước thải có nên thực hiện các biện pháp phòng ngừa bổ sung để bảo vệ cho bản thân khỏi vi rút COVID-19 không?
+- intent: covid_faq/q_152
+  examples: |
+    - Cơ chế của vắc xin BNT162b2
+- intent: covid_faq/q_153
+  examples: |
+    - Cơ chế hoạt động của Sinopharm
+- intent: covid_faq/q_154
+  examples: |
+    - Cơ chế hoạt động của thuốc kháng thể đơn dòng Evusheld
+- intent: covid_faq/q_155
+  examples: |
+    - Cơ chế lây lan của SAR-CoV-2 như thế nào?
+- intent: covid_faq/q_156
+  examples: |
+    - Cơ chế sinh miễn dịch của vắc xin phòng COVID-19 AstraZeneca
+- intent: covid_faq/q_157
+  examples: |
+    - Cơ chế sản xuất vắc xin mRNA-1273 của Moderna
+- intent: covid_faq/q_158
+  examples: |
+    - Cơ chế vi rút corona (nCoV) lây lan như thế nào?
+- intent: covid_faq/q_159
+  examples: |
+    - Cơ quan FDA của Mỹ đã chấp nhận Evusheld trong điều trị Covid chưa?
+- intent: covid_faq/q_160
+  examples: |
+    - Cơ thể người đề kháng với virus gây bệnh Covid-19 như thế nào?
+- intent: covid_faq/q_161
+  examples: |
+    - Cần làm gì sau khi tiếp xúc với người nhiễm Virus Corona?
+- intent: covid_faq/q_162
+  examples: |
+    - Cần vệ sinh môi trường như thế nào để hạn chế lây nhiễm virus gây bệnh Covid-19?
+- intent: covid_faq/q_163
+  examples: |
+    - Cần vệ sinh nhà cửa như thế nào để hạn chế lây nhiễm virus gây bệnh Covid-19?
+- intent: covid_faq/q_164
+  examples: |
+    - Delta Plus có khả năng lây nhiễm cao hơn, gây chết người hay kháng thuốc?
+- intent: covid_faq/q_165
+  examples: |
+    - Delta Plus khác với biến thể Delta ra sao?
+- intent: covid_faq/q_166
+  examples: |
+    - Delta Plus phát hiện lần đầu tiên ở đâu?
+- intent: covid_faq/q_167
+  examples: |
+    - Dinh dưỡng cho người nhiễm Covid 19
+- intent: covid_faq/q_168
+  examples: |
+    - Dung dịch rửa tay khô phải bảo đảm điều kiện gì mới có thể sử dụng để rửa tay khô phòng lây nhiễm virus gây bệnh Covid-19?
+- intent: covid_faq/q_169
+  examples: |
+    - Dơi ở Hoa Kỳ có thể nhiễm vi-rút gây ra COVID-19 và chúng có thể lây lan trở lại cho con người không?
+- intent: covid_faq/q_170
+  examples: |
+    - Dịch Covid-19 có thể lây lan trong trường học bằng cách nào?
+- intent: covid_faq/q_171
+  examples: |
+    - Dịch Covid-19 có thể “tấn công” vào trường học bằng cách nào?
+- intent: covid_faq/q_172
+  examples: |
+    - Dịch Covid-19 là dịch bệnh gì?
+- intent: covid_faq/q_173
+  examples: |
+    - Dịch Covid-19 nguy hiểm như thế nào?
+- intent: covid_faq/q_174
+  examples: |
+    - Dịch Covid-19 xuất hiện như thế nào?
+- intent: covid_faq/q_175
+  examples: |
+    - Dịch bệnh Covid-19 là gì?
+- intent: covid_faq/q_176
+  examples: |
+    - Dịch bệnh coronavirus 2019 (COVID-19) là gì?
+- intent: covid_faq/q_177
+  examples: |
+    - Dựa trên các Tiêu chuẩn của Tổ chức Lao động Quốc tế, làm thế nào người sử dụng lao động có thể đảm bảo rằng người lao động đang cho con bú hoặc vắt sữa nhưng chưa được tiêm vắc-xin phòng COVID-19 vẫn duy trì công việc của họ và được bảo vệ khỏi mọi hậu quả không đáng có?
+- intent: covid_faq/q_178
+  examples: |
+    - Evusheld là gì?
+- intent: covid_faq/q_179
+  examples: |
+    - Gia đình chúng ta nên chuẩn bị thế nào để đi du lịch cùng nhau?
+- intent: covid_faq/q_180
+  examples: |
+    - Giãn cách xã hội là gì?
+- intent: covid_faq/q_181
+  examples: |
+    - Giảm thiểu nguy cơ cho cộng đồng là gì?
+- intent: covid_faq/q_182
+  examples: |
+    - Giữ khoảng cách xã hội là gì?
+- intent: covid_faq/q_183
+  examples: |
+    - Gần ngày dự sinh, mẹ bầu nên tiêm vắc xin Covid-19 trước khi sinh, hay để khi sinh xong mới tiêm?
+- intent: covid_faq/q_184
+  examples: |
+    - Hiện nay đã có thuốc điều trị đặc hiệu cho bệnh Covid-19 chưa?
+- intent: covid_faq/q_185
+  examples: |
+    - Hiện nay đã có vắc xin phòng bệnh Covid-19 chưa?
+- intent: covid_faq/q_186
+  examples: |
+    - Hiện ở Việt Nam đã có dịch vụ tiêm vaccine COVID-19 chưa?
+- intent: covid_faq/q_187
+  examples: |
+    - Hiệu quả của một liều vắc-xin COVID-19 Pfizer hoặc Moderna so với hai liều là như thế nào?
+- intent: covid_faq/q_188
+  examples: |
+    - Hiệu quả vắc xin mRNA-1273 của Modern
+- intent: covid_faq/q_189
+  examples: |
+    - Hàng rào bảo vệ từ vắc-xin ngừa COVID-19 có thể kéo dài bao lâu?
+- intent: covid_faq/q_190
+  examples: |
+    - Hạn sử dụng của vaccine AstraZeneca
+- intent: covid_faq/q_191
+  examples: |
+    - Hệ gen của virus corona là gì?
+- intent: covid_faq/q_192
+  examples: |
+    - Hồ sơ tiêm chủng của bệnh nhân có được bảo vệ tránh tiết lộ không?
+- intent: covid_faq/q_193
+  examples: |
+    - Hội chứng viêm đa hệ thống ở trẻ em (MIS-C) là gì?
+- intent: covid_faq/q_194
+  examples: |
+    - Khi nào COVID-19 vaccine có mặt ở Việt Nam?
+- intent: covid_faq/q_195
+  examples: |
+    - Khi nào bạn không nên đeo khẩu trang?
+- intent: covid_faq/q_196
+  examples: |
+    - Khi nào cần rửa tay?
+- intent: covid_faq/q_197
+  examples: |
+    - Khi nào cần đeo khẩu trang?
+- intent: covid_faq/q_198
+  examples: |
+    - Khi nào gia đình tôi nên đeo khẩu trang?
+- intent: covid_faq/q_199
+  examples: |
+    - Khi nào là an toàn để trẻ em trở lại sinh hoạt tập thể?
+- intent: covid_faq/q_200
+  examples: |
+    - Khi nào mới chắc chắn là có dịch Covid-19 xuất hiện ở trường con tôi đang học?
+- intent: covid_faq/q_201
+  examples: |
+    - Khi nào phải rửa tay để hạn chế lây nhiễm virus gây bệnh Covid-19?
+- intent: covid_faq/q_202
+  examples: |
+    - Khi nào sẽ có vắc xin COVID-19 ở quốc gia của tôi?
+- intent: covid_faq/q_203
+  examples: |
+    - Khi nào thì bạn không nên tiêm vắc xin COVID-19?
+- intent: covid_faq/q_204
+  examples: |
+    - Khi nào thì có vắc xin phòng bệnh Covid-19?
+- intent: covid_faq/q_205
+  examples: |
+    - Khi nào tôi có thể tiêm tăng cường?
+- intent: covid_faq/q_206
+  examples: |
+    - Khi nào tôi cần được chăm sóc khẩn cấp nếu mắc COVID-19?
+- intent: covid_faq/q_207
+  examples: |
+    - Khi nào tôi nên rửa tay?
+- intent: covid_faq/q_208
+  examples: |
+    - Khi nào tôi nên đến bệnh viện để kiểm tra đã bị lây nhiễm Virus?
+- intent: covid_faq/q_209
+  examples: |
+    - Khi phát bệnh, người bị bệnh Covid-19 có biểu hiện gì?
+- intent: covid_faq/q_210
+  examples: |
+    - Khi tiêm vắc-xin, tôi có cần tiếp tục đeo khẩu trang, thực hiện giãn cách xã hội, v.v... không?
+- intent: covid_faq/q_211
+  examples: |
+    - Khi ở bên ngoài vùng có dịch có nhất thiết phải đeo khẩu trang không?
+- intent: covid_faq/q_212
+  examples: |
+    - Khi ở nhà, chỉ mình con phải thực hiện các biện pháp phòng chống bệnh Covid-19 hay mọi người trong nhà cùng phải làm như con?
+- intent: covid_faq/q_213
+  examples: |
+    - Khám sàng lọc tiêm chủng cho phụ nữ mang thai giống và khác như thế nào so với khám sàng lọc tiêm chủng cho người bình thường?
+- intent: covid_faq/q_214
+  examples: |
+    - Kháng thể đơn dòng có gây ra các tác dụng phụ gì không?
+- intent: covid_faq/q_215
+  examples: |
+    - Kháng thể đơn dòng có tác dụng gì không?
+- intent: covid_faq/q_216
+  examples: |
+    - Kháng thể đơn dòng là gì?
+- intent: covid_faq/q_217
+  examples: |
+    - Kháng thể đơn dòng trần (Naked mAbs) là gì?
+- intent: covid_faq/q_218
+  examples: |
+    - Kháng thể đơn dòng đặc hiệu kép là gì
+- intent: covid_faq/q_219
+  examples: |
+    - Khả năng lây lan của Virus Corona?
+- intent: covid_faq/q_220
+  examples: |
+    - Khả năng tiếp tục cho con bú hoặc cung cấp sữa đã vắt ra có thay đổi sau khi người mẹ được tiêm vắc-xin phòng COVID-19 không? (tức là vắc-xin có thể/ sẽ làm giảm nguồn sữa không?)
+- intent: covid_faq/q_221
+  examples: |
+    - Khẩu trang có tác dụng gì?
+- intent: covid_faq/q_222
+  examples: |
+    - Khẩu trang vải có tác dụng dự phòng lây nhiễm virus gây bệnh Covid-19 không?
+- intent: covid_faq/q_223
+  examples: |
+    - Khử trùng bằng ozone có hiệu quả không?
+- intent: covid_faq/q_224
+  examples: |
+    - Kết quả kiểm nghiệm lâm sàng của thuốc kháng thể Evusheld như thế nào?
+- intent: covid_faq/q_225
+  examples: |
+    - Lambda có lây nhiễm và gây tử vong cao hơn không?
+- intent: covid_faq/q_226
+  examples: |
+    - Lambda có nguồn gốc từ đâu?
+- intent: covid_faq/q_227
+  examples: |
+    - Liều dùng và kết quả kiểm tra lâm sàng vắc xin phòng COVID-19 của AstraZeneca
+- intent: covid_faq/q_228
+  examples: |
+    - Liệu CDC có thể hỗ trợ để được bồi hoàn chi phí du lịch nếu tôi phải hủy hoặc hoãn chuyến đi do yêu cầu xét nghiệm hay tiêm chủng hoặc các vấn đề khác liên quan đến COVID-19 không?
+- intent: covid_faq/q_229
+  examples: |
+    - Liệu con tôi có thể tiêm vắc xin ngừa COVID-19 không?
+- intent: covid_faq/q_230
+  examples: |
+    - Liệu các vắc xin Covid hiện tại có chống được Omicron không?
+- intent: covid_faq/q_231
+  examples: |
+    - Liệu có biến thể COVID-19 mới nào nguy hiểm hơn cho trẻ em không?
+- intent: covid_faq/q_232
+  examples: |
+    - Liệu có người có thể có xét nghiệm âm tính và sau đó có xét nghiệm dương tính khi thực hiện xét nghiệm vi-rút COVID-19 không?
+- intent: covid_faq/q_233
+  examples: |
+    - Liệu hệ thống tự hoại của tôi có xử lý được COVID-19 không?
+- intent: covid_faq/q_234
+  examples: |
+    - Liệu việc chạy máy làm mát qua việc bay hơi (đôi khi được gọi là 'máy làm mát đầm lầy') hoặc quạt cho toàn bộ ngôi nhà có giúp bảo vệ tôi và gia đình khỏi COVID-19 không?
+- intent: covid_faq/q_235
+  examples: |
+    - Liệu việc chạy máy lạnh gắn cửa sổ có giúp bảo vệ tôi và gia đình khỏi COVID-19 không?
+- intent: covid_faq/q_236
+  examples: |
+    - Liệu vắc xin COVID-19 có hiệu quả chống lại các biến thể mới không?
+- intent: covid_faq/q_237
+  examples: |
+    - Loại khẩu trang vải nào tốt nhất?
+- intent: covid_faq/q_238
+  examples: |
+    - Loại vaccine Covid nào hiệu quả và được công nhận?
+- intent: covid_faq/q_239
+  examples: |
+    - Loại vắc xin COVID-19 nào tốt nhất cho tôi?
+- intent: covid_faq/q_240
+  examples: |
+    - Làm cách nào tôi có thể tăng thông gió tại nhà để giúp bảo vệ gia đình tôi khỏi COVID-19?
+- intent: covid_faq/q_241
+  examples: |
+    - Làm cách nào để báo cáo nếu tôi gặp bất kỳ tác dụng phụ nào sau khi tiêm vắc-xin COVID-19?
+- intent: covid_faq/q_242
+  examples: |
+    - Làm cách nào để bảo vệ bản thân và những người khác khỏi COVID-19?
+- intent: covid_faq/q_243
+  examples: |
+    - Làm cách nào để khai báo y tế khi có dấu hiệu bệnh COVID-19?
+- intent: covid_faq/q_244
+  examples: |
+    - Làm cách nào để tôi có thể bảo vệ gia đình mình cho đến khi tất cả chúng ta đều được tiêm vắc-xin COVID-19?
+- intent: covid_faq/q_245
+  examples: |
+    - Làm cách nào để đăng ký online tiêm chủng COVID-19?
+- intent: covid_faq/q_246
+  examples: |
+    - Làm gì khi gặp phải tác dụng phụ khi tiêm phòng?
+- intent: covid_faq/q_247
+  examples: |
+    - Làm gì để giảm phản ứng phụ sau khi tiêm vacxin Covid-19
+- intent: covid_faq/q_248
+  examples: |
+    - Làm sao chúng ta biết được liệu vắc-xin có an toàn hay không?
+- intent: covid_faq/q_249
+  examples: |
+    - Làm thế nào chúng ta có thể giúp ngăn ngừa sự lây lan của virút corona?
+- intent: covid_faq/q_250
+  examples: |
+    - Làm thế nào giúp tôi có thể bảo vệ bản thân?
+- intent: covid_faq/q_251
+  examples: |
+    - Làm thế nào mà vắc-xin COVID-19 được phát triển nhanh chóng như vậy?
+- intent: covid_faq/q_252
+  examples: |
+    - Làm thế nào tôi có thể trò chuyện với con về Omicron và các biến thể COVID-19 khác?
+- intent: covid_faq/q_253
+  examples: |
+    - Làm thế nào để bảo vệ bản thân và gia đình?
+- intent: covid_faq/q_254
+  examples: |
+    - Làm thế nào để các nhà khoa học nghiên cứu kháng thể?
+- intent: covid_faq/q_255
+  examples: |
+    - Làm thế nào để gia đình tôi có thể dành thời gian bên ngoài cùng nhau một cách an toàn?
+- intent: covid_faq/q_256
+  examples: |
+    - Làm thế nào để kiểm tra một người có nhiễm nCoV?
+- intent: covid_faq/q_257
+  examples: |
+    - Làm thế nào để ngăn ngừa COVID-19?
+- intent: covid_faq/q_258
+  examples: |
+    - Làm thế nào để tôi có thể nhận được thẻ tiêm chủng ngừa COVID-19 mới?
+- intent: covid_faq/q_259
+  examples: |
+    - Làm thế nào để tôi rửa tay đúng cách?
+- intent: covid_faq/q_260
+  examples: |
+    - Lây lan trong cộng đồng là gì?
+- intent: covid_faq/q_261
+  examples: |
+    - Lịch tiêm chủng vaccine Moderna
+- intent: covid_faq/q_262
+  examples: |
+    - Lịch tiêm vắc xin Pfizer (BNT162b2)
+- intent: covid_faq/q_263
+  examples: |
+    - Lợi ích của việc tiêm vắc-xin COVID-19 là gì?
+- intent: covid_faq/q_264
+  examples: |
+    - Máy lọc hoặc làm sạch không khí có giúp bảo vệ tôi và gia đình khỏi COVID-19 ở trong nhà không?
+- intent: covid_faq/q_265
+  examples: |
+    - Máy sấy tay có hiệu quả trong việc diệt virus SAR-CoV-2 hay không?
+- intent: covid_faq/q_266
+  examples: |
+    - Máy tạo Ozone có bảo vệ tôi và gia đình khỏi COVID-19 không?
+- intent: covid_faq/q_267
+  examples: |
+    - Mẹ bầu bị hở van 2 lá ¼ nếu mắc Covid-19 có nguy hiểm không?
+- intent: covid_faq/q_268
+  examples: |
+    - Mẹ bầu có nhất thiết phải tiêm đủ 2 mũi vắc xin Covid-19 trước khi sinh không?
+- intent: covid_faq/q_269
+  examples: |
+    - Mẹ bầu có thai yếu thì có thể tiêm vắc xin Covid-19 được hay không?
+- intent: covid_faq/q_270
+  examples: |
+    - Mẹ bầu có thể tiêm phối hợp 2 loại vắc xin Covid-19 khác nhau được không?
+- intent: covid_faq/q_271
+  examples: |
+    - Mẹ bầu mới sinh xong cần lưu ý gì khi tiêm vắc xin Covid-19?
+- intent: covid_faq/q_272
+  examples: |
+    - Mẹ bầu sau khi tiêm vắc xin Covid-19 bị sốt cao có nên uống thuốc hạ sốt không?
+- intent: covid_faq/q_273
+  examples: |
+    - Mẹ bầu tiêm vắc xin Covid-19 có ảnh hưởng đến thai nhi không?
+- intent: covid_faq/q_274
+  examples: |
+    - Mẹ bầu từng bị xuất huyết âm đạo có tiêm vắc xin AstraZeneca ở tuần 35 được không? Tiêm vắc xin xong thì tiếp tục uống thuốc được không?
+- intent: covid_faq/q_275
+  examples: |
+    - Mẹ bầu từng điều trị bệnh chèn dây thần kinh số 8 có được tiêm vắc xin Covid-19 không?
+- intent: covid_faq/q_276
+  examples: |
+    - Mẹ bầu đang mang thai tuần thứ 14 và có tiền sử sảy thai sớm thì có liên quan đến việc tiêm vắc xin Covid-19 không?
+- intent: covid_faq/q_277
+  examples: |
+    - Mẹ bầu đã tiêm 1 mũi vắc xin Pizer vào tuần thứ 4 và lịch tiêm mũi 2 vào tuần 9, sớm hơn so với Bộ Y tế quy định, vậy thì có tiêm tiếp hay trì hoãn đến 13 tuần thai rồi tiêm?
+- intent: covid_faq/q_278
+  examples: |
+    - Mẹ bầu đã được 31 tuần, nếu tiêm vắc xin Covid-19 mũi 1 thì bao lâu mới tiêm được mũi 2? Phụ nữ trong giai đoạn hậu sản có được tiêm ngừa vắc xin Covid-19 không?
+- intent: covid_faq/q_279
+  examples: |
+    - Mẹ bầu ở tuần thai 21 nên tiêm vắc xin Covid-19 trước hay mũi 2 vắc xin Uốn ván trước?
+- intent: covid_faq/q_280
+  examples: |
+    - Mẹ cho con bú sau khi tiêm vắc-xin phòng COVID-19 có an toàn không?
+- intent: covid_faq/q_281
+  examples: |
+    - Một lọ vắc xin AstraZeneca bao nhiêu ml?
+- intent: covid_faq/q_282
+  examples: |
+    - Một lọ vắc xin AstraZeneca tiêm được cho bao nhiêu người?
+- intent: covid_faq/q_283
+  examples: |
+    - Một số hiện tượng sốc phản vệ ít gặp sau khi tiêm vaccine Covid-19
+- intent: covid_faq/q_284
+  examples: |
+    - Một số tác dụng phụ khi tiêm phòng vắc xin AstraZeneca
+- intent: covid_faq/q_285
+  examples: |
+    - Ngoài giám sát thân nhiệt còn có biện pháp nào để kiểm soát dịch bệnh nữa không?
+- intent: covid_faq/q_286
+  examples: |
+    - Ngoài việc rửa tay sạch, cần thực hiện thêm thói quen gì với đôi tay để hạn chế lây nhiễm virus gây bệnh Covid-19?
+- intent: covid_faq/q_287
+  examples: |
+    - Nguy cơ con tôi mắc bệnh COVID-19 là như thế nào?
+- intent: covid_faq/q_288
+  examples: |
+    - Nguyên nhân nhiễm vi rút Corona?
+- intent: covid_faq/q_289
+  examples: |
+    - Người bị bệnh Covid-19 có biểu hiện gì?
+- intent: covid_faq/q_290
+  examples: |
+    - Người mắc Covid-19 một lần đã khỏi, liệu có mắc lại bệnh này nữa không?
+- intent: covid_faq/q_291
+  examples: |
+    - Nguồn gốc của Covid-19 từ đâu?
+- intent: covid_faq/q_292
+  examples: |
+    - Nguồn gốc của siêu vắc xin Evusheld từ đâu?
+- intent: covid_faq/q_293
+  examples: |
+    - Nguồn gốc của vaccine Sputnik-V
+- intent: covid_faq/q_294
+  examples: |
+    - Nguồn gốc của vi rút corona (nCoV) từ đâu?
+- intent: covid_faq/q_295
+  examples: |
+    - Nguồn gốc vaccine Moderna của nước nào?
+- intent: covid_faq/q_296
+  examples: |
+    - Nguồn gốc vắc xin Pfizer (BNT162b2) của nước nào sản xuất?
+- intent: covid_faq/q_297
+  examples: |
+    - Nguồn gốc vắc xin phòng COVID-19 của AstraZeneca
+- intent: covid_faq/q_298
+  examples: |
+    - Người bị nhiễm virus gây bệnh Covid-19 có biểu hiện gì?
+- intent: covid_faq/q_299
+  examples: |
+    - Người có HIV có thể làm gì để bảo vệ bản thân tránh COVID-19?
+- intent: covid_faq/q_300
+  examples: |
+    - Người có kết quả dương tính với COVID-19 có nên nhận vắc-xin không?
+- intent: covid_faq/q_301
+  examples: |
+    - Người không có triệu chứng có thể lây truyền virus không?
+- intent: covid_faq/q_302
+  examples: |
+    - Người mới hồi phục sau COVID-19 có được đi du lịch không?
+- intent: covid_faq/q_303
+  examples: |
+    - Người nhiễm HIV có nguy cơ mắc bệnh nghiêm trọng do COVID-19 cao hơn những người khác không?
+- intent: covid_faq/q_304
+  examples: |
+    - Người nhiễm HIV cần tiêm bao nhiêu liều vắc-xin COVID-19?
+- intent: covid_faq/q_305
+  examples: |
+    - Người tiêu dùng có nên vệ sinh túi đựng thực phẩm không?
+- intent: covid_faq/q_306
+  examples: |
+    - Người tiếp xúc gần quý vị là ai?
+- intent: covid_faq/q_307
+  examples: |
+    - Nhiễm virus gây bệnh Covid-19 bao lâu thì phát bệnh?
+- intent: covid_faq/q_308
+  examples: |
+    - Nhóm độ tuổi nào dễ bị mắc chủng mới của vi rút corona (nCoV)?
+- intent: covid_faq/q_309
+  examples: |
+    - Những cách đo thân nhiệt nào thường được áp dụng trong phòng, chống dịch và độ tin cậy của các phương pháp ấy như thế nào?
+- intent: covid_faq/q_310
+  examples: |
+    - Những khuyến cáo nào khi tôi có lịch trình đi lại, du lịch?
+- intent: covid_faq/q_311
+  examples: |
+    - Những khuyến nghị nào dành cho người có các triệu chứng của COVID-19?
+- intent: covid_faq/q_312
+  examples: |
+    - Những loại vắc-xin COVID-19 nào được cấp phép sử dụng cho người dân tại Hoa Kỳ?
+- intent: covid_faq/q_313
+  examples: |
+    - Những người có tiền sử dị ứng có nên tiêm vắc-xin COVID-19 không?
+- intent: covid_faq/q_314
+  examples: |
+    - Những người nhập cư không đủ giấy tờ có được nhận vắc-xin miễn phí không?
+- intent: covid_faq/q_315
+  examples: |
+    - Những người nào phải cách ly vì dịch Covid-19?
+- intent: covid_faq/q_316
+  examples: |
+    - Những người sống tạm trú ở tiểu bang hoặc quốc gia khác (ví dụ: sinh viên, người về hưu, những người mang hai quốc tịch) có thể tiêm vắc-xin COVID-19 ở Massachusetts không?
+- intent: covid_faq/q_317
+  examples: |
+    - Những người đang mang thai hoặc đang cho con bú có thể tiêm vắc-xin COVID-19 không?
+- intent: covid_faq/q_318
+  examples: |
+    - Những người đã từng mắc COVID-19 có nên được tiêm chủng không?
+- intent: covid_faq/q_319
+  examples: |
+    - Những triệu chứng và biến chứng mà vi rút corona (nCoV) có thể gây ra?
+- intent: covid_faq/q_320
+  examples: |
+    - Những triệu chứng và các biến chứng mà COVID-19 có thể gây ra là gì?
+- intent: covid_faq/q_321
+  examples: |
+    - Những đối tượng nào không cần cách ly?
+- intent: covid_faq/q_322
+  examples: |
+    - Những đồ vật nào cần phải vệ sinh thường xuyên để hạn chế lây nhiễm virus gây bệnh Covid-19?
+- intent: covid_faq/q_323
+  examples: |
+    - Novel Coronavirus là gì?
+- intent: covid_faq/q_324
+  examples: |
+    - Novel coronavirus được xác định là tác nhân gây bệnh của dịch COVID-19, bệnh này có chữa được không?
+- intent: covid_faq/q_325
+  examples: |
+    - Néu tôi chưa tiêm mũi thứ hai loại vắc-xin COVID-19 cần tiêm 2 liều trong khoảng thời gian khuyến nghị, tôi nên làm gì?
+- intent: covid_faq/q_326
+  examples: |
+    - Nên chuẩn bị tâm lý như thế nào để vượt qua đại dịch Covid-19?
+- intent: covid_faq/q_327
+  examples: |
+    - Nên có chế độ ăn như thế nào khi tiêm vaccine COVID-19?
+- intent: covid_faq/q_328
+  examples: |
+    - Nên duy trì chế độ ăn như thế nào để tăng sức đề kháng phòng chống dịch bệnh Covid-19?
+- intent: covid_faq/q_329
+  examples: |
+    - Nên sử dụng nước rửa tay nào?
+- intent: covid_faq/q_330
+  examples: |
+    - Nên thực hiện những biện pháp phòng tránh dịch bệnh nào khi du lịch ở ngoài Hồng Kông?
+- intent: covid_faq/q_331
+  examples: |
+    - Nên tiêm phòng vắc xin Moderna của Mỹ ở đâu?
+- intent: covid_faq/q_332
+  examples: |
+    - Nên vệ sinh cá nhân như thế nào để đề phòng lây nhiễm virus gây bệnh Covid-19?
+- intent: covid_faq/q_333
+  examples: |
+    - Nên đeo loại khẩu trang nào?
+- intent: covid_faq/q_334
+  examples: |
+    - Nước máy có an toàn để dùng rửa tay không?
+- intent: covid_faq/q_335
+  examples: |
+    - Nếu không có nước sạch và xà phòng dạng lỏng, tôi có thể sử dụng nước rửa tay có cồn để thay thế không?
+- intent: covid_faq/q_336
+  examples: |
+    - Nếu mang thai hoặc đang cho con bú có tiêm vắc xin BNT162b2 (Pfizer) được không?
+- intent: covid_faq/q_337
+  examples: |
+    - Nếu nghi ngờ nhiễm Covid-19, có nên đến các bệnh viện tuyến trung ương để khám và xét nghiệm?
+- intent: covid_faq/q_338
+  examples: |
+    - Nếu nhà trường không có nhiệt kế điện tử thì nên dùng nhiệt kế gì để giám sát thân nhiệt cho nhiều người và phải lưu ý vấn đề gì khi sử dụng loại nhiệt kế đó?
+- intent: covid_faq/q_339
+  examples: |
+    - Nếu trong tương lai tôi muốn mang thai thì sao?
+- intent: covid_faq/q_340
+  examples: |
+    - Nếu tôi không có xà phòng thì sao?
+- intent: covid_faq/q_341
+  examples: |
+    - Nếu tôi là người tiếp xúc gần, liệu tôi có phải xét nghiệm COVID-19 không?
+- intent: covid_faq/q_342
+  examples: |
+    - Nếu tôi đang mang thai hoặc có dự định mang thai, liệu tôi có thể tiêm vắc-xin ngừa COVID-19 không?
+- intent: covid_faq/q_343
+  examples: |
+    - Nếu tôi đã mắc covid-19 và phục hồi, tôi có cần tiêm vaccine không?
+- intent: covid_faq/q_344
+  examples: |
+    - Nếu đã tiêm 2 mũi, thì có cần mang khẩu trang và tránh tiếp xúc với những người khác không?
+- intent: covid_faq/q_345
+  examples: |
+    - Nếu đã tiêm đủ 2 liều vắc xin Covid-19 thì em có thể miễn nhiễm Covid-19 và có thể đi lại thoải mái không?
+- intent: covid_faq/q_346
+  examples: |
+    - Nếu đến ngày đi học trở lại con tôi bị sốt chưa rõ nguyên nhân tôi có được cho con đi học không?
+- intent: covid_faq/q_347
+  examples: |
+    - Omicron là gì?
+- intent: covid_faq/q_348
+  examples: |
+    - Omicron đã lây lan tới bao nhiêu quốc gia?
+- intent: covid_faq/q_349
+  examples: |
+    - Phun cồn hoặc clo lên khắp cơ thể có diệt được virus SAR-CoV-2 hay không?
+- intent: covid_faq/q_350
+  examples: |
+    - Phương thức điều trị COVID-19 là gì?
+- intent: covid_faq/q_351
+  examples: |
+    - Phương tiện giao thông công cộng như máy bay, xe buýt, xe lửa, đi chung xe và taxi thì sao?
+- intent: covid_faq/q_352
+  examples: |
+    - Phải rửa tay như như nào mới đúng để có thể hạn chế được sự lây nhiễm của Covid-19?
+- intent: covid_faq/q_353
+  examples: |
+    - Phụ nữ cho con bú tiêm vắc xin Covid-19 có làm giảm tác dụng của vắc xin hay không?
+- intent: covid_faq/q_354
+  examples: |
+    - Phụ nữ chuẩn bị sinh con nếu tiêm vắc xin Covid-19 thì có nguy hiểm không? Hiệu quả của vắc xin sẽ ở trên người mẹ hay em bé?
+- intent: covid_faq/q_355
+  examples: |
+    - Phụ nữ hiện đang cho con bú hoặc vắt sữa nên nhận được lời khuyên gì về vắc-xin?
+- intent: covid_faq/q_356
+  examples: |
+    - Phụ nữ mang thai có thể truyền COVID-19 cho thai nhi không?
+- intent: covid_faq/q_357
+  examples: |
+    - Phụ nữ mang thai nên tiêm loại vắc xin Covid-19 nào?
+- intent: covid_faq/q_358
+  examples: |
+    - Phụ nữ đang cho con bú hoặc đang vắt sữa có nên tiêm vắc-xin không?
+- intent: covid_faq/q_359
+  examples: |
+    - Phụ nữ đang mang thai hoặc cho con bú sữa mẹ có thể tiêm vắc-xin COVID-19 không?
+- intent: covid_faq/q_360
+  examples: |
+    - Quy trình sản xuất kháng thể đơn dòng như thế nào?
+- intent: covid_faq/q_361
+  examples: |
+    - Quên tiêm mũi vacxin COVID-19 nhắc lại thì nên làm gì ngay?
+- intent: covid_faq/q_362
+  examples: |
+    - Rửa tay như thế nào là đúng cách
+- intent: covid_faq/q_363
+  examples: |
+    - Sau khi chích Evusheld bao lâu thì cơ thể sản sinh kháng thể?
+- intent: covid_faq/q_364
+  examples: |
+    - Sau khi rửa tay với nước và xà phòng dạng lỏng, làm cách nào để tắt vòi nước?
+- intent: covid_faq/q_365
+  examples: |
+    - Sau khi tiêm vaccine, có cần ăn kiêng hoặc hạn chế nhiều hoạt động?
+- intent: covid_faq/q_366
+  examples: |
+    - Sau khi tiêm, tôi có cần cách ly và giữ khoảng cách với người xung quanh hay không?
+- intent: covid_faq/q_367
+  examples: |
+    - Sinh hoạt tình dục có làm lây Covid-19 không?
+- intent: covid_faq/q_368
+  examples: |
+    - Sinopharm – vaccine Covid-19 của Trung Quốc có tốt không?
+- intent: covid_faq/q_369
+  examples: |
+    - Sputnik V là gì?
+- intent: covid_faq/q_370
+  examples: |
+    - Sử dụng chất khử trùng nào để lau các bề mặt, giúp bảo vệ khỏi Covid-19?
+- intent: covid_faq/q_371
+  examples: |
+    - Sử dụng khẩu trang có giúp xác định liệu ai đó được coi là người tiếp xúc gần không?
+- intent: covid_faq/q_372
+  examples: |
+    - Sử dụng nhà vệ sinh công cộng có an toàn không?
+- intent: covid_faq/q_373
+  examples: |
+    - Sự khác biệt giữa giấy phép sử dụng khẩn cấp và phê duyệt đầy đủ là gì?
+- intent: covid_faq/q_374
+  examples: |
+    - Tại sao lại cần giám sát thân nhiệt để kiểm soát dịch bệnh?
+- intent: covid_faq/q_375
+  examples: |
+    - Thai nhi nhỏ hơn tiêu chuẩn, chẩn đoán thai dây rốn bám màng bánh nhau. Cần làm gì để bảo vệ thai phát triển tốt nhất? Mẹ bầu có được tiêm vắc xin Covid-19 không?
+- intent: covid_faq/q_376
+  examples: |
+    - Thai phụ chỉ có thể tiêm vắc xin Covid-19 tại bệnh viện chuyên về sản khoa, những nơi khác thì không được tiêm phải không?
+- intent: covid_faq/q_377
+  examples: |
+    - Thai phụ có nguy cơ tiền sản giật, đang uống Aspirin thì có tiêm vắc xin Covid-19 được không?
+- intent: covid_faq/q_378
+  examples: |
+    - Thai phụ có tiền sử tiểu đường, huyết áp cao, mỡ máu,… có được tiêm vắc xin Covid-19 không?
+- intent: covid_faq/q_379
+  examples: |
+    - Thai phụ mang thai còn nghén thì có nên tiêm vắc xin Covid-19 không?
+- intent: covid_faq/q_380
+  examples: |
+    - Thuốc chủng ngừa COVID-19 có an toàn cho phụ nữ mang thai không?
+- intent: covid_faq/q_381
+  examples: |
+    - Thuốc chủng ngừa bồi dưỡng nào đang có sẵn?
+- intent: covid_faq/q_382
+  examples: |
+    - Thuốc kháng thể đơn dòng liên hợp (Conjugated mAbs) là gì?
+- intent: covid_faq/q_383
+  examples: |
+    - Thuốc kháng thể đơn dòng điều trị Covid-19 Evusheld giá bao nhiêu tiền?
+- intent: covid_faq/q_384
+  examples: |
+    - Thành phần trong vắc-xin là gì?
+- intent: covid_faq/q_385
+  examples: |
+    - Thế nào là tiếp xúc trực tiếp, tiếp xúc gần với người bệnh?
+- intent: covid_faq/q_386
+  examples: |
+    - Thông gió có quan trọng đối với chất lượng không khí trong nhà khi làm sạch và/hoặc khử trùng COVID-19 trong nhà không?
+- intent: covid_faq/q_387
+  examples: |
+    - Thông tin nào mà các kháng thể đối với SARS-CoV-2 cho chúng tôi biết về cách phản ứng với COVID-19?
+- intent: covid_faq/q_388
+  examples: |
+    - Thông tin về mức độ hiệu quả của vắc xin Pfizer-BioNTech
+- intent: covid_faq/q_389
+  examples: |
+    - Thường xuyên rửa mũi bằng nước muối có giúp ngăn ngừa lây nhiễm Covid-19 không?
+- intent: covid_faq/q_390
+  examples: |
+    - Thế nào gọi là rửa tay khô?
+- intent: covid_faq/q_391
+  examples: |
+    - Thế nếu con hoặc bạn con vẫn bị nhiễm virus gây bệnh Covid-19 thì sao?
+- intent: covid_faq/q_392
+  examples: |
+    - Thể thao và hoạt động thì sao?
+- intent: covid_faq/q_393
+  examples: |
+    - Thời gian ủ bệnh COVID-19 là bao lâu?
+- intent: covid_faq/q_394
+  examples: |
+    - Thời gian ủ bệnh Corona thông thường là bao lâu?
+- intent: covid_faq/q_395
+  examples: |
+    - Thời gian ủ bệnh là gì? Thời gian ủ bệnh của COVID-19 là bao lâu?
+- intent: covid_faq/q_396
+  examples: |
+    - Thời kỳ ủ bệnh là gì?
+- intent: covid_faq/q_397
+  examples: |
+    - Thời điểm thích hợp để tiêm phòng vắc xin phòng COVID-19 của AstraZeneca?
+- intent: covid_faq/q_398
+  examples: |
+    - Thực hiện các biện pháp phòng chống dịch Covid-19 có giúp con tránh được các bệnh khác không?
+- intent: covid_faq/q_399
+  examples: |
+    - Tiêm Vắc xin COVID-19 của AstraZeneca không đúng lịch có sao không?
+- intent: covid_faq/q_400
+  examples: |
+    - Tiêm vaccine COVID-19 rồi có bị mắc COVID-19 không?
+- intent: covid_faq/q_401
+  examples: |
+    - Tiêm vaccine Covid rồi có sử dụng Evusheld được không?
+- intent: covid_faq/q_402
+  examples: |
+    - Tiêm vaccine Covid-19 nên ăn gì, kiêng gì?
+- intent: covid_faq/q_403
+  examples: |
+    - Tiêm vaccine Sinopharm bao nhiêu mũi?
+- intent: covid_faq/q_404
+  examples: |
+    - Tiêm vaccine virus Corona có gây vô sinh không?
+- intent: covid_faq/q_405
+  examples: |
+    - Tiêm vacxin xong có bị nhiễm Covid lại không? (Tiêm trong bao lâu để có kháng thể và phát huy hiệu quả)
+- intent: covid_faq/q_406
+  examples: |
+    - Tiêm vắc xin AstraZeneca bị tiêu chảy?
+- intent: covid_faq/q_407
+  examples: |
+    - Tiêm vắc xin AstraZeneca sau bao lâu có kháng thể?
+- intent: covid_faq/q_408
+  examples: |
+    - Tiêm vắc xin COVID-19 ở đâu?
+- intent: covid_faq/q_409
+  examples: |
+    - Tiêm vắc xin Covid-19 xong mới phát hiện mang thai thì có ảnh hưởng đến thai nhi không? Nếu mẹ bầu là F0 thì có cần tiêm tiếp mũi vắc xin thứ 2 không?
+- intent: covid_faq/q_410
+  examples: |
+    - Tiêm vắc xin Covid-19 xong nên kiêng ăn gì cho tốt?
+- intent: covid_faq/q_411
+  examples: |
+    - Tiêm vắc xin phòng bệnh cúm rồi có miễn nhiễm với Virus Corona không?
+- intent: covid_faq/q_412
+  examples: |
+    - Tiêm vắc-xin COVID-19 có an toàn không nếu tôi dự định có con?
+- intent: covid_faq/q_413
+  examples: |
+    - Triệu chứng covid có hắt hơi không?
+- intent: covid_faq/q_414
+  examples: |
+    - Triệu chứng covid xuất hiện sau bao lâu?
+- intent: covid_faq/q_415
+  examples: |
+    - Triệu chứng của biến chủng AY3
+- intent: covid_faq/q_416
+  examples: |
+    - Triệu chứng của biến chủng Delta Plus
+- intent: covid_faq/q_417
+  examples: |
+    - Triệu chứng của biến chủng Lambda
+- intent: covid_faq/q_418
+  examples: |
+    - Triệu chứng của biến thể Omicron Covid là gì?
+- intent: covid_faq/q_419
+  examples: |
+    - Triệu chứng nhiễm COVID-19 là gì?
+- intent: covid_faq/q_420
+  examples: |
+    - Triệu chứng vi rút covid-19 ho có đờm không?
+- intent: covid_faq/q_421
+  examples: |
+    - Triệu chứng virus covid-19 có nghẹt mũi không?
+- intent: covid_faq/q_422
+  examples: |
+    - Trong những ngày có dịch Covid-19, con phải làm gì khi ở trường học để không bị bệnh Covid-19 ạ?
+- intent: covid_faq/q_423
+  examples: |
+    - Trong những ngày có dịch Covid-19, khi về nhà con phải làm gì để phòng bệnh Covid-19 ạ?
+- intent: covid_faq/q_424
+  examples: |
+    - Trong những ngày có dịch Covid-19, ngoài sách vở, con phảichuẩn bị thêm những gì trước khi ra khỏi nhà để đi học?
+- intent: covid_faq/q_425
+  examples: |
+    - Trong những ngày ở nhà, con cần làm gì để không bị lây bệnh Covid-19?
+- intent: covid_faq/q_426
+  examples: |
+    - Trong thời gian còn đang nghỉ chúng tôi cần chuẩn bị những gì cho các con để khi đi học trở lại con không bị lây nhiễm virus gây bệnh Covid-19?
+- intent: covid_faq/q_427
+  examples: |
+    - Trong thời gian có dịch Covid-19, dù nhà trường không thông báo nhưng trên mạng xã hội có thông tin ở trường có học sinh bị ho, sốt tôi cần phải làm gì?
+- intent: covid_faq/q_428
+  examples: |
+    - Trong thời gian có dịch Covid-19, hàng ngày tôi cần chuẩn bị gì cho con trước khi con ra khỏi nhà để đi học?
+- intent: covid_faq/q_429
+  examples: |
+    - Trong thời gian có dịch Covid-19, khi đón con ở cổng trường hoặc khi con vừa về đến nhà tôi nên hỏi con và kiểm tra những gì?
+- intent: covid_faq/q_430
+  examples: |
+    - Trong thời gian có dịch Covid-19, khi đưa con đến cổng trường tôi (hoặc người đưa con tôi đi học) có được tự do ra vào trường của con không?
+- intent: covid_faq/q_431
+  examples: |
+    - Trong thời gian có dịch Covid-19, nhận được tin nhà trường báo con tôi bị ho, sốt có phải con tôi bị bệnh Covid-19 hay không?
+- intent: covid_faq/q_432
+  examples: |
+    - Trong thời gian có dịch Covid-19, nhận được tin nhà trường báo con tôi bị ho, sốt tôi cần phải làm gì?
+- intent: covid_faq/q_433
+  examples: |
+    - Trong thời gian có dịch Covid-19, nếu ở trường có học sinh bị ho, sốt tôi có nên cho con nghỉ học ở nhà hay không?
+- intent: covid_faq/q_434
+  examples: |
+    - Trong thời gian có dịch Covid-19, phát hiện thấy con bị ho, sốt khi đang ở nhà tôi có phải báo cho nhà trường không?
+- intent: covid_faq/q_435
+  examples: |
+    - Trong thời gian có dịch Covid-19, phát hiện thấy con bị sốt khi đang ở nhà, ngoài việc liên hệ với nhà trường (thông báo tin con bị ho, sốt; hỏi tình hình nhà trường có học sinh nào bị ho, sốt không…) tôi cần cho con đi khám bệnh ở đâu?
+- intent: covid_faq/q_436
+  examples: |
+    - Trong thời gian có dịch Covid-19, phát hiện thấy con bị sốt và ở trường/lớp cũng có học sinh khác bị sốt, có phải dịch Covid-19 đã xuất hiện ở trường của con hay không?
+- intent: covid_faq/q_437
+  examples: |
+    - Trong thời gian có dịch Covid-19, tôi cần chuẩn bị và nên dặn dò con điều gì nếu con tự đi học?
+- intent: covid_faq/q_438
+  examples: |
+    - Trong thời gian có dịch Covid-19, tôi cần làm gì để tránh cho con tôi không bị nhiễm virus gây bệnh Covid-19 trên đường từ nhà tới trường?
+- intent: covid_faq/q_439
+  examples: |
+    - Truy tìm người tiếp xúc là gì?
+- intent: covid_faq/q_440
+  examples: |
+    - Trước khi đi tiêm vắc xin Covid xong nên ăn gì cho tốt?
+- intent: covid_faq/q_441
+  examples: |
+    - Trường học cần triển khai các biện pháp phòng, chống dịch COVID-19 nào?
+- intent: covid_faq/q_442
+  examples: |
+    - Trường học sẽ mở cửa trở lại khi nào và như thế nào?
+- intent: covid_faq/q_443
+  examples: |
+    - Trẻ em có nguy cơ mắc biến thể Omicron cao hơn không?
+- intent: covid_faq/q_444
+  examples: |
+    - Trẻ em có nhiều khả năng mắc biến thể Delta hơn hay không?
+- intent: covid_faq/q_445
+  examples: |
+    - Trẻ em có thể đeo khẩu trang không?
+- intent: covid_faq/q_446
+  examples: |
+    - Tác dụng không mong muốn của vắc xin Pfizer
+- intent: covid_faq/q_447
+  examples: |
+    - Tác dụng phụ của chủng vắc xin Moderna
+- intent: covid_faq/q_448
+  examples: |
+    - Tác dụng phụ khi tiêm vaccine Sinopharm
+- intent: covid_faq/q_449
+  examples: |
+    - Tác dụng phụ kéo dài sau khi chích ngừa vacxin Covid-19
+- intent: covid_faq/q_450
+  examples: |
+    - Tác nhân gây bệnh Covid-19 là gì?
+- intent: covid_faq/q_451
+  examples: |
+    - Tình hình dịch COVID-19 trên thế giới hiện nay như thế nào?
+- intent: covid_faq/q_452
+  examples: |
+    - Tôi có bị nhiễm COVID-19 sau khi tiêm vắc-xin không? Liệu tôi có kết quả xét nghiệm dương tính sau khi tiêm vắc-xin không?
+- intent: covid_faq/q_453
+  examples: |
+    - Tôi có cần báo cáo kết quả từ việc tự xét nghiệm không?
+- intent: covid_faq/q_454
+  examples: |
+    - Tôi có cần dùng nước ấm để rửa tay không?
+- intent: covid_faq/q_455
+  examples: |
+    - Tôi có cần lau khô tay bằng khăn không?
+- intent: covid_faq/q_456
+  examples: |
+    - Tôi có cần mua nước đóng chai hoặc lưu trữ nước uống không?
+- intent: covid_faq/q_457
+  examples: |
+    - Tôi có cần phải làm xét nghiệm COVID-19 trước khi tiêm vắc-xin không?
+- intent: covid_faq/q_458
+  examples: |
+    - Tôi có cần tiêm liều vắc-xin nhắc lại ngừa COVID-19 không?
+- intent: covid_faq/q_459
+  examples: |
+    - Tôi có cần tiêm vắc-xin COVID-19 nếu trước đây đã bị nhiễm COVID-19 không?
+- intent: covid_faq/q_460
+  examples: |
+    - Tôi có cần tiêm vắc-xin để được làm việc không?
+- intent: covid_faq/q_461
+  examples: |
+    - Tôi có cần đeo khẩu trang khi nhận vắc-xin COVID-19 không?
+- intent: covid_faq/q_462
+  examples: |
+    - Tôi có cần đeo khẩu trang và tránh tiếp xúc gần với người khác nếu đã được tiêm chủng không?
+- intent: covid_faq/q_463
+  examples: |
+    - Tôi có cần đun sôi nước uống không?
+- intent: covid_faq/q_464
+  examples: |
+    - Tôi có cần được xét nghiệm COVID-19 không?
+- intent: covid_faq/q_465
+  examples: |
+    - Tôi có kháng thể COVID-19. Điều đó có nghĩa là gì?
+- intent: covid_faq/q_466
+  examples: |
+    - Tôi có nhận được bất cứ thứ gì chứng minh mình đã tiêm vắc-xin không?
+- intent: covid_faq/q_467
+  examples: |
+    - Tôi có nên cho con bú nếu con tôi bị bệnh?
+- intent: covid_faq/q_468
+  examples: |
+    - Tôi có nên cho con bú nếu tôi có hoặc nghi ngờ tôi bị nhiễm COVID-19 không?
+- intent: covid_faq/q_469
+  examples: |
+    - Tôi có nên cho con bú trong thời kỳ đại dịch?
+- intent: covid_faq/q_470
+  examples: |
+    - Tôi có nên không đưa con đến nhà trẻ hay đi học không?
+- intent: covid_faq/q_471
+  examples: |
+    - Tôi có nên sử dụng xà phòng và nước hoặc dung dịch sát trùng tay để bảo vệ chống lại COVID-19 không?
+- intent: covid_faq/q_472
+  examples: |
+    - Tôi có nên tin tưởng vào kết quả từ bộ tự xét nghiệm không?
+- intent: covid_faq/q_473
+  examples: |
+    - Tôi có nên tiêm vắc xin COVID-19 nếu tôi đang cho con bú không?
+- intent: covid_faq/q_474
+  examples: |
+    - Tôi có nên tiêm vắc xin COVID-19 nếu tôi đang mang thai không?
+- intent: covid_faq/q_475
+  examples: |
+    - Tôi có nên tiêm vắc xin nếu tôi đã có COVID-19?
+- intent: covid_faq/q_476
+  examples: |
+    - Tôi có nên đeo khẩu trang nếu có hệ miễn dịch yếu?
+- intent: covid_faq/q_477
+  examples: |
+    - Tôi có nên đeo khẩu trang y tế để chống lại COVID-19 không?
+- intent: covid_faq/q_478
+  examples: |
+    - Tôi có nên đi tiêm vắc xin COVID-19 khi đã mắc COVID-19 và khỏi bệnh?
+- intent: covid_faq/q_479
+  examples: |
+    - Tôi có nên đi xét nghiệm để xác định xem liệu hiện tại mình có bị lây nhiễm không?
+- intent: covid_faq/q_480
+  examples: |
+    - Tôi có phải thanh toán cho vắc-xin không?
+- intent: covid_faq/q_481
+  examples: |
+    - Tôi có thể bị nhiễm COVID-19 từ nước thải hoặc nước cống không?
+- intent: covid_faq/q_482
+  examples: |
+    - Tôi có thể chọn loại vắc-xin ngừa COVID-19 để tiêm không?
+- intent: covid_faq/q_483
+  examples: |
+    - Tôi có thể chọn loại vắc-xin để tiêm không? Tôi có nên lựa chọn vắc-xin dựa trên tỷ lệ hiệu quả hoặc các tác dụng phụ của chúng không?
+- intent: covid_faq/q_484
+  examples: |
+    - Tôi có thể dùng dung dịch sát trùng tay cho thú cưng không?
+- intent: covid_faq/q_485
+  examples: |
+    - Tôi có thể giúp ngăn chặn sự lây lan của coronavirus bằng cách nào khác?
+- intent: covid_faq/q_486
+  examples: |
+    - Tôi có thể liên hệ thông báo thông tin bằng cách nào?
+- intent: covid_faq/q_487
+  examples: |
+    - Tôi có thể làm gì để bảo vệ bản thân và gia đình trước biến thể Delta?
+- intent: covid_faq/q_488
+  examples: |
+    - Tôi có thể nhiễm COVID-19 từ thú cưng hoặc động vật khác hay không?
+- intent: covid_faq/q_489
+  examples: |
+    - Tôi có thể tiêm ngừa COVID-19 khi tôi hiện đang bị bệnh vì COVID-19 không?
+- intent: covid_faq/q_490
+  examples: |
+    - Tôi có thể tiêm vắc-xin COVID-19 khi đang mang thai không?
+- intent: covid_faq/q_491
+  examples: |
+    - Tôi có thể tiêm vắc-xin khi đang trong thời kỳ cho con bú không?
+- intent: covid_faq/q_492
+  examples: |
+    - Tôi có thể tiêm vắc-xin nếu đã dùng các loại thuốc uống khác (thuốc chống lo âu/trầm cảm/dùng ở nhà và thuốc kháng sinh) không?
+- intent: covid_faq/q_493
+  examples: |
+    - Tôi có thể đi làm không nếu nơi làm việc của tôi có hơn 100 người?
+- intent: covid_faq/q_494
+  examples: |
+    - Tôi có thể đến các buổi tụ họp công cộng như các buổi hòa nhạc và các sự kiện thể thao không?
+- intent: covid_faq/q_495
+  examples: |
+    - Tôi có thể đến thăm người nhà và bạn bè ở các viện dưỡng lão không?
+- intent: covid_faq/q_496
+  examples: |
+    - Tôi có được coi là đã tiêm chủng đầy đủ nếu tôi đã tiêm chủng ở quốc gia khác?
+- intent: covid_faq/q_497
+  examples: |
+    - Tôi có được theo dõi sau khi tiêm chủng không?
+- intent: covid_faq/q_498
+  examples: |
+    - Tôi có đủ điều kiện để tiêm một mũi nhắc lại và/hoặc liều chính bổ sung nếu tôi đã được tiêm chủng đầy đủ ở một quốc gia khác không?
+- intent: covid_faq/q_499
+  examples: |
+    - Tôi cần làm gì nếu con tôi gặp khó khăn trong việc quay trở lại 'trạng thái học tập'?
+- intent: covid_faq/q_500
+  examples: |
+    - Tôi cần làm gì nếu con tôi không theo kịp với lớp?
+- intent: covid_faq/q_501
+  examples: |
+    - Tôi cần làm gì để tránh cho con tôi không bị nhiễm virus gây bệnh Covid-19 trong những ngày nghỉ học?
+- intent: covid_faq/q_502
+  examples: |
+    - Tôi cần phải tiêm bao nhiêu liều vắc-xin ngừa COVID-19 để hoàn thành loạt tiêm chính?
+- intent: covid_faq/q_503
+  examples: |
+    - Tôi cần đặt những câu hỏi nào cho giáo viên của con tôi hoặc cán bộ quản lý nhà trường?
+- intent: covid_faq/q_504
+  examples: |
+    - Tôi cần đợi bao lâu sau khi tiêm vắc-xin cúm hoặc vắc-xin khác trước khi tiêm vắc-xin COVID-19?
+- intent: covid_faq/q_505
+  examples: |
+    - Tôi dự định có em bé. Việc tiêm vắc-xin COVID-19 liệu có an toàn cho tôi không?
+- intent: covid_faq/q_506
+  examples: |
+    - Tôi lo lắng về việc bị bắt nạt, phân biệt đối xử và kỳ thị. Cách tốt nhất để nói về những gì đang xảy ra là gì?
+- intent: covid_faq/q_507
+  examples: |
+    - Tôi nghe nói rằng có tác dụng phụ sau khi được tiêm vắc-xin. Chúng ta biết gì về điều đó?
+- intent: covid_faq/q_508
+  examples: |
+    - Tôi nhiễm COVID-19. Tôi nói với mọi người xung quanh như thế nào?
+- intent: covid_faq/q_509
+  examples: |
+    - Tôi nên làm gì nếu con tôi có các triệu chứng của COVID-19?
+- intent: covid_faq/q_510
+  examples: |
+    - Tôi nên làm gì nếu có nhiều người sống cùng có xét nghiệm dương tính với COVID-19 vào những thời điểm khác nhau?
+- intent: covid_faq/q_511
+  examples: |
+    - Tôi nên làm gì nếu gặp phải các triệu chứng sau khi nhận vắc-xin COVID-19?
+- intent: covid_faq/q_512
+  examples: |
+    - Tôi nên làm gì nếu thú cưng của tôi mắc bệnh và tôi nghĩ đó là COVID-19?
+- intent: covid_faq/q_513
+  examples: |
+    - Tôi nên làm gì nếu tiếp tục bị phơi nhiễm với COVID-19 từ một người sống cùng?
+- intent: covid_faq/q_514
+  examples: |
+    - Tôi nên làm gì nếu tôi không khỏe để cho con bú?
+- intent: covid_faq/q_515
+  examples: |
+    - Tôi nên làm gì nếu tôi lo lắng về nước uống của mình?
+- intent: covid_faq/q_516
+  examples: |
+    - Tôi nên làm gì nếu tôi làm mất Thẻ Hồ Sơ Tiêm Chủng Vắc-xin COVID-19?
+- intent: covid_faq/q_517
+  examples: |
+    - Tôi nên làm gì nếu tôi mắc bệnh hoặc ai đó trong nhà tôi mắc bệnh?
+- intent: covid_faq/q_518
+  examples: |
+    - Tôi nên làm gì nếu tôi xuất hiện các triệu chứng này?
+- intent: covid_faq/q_519
+  examples: |
+    - Tôi nên lưu ý gì khi lựa chọn khẩu trang cho con mình?
+- intent: covid_faq/q_520
+  examples: |
+    - Tôi nên mua loại khẩu trang nào cho gia đình mình?
+- intent: covid_faq/q_521
+  examples: |
+    - Tôi nên rửa tay trong bao lâu?
+- intent: covid_faq/q_522
+  examples: |
+    - Tôi nên sử dụng loại bộ lọc nào trong hệ thống HVAC tại nhà để giúp bảo vệ gia đình tôi khỏi COVID-19?
+- intent: covid_faq/q_523
+  examples: |
+    - Tôi nên thực hiện những biện pháp phòng dịch nào cho gia đình mình nếu chúng tôi đi du lịch?
+- intent: covid_faq/q_524
+  examples: |
+    - Tôi nên thực hiện những lưu ý gì khi cho con bú?
+- intent: covid_faq/q_525
+  examples: |
+    - Tôi phải cung cấp những thông tin liên lạc nào cho hãng hàng không và bên khai thác tàu bay trước khi lên chuyến bay tới Hoa Kỳ?
+- intent: covid_faq/q_526
+  examples: |
+    - Tôi phải mang theo những gì khi đi chủng ngừa bồi dưỡng?
+- intent: covid_faq/q_527
+  examples: |
+    - Tôi phải đợi bao lâu từ liều đầu tiên đến liều thứ hai của vắc-xin COVID-19 đối với Pfizer và Moderna?
+- intent: covid_faq/q_528
+  examples: |
+    - Tôi sống chung với một người đang được xét nghiệm COVID19. Tôi có nên tự cách ly và cũng cần được xét nghiệm không?
+- intent: covid_faq/q_529
+  examples: |
+    - Tôi sống cùng người mắc COVID-19, nhưng tôi không thể tách khỏi họ. Làm cách nào để chúng tôi kiểm soát việc cách ly trong tình huống này?
+- intent: covid_faq/q_530
+  examples: |
+    - Tôi vẫn có thể tiêm vắc-xin nếu tôi không có thẻ ID đúng không?
+- intent: covid_faq/q_531
+  examples: |
+    - Tôi đã nghe nói về một biến thể có tên là Omicron. Tôi nên lo lắng như thế nào?
+- intent: covid_faq/q_532
+  examples: |
+    - Tôi đã nhiễm bệnh COVID-19 và đã hoàn thành giai đoạn cô lập. Tôi có cần phải cách ly hoặc đi xét nghiệm nếu người sống cùng tôi bị nhiễm COVID-19 ngay sau khi tôi hoàn thành giai đoạn cô lập?
+- intent: covid_faq/q_533
+  examples: |
+    - Tôi đã thấy thông tin không chính xác trên mạng internet về vắc xin COVID-19. Tôi nên làm gì?
+- intent: covid_faq/q_534
+  examples: |
+    - Tôi đã tiêm chủng ở quốc gia khác. Làm cách nào để tôi có thể chuyển giấy xác nhận tiêm chủng từ quốc gia đó sang thẻ tiêm chủng ở Hoa Kỳ?
+- intent: covid_faq/q_535
+  examples: |
+    - Tôi đã tiêm vắc-xin COVID-19 ở nước khác. Tôi có cần tiêm lại vắc-xin ở Hoa Kỳ với các mũi vắc-xin chính khác không?
+- intent: covid_faq/q_536
+  examples: |
+    - Tôi đã tiêm vắc-xin ở nước khác bằng vắc-xin COVID-19 không được cho phép ở Hoa Kỳ. Tôi bị suy giảm miễn dịch. Tôi có thể tiêm mũi thứ 3 của các mũi chính, cho những người bị suy giảm miễn dịch, ở Hoa Kỳ không?
+- intent: covid_faq/q_537
+  examples: |
+    - Tôi đã tiêm vắc-xin ở nước khác bằng vắc-xin COVID-19 không được cho phép ở Hoa Kỳ. Tôi có thể tiêm liều tăng cường ở Hoa Kỳ không?
+- intent: covid_faq/q_538
+  examples: |
+    - Tôi đã được tiêm phòng. Tôi có cần phải đề phòng không?
+- intent: covid_faq/q_539
+  examples: |
+    - Tôi đã được tiêm vắc xin ngừa COVID-19 rồi, tôi có cần phải xét nghiệm COVID-19 không?
+- intent: covid_faq/q_540
+  examples: |
+    - Tôi được tiêm vắc-xin Pfizer hoặc Moderna và sau đó có kết quả xét nghiệm dương tính với COVID-19 giữa liều 1 và liều 2, tôi có cần tiêm liều thứ 2 không?
+- intent: covid_faq/q_541
+  examples: |
+    - Tại sao Coronavirus lại ít lây nhiễm ở trẻ em?
+- intent: covid_faq/q_542
+  examples: |
+    - Tại sao biến chủng Omicron ban đầu được gọi là B.1.1.529?
+- intent: covid_faq/q_543
+  examples: |
+    - Tại sao biến thể Delta lại lây lan nhanh ở TP.HCM?
+- intent: covid_faq/q_544
+  examples: |
+    - Tại sao bị phản ứng phụ nhẹ sau khi tiêm vaccine Covid-19 là hoàn toàn bình thường?
+- intent: covid_faq/q_545
+  examples: |
+    - Tại sao con phải rửa tay sau khi chơi với đồ chơi để phòng chống dịch Covid-19?
+- intent: covid_faq/q_546
+  examples: |
+    - Tại sao con phải rửa tay sau khi đi vệ sinh để phòng chống dịch Covid-19?
+- intent: covid_faq/q_547
+  examples: |
+    - Tại sao con phải rửa tay trước khi ăn để phòng chống dịch Covid-19?
+- intent: covid_faq/q_548
+  examples: |
+    - Tại sao con/em tôi nên tiêm chủng ngừa COVID-19?
+- intent: covid_faq/q_549
+  examples: |
+    - Tại sao có nhiều cái tên như Covid-19, 2019-nCoV, SAR-CoV-2,…?
+- intent: covid_faq/q_550
+  examples: |
+    - Tại sao cùng bị nhiễm virus gây bệnh Covid-19 có người bị bệnh, có người không bị bệnh?
+- intent: covid_faq/q_551
+  examples: |
+    - Tại sao cần thiết lập và duy trì tốt các kênh thông tin về tình trạng sức khỏe của học sinh, sinh viên giữa nhà trường và cha mẹ học sinh?
+- intent: covid_faq/q_552
+  examples: |
+    - Tại sao dùng vắc xin dự phòng được bệnh?
+- intent: covid_faq/q_553
+  examples: |
+    - Tại sao học sinh sinh viên toàn trường phải nghỉ học khi có dịch Covid-19?
+- intent: covid_faq/q_554
+  examples: |
+    - Tại sao lại chọn mốc 13 tuần để phân biệt khi tiêm vắc xin Covid-19? Trước mốc 13 tuần có được không hoặc chưa mang thai có tiêm được không?
+- intent: covid_faq/q_555
+  examples: |
+    - Tại sao lại tiến hành giám sát thân nhiệt để kiểm soát dịch bệnh?
+- intent: covid_faq/q_556
+  examples: |
+    - Tại sao nhiễm covid 19 nhưng không có triệu chứng?
+- intent: covid_faq/q_557
+  examples: |
+    - Tại sao phải kiểm tra sức khỏe thai phụ sau tiêm vắc xin Covid-19?
+- intent: covid_faq/q_558
+  examples: |
+    - Tại sao phải vệ sinh môi trường trong trường học để hạn chế lây nhiễm virus gây bệnh Covid-19?
+- intent: covid_faq/q_559
+  examples: |
+    - Tại sao phải đeo khẩu trang hoặc tấm chắn?
+- intent: covid_faq/q_560
+  examples: |
+    - Tại sao tiêm AstraZeneca mũi trước không sốt mà mũi sau lại sốt?
+- intent: covid_faq/q_561
+  examples: |
+    - Tại sao trong thời gian có dịch cần kiểm soát nghiêm ngặt và hạn chế tối đa không cho người ngoài vào trường học?
+- intent: covid_faq/q_562
+  examples: |
+    - Tại sao tôi cần thuốc chủng ngừa bồi dưỡng cho COVID?
+- intent: covid_faq/q_563
+  examples: |
+    - Tại sao việc bảo trì đường ống thoát nước đúng cách và thường xuyên thêm đầy nước vào ống chữ U lại quan trọng đến vậy?
+- intent: covid_faq/q_564
+  examples: |
+    - Tại sao vắc xin Pfizer không có tên thương hiệu là Pfizer trên lọ?
+- intent: covid_faq/q_565
+  examples: |
+    - Tại sao đeo khẩu trang có thể ngăn ngừa được bệnh lây nhiễm qua đường hô hấp?
+- intent: covid_faq/q_566
+  examples: |
+    - Từ trường học virus gây bệnh Covid-19 có thể lây lan ra cộng đồng bằng cách nào?
+- intent: covid_faq/q_567
+  examples: |
+    - Tự Xét Nghiệm hay Xét Nghiệm Tại Nhà là gì?
+- intent: covid_faq/q_568
+  examples: |
+    - Uống nước máy có an toàn không?
+- intent: covid_faq/q_569
+  examples: |
+    - Vaccine Covid-19 có phản ứng phụ lâu dài nào không?
+- intent: covid_faq/q_570
+  examples: |
+    - Vaccine Covid-19 là gì?
+- intent: covid_faq/q_571
+  examples: |
+    - Vaccine Pfizer có phù hợp với trẻ em và thanh thiếu niên không?
+- intent: covid_faq/q_572
+  examples: |
+    - Vaccine Pfizer là gì?
+- intent: covid_faq/q_573
+  examples: |
+    - Vaccine Sinopharm bảo quản như thế nào?
+- intent: covid_faq/q_574
+  examples: |
+    - Vaccine Sinopharm của nước nào?
+- intent: covid_faq/q_575
+  examples: |
+    - Vaccine Sinopharm giá bao nhiêu?
+- intent: covid_faq/q_576
+  examples: |
+    - Vaccine Sinopharm là gì?
+- intent: covid_faq/q_577
+  examples: |
+    - Vaccine có ảnh hưởng đến khả năng sinh sản của tôi không?
+- intent: covid_faq/q_578
+  examples: |
+    - Vacxin Pfizer có chống được virus chủng mới từ Ấn Độ không?
+- intent: covid_faq/q_579
+  examples: |
+    - Vacxin Pfizer có làm bạn nhiễm Covid?
+- intent: covid_faq/q_580
+  examples: |
+    - Vacxin Pfizer-BioNTech có gây vô sinh không?
+- intent: covid_faq/q_581
+  examples: |
+    - Vai trò của EPA trong việc đảm bảo cho nước uống vẫn được an toàn là gì?
+- intent: covid_faq/q_582
+  examples: |
+    - Vi rút Corona được phát hiện khi nào?
+- intent: covid_faq/q_583
+  examples: |
+    - Vi rút corona (nCoV) là gì?
+- intent: covid_faq/q_584
+  examples: |
+    - Vi-rút Corona này lây lan như thế nào?
+- intent: covid_faq/q_585
+  examples: |
+    - Vi-rút Corona và COVID-19 là gì?
+- intent: covid_faq/q_586
+  examples: |
+    - Vi-rút lây lan như thế nào?
+- intent: covid_faq/q_587
+  examples: |
+    - Vi-rút được điều trị như thế nào?
+- intent: covid_faq/q_588
+  examples: |
+    - Virus Corona có lây không?
+- intent: covid_faq/q_589
+  examples: |
+    - Virus Corona gây bệnh như thế nào?
+- intent: covid_faq/q_590
+  examples: |
+    - Virus Corona là gì?
+- intent: covid_faq/q_591
+  examples: |
+    - Virus Corona lây lan như thế nào?
+- intent: covid_faq/q_592
+  examples: |
+    - Virus Corona sống trong không khí bao lâu?
+- intent: covid_faq/q_593
+  examples: |
+    - Virus Corona sống ở nhiệt độ bao nhiêu?
+- intent: covid_faq/q_594
+  examples: |
+    - Virus Corona tồn tại trên bề mặt bao lâu?
+- intent: covid_faq/q_595
+  examples: |
+    - Virus SAR-CoV-2 chỉ gây bệnh ở người già hay người trẻ cũng bị?
+- intent: covid_faq/q_596
+  examples: |
+    - Virus SAR-CoV-2 có nhân lên trong môi trường tự nhiên không?
+- intent: covid_faq/q_597
+  examples: |
+    - Virus SAR-CoV-2 có thể tồn tại ở vùng khí hậu nóng ẩm không?
+- intent: covid_faq/q_598
+  examples: |
+    - Virus SAR-CoV-2 gây bệnh cho cơ quan nào?
+- intent: covid_faq/q_599
+  examples: |
+    - Virus SAR-CoV-2 lây nhiễm vào con người như thế nào?
+- intent: covid_faq/q_600
+  examples: |
+    - Virus SAR-CoV-2 trông như thế nào?
+- intent: covid_faq/q_601
+  examples: |
+    - Virus Sars Cov 2 được cấu tạo như thế nào?
+- intent: covid_faq/q_602
+  examples: |
+    - Virus biến thể có phải là bình thường hay không? Chúng biến thể như thế nào?
+- intent: covid_faq/q_603
+  examples: |
+    - Virus corona chủng mới là gì?
+- intent: covid_faq/q_604
+  examples: |
+    - Virus gây bệnh Covid-19 có nguồn gốc từ đâu?
+- intent: covid_faq/q_605
+  examples: |
+    - Virus gây bệnh Covid-19 có nhân lên trong môi trường tự nhiên không?
+- intent: covid_faq/q_606
+  examples: |
+    - Virus gây bệnh Covid-19 có ở đâu trong môi trường xung quanh chúng ta?
+- intent: covid_faq/q_607
+  examples: |
+    - Virus gây bệnh Covid-19 gây bệnh cho cơ quan nào?
+- intent: covid_faq/q_608
+  examples: |
+    - Virus gây bệnh Covid-19 gây bệnh như thế nào?
+- intent: covid_faq/q_609
+  examples: |
+    - Virus gây bệnh Covid-19 là virus gây bệnh đường hô hấp, tại sao rửa tay lại hạn chế được lây nhiễm mầm bệnh?
+- intent: covid_faq/q_610
+  examples: |
+    - Virus gây bệnh Covid-19 nhiễm vào con người như thế nào?
+- intent: covid_faq/q_611
+  examples: |
+    - Virus gây bệnh Covid-19 tồn tại bao lâu trong môi trường tự nhiên?
+- intent: covid_faq/q_612
+  examples: |
+    - Việc cho chạy hệ thống HVAC trong nhà có thể giúp bảo vệ cho tôi khỏi COVID-19 không?
+- intent: covid_faq/q_613
+  examples: |
+    - Việc di chuyển bằng du thuyền có làm tăng nguy cơ nhiễm COVID-19 không?
+- intent: covid_faq/q_614
+  examples: |
+    - Việc tiêm vắc-xin COVID-19 có an toàn không nếu trong tương lai, tôi muốn mang thai?
+- intent: covid_faq/q_615
+  examples: |
+    - Việc tiêm vắc-xin có tác động tiêu cực đến tình trạng nhập cư của một cá nhân không?
+- intent: covid_faq/q_616
+  examples: |
+    - Việc đi học trở lại có an toàn cho con tôi không?
+- intent: covid_faq/q_617
+  examples: |
+    - Việt Nam bắt đầu thử nghiệm vắc xin COVID-19 từ khi nào?
+- intent: covid_faq/q_618
+  examples: |
+    - Việt Nam phê duyệt khẩn cấp vắc xin Moderna
+- intent: covid_faq/q_619
+  examples: |
+    - Vì sao cần rửa tay để phòng bệnh?
+- intent: covid_faq/q_620
+  examples: |
+    - Vì sao khi mang thai thì nên chủng ngừa COVID-19?
+- intent: covid_faq/q_621
+  examples: |
+    - Vì sao khi rửa tay với xà phòng cần phải rửa tối thiểu trong 30 giây?
+- intent: covid_faq/q_622
+  examples: |
+    - Vì sao mẹ bầu nên ưu tiên tiêm phòng vắc xin Covid-19 dù sống ở vùng dịch hay không?
+- intent: covid_faq/q_623
+  examples: |
+    - Vì sao nên đeo khẩu trang phòng dịch bệnh?
+- intent: covid_faq/q_624
+  examples: |
+    - Vì sao nói khẩu trang y tế 3 lớp đã có thể ngăn cản hiệu quả lây nhiễm virus gây bệnh Covid-19?
+- intent: covid_faq/q_625
+  examples: |
+    - Vì sao phải rửa tay bằng xà phòng?
+- intent: covid_faq/q_626
+  examples: |
+    - Vật nuôi trong nhà có truyền virus SAR-CoV-2 hay không?
+- intent: covid_faq/q_627
+  examples: |
+    - Vậy tôi nên chọn thuốc chủng ngừa bồi dưỡng nào?
+- intent: covid_faq/q_628
+  examples: |
+    - Vắc xin AstraZeneca 2 liều cách nhau bao lâu?
+- intent: covid_faq/q_629
+  examples: |
+    - Vắc xin AstraZeneca có tác dụng trong bao lâu?
+- intent: covid_faq/q_630
+  examples: |
+    - Vắc xin AstraZeneca dành cho độ tuổi nào? AstraZeneca có tiêm cho người trên 65 tuổi không?
+- intent: covid_faq/q_631
+  examples: |
+    - Vắc xin AstraZeneca ngừa được chủng virus nào?
+- intent: covid_faq/q_632
+  examples: |
+    - Vắc xin AstraZeneca và Pfizer loại nào tốt hơn?
+- intent: covid_faq/q_633
+  examples: |
+    - Vắc xin Astrazeneca bị đông máu sau khi tiêm?
+- intent: covid_faq/q_634
+  examples: |
+    - Vắc xin BNT162b2 của Pfizer-BioNTech có truyền vi rút vào cơ thể mình không?
+- intent: covid_faq/q_635
+  examples: |
+    - Vắc xin COVID-19 có chứa bất kỳ sản phẩm động vật nào trong đó không?
+- intent: covid_faq/q_636
+  examples: |
+    - Vắc xin COVID-19 có hiệu quả với các biến thể mới không?
+- intent: covid_faq/q_637
+  examples: |
+    - Vắc xin COVID-19 có hiệu quả đối với biến thể Omicron hay không?
+- intent: covid_faq/q_638
+  examples: |
+    - Vắc xin COVID-19 có thể ảnh hưởng đến DNA của bạn không?
+- intent: covid_faq/q_639
+  examples: |
+    - Vắc xin COVID-19 có thể ảnh hưởng đến khả năng sinh sản không?
+- intent: covid_faq/q_640
+  examples: |
+    - Vắc xin COVID-19 của AstraZeneca có an toàn hay không?
+- intent: covid_faq/q_641
+  examples: |
+    - Vắc xin COVID-19 của AstraZeneca có bất kỳ tác dụng phụ nào hay không?
+- intent: covid_faq/q_642
+  examples: |
+    - Vắc xin COVID-19 của AstraZeneca do hãng nào sản xuất?
+- intent: covid_faq/q_643
+  examples: |
+    - Vắc xin COVID-19 của AstraZeneca đã được cấp phép tại Việt Nam chưa?
+- intent: covid_faq/q_644
+  examples: |
+    - Vắc xin COVID-19 của AstraZeneca được vận chuyển và bảo quản như thế nào?
+- intent: covid_faq/q_645
+  examples: |
+    - Vắc xin COVID-19 hoạt động như thế nào?
+- intent: covid_faq/q_646
+  examples: |
+    - Vắc xin Moderna là gì?
+- intent: covid_faq/q_647
+  examples: |
+    - Vắc xin Pfizer có tiêm được cho phụ nữ mang thai không?
+- intent: covid_faq/q_648
+  examples: |
+    - Vắc xin mRNA-1273 có dùng vi rút sống không?
+- intent: covid_faq/q_649
+  examples: |
+    - Vắc xin mRNA-1273 của Moderna giá bao nhiêu?
+- intent: covid_faq/q_650
+  examples: |
+    - Vắc xin ngừa COVID-19 có an toàn và hiệu quả không?
+- intent: covid_faq/q_651
+  examples: |
+    - Vắc xin phòng COVID-19 của AstraZeneca là gì?
+- intent: covid_faq/q_652
+  examples: |
+    - Vắc-xin COVID-19 có an toàn dù các vắc-xin này được phát triển nhanh chóng không?
+- intent: covid_faq/q_653
+  examples: |
+    - Vắc-xin COVID-19 có an toàn với trẻ em không?
+- intent: covid_faq/q_654
+  examples: |
+    - Vắc-xin COVID-19 có bất kỳ tác dụng phụ nào không?
+- intent: covid_faq/q_655
+  examples: |
+    - Vắc-xin COVID-19 có cản trở loại thuốc phòng hoặc điều trị HIV nào không?
+- intent: covid_faq/q_656
+  examples: |
+    - Vắc-xin COVID-19 có hiệu quả chống lại các biến thể không?
+- intent: covid_faq/q_657
+  examples: |
+    - Vắc-xin COVID-19 có khiến tôi mắc COVID-19 không?
+- intent: covid_faq/q_658
+  examples: |
+    - Vắc-xin COVID-19 có làm thay đổi DNA của tôi không?
+- intent: covid_faq/q_659
+  examples: |
+    - Vắc-xin COVID-19 có thay đổi ADN của tôi phải không?
+- intent: covid_faq/q_660
+  examples: |
+    - Vắc-xin COVID-19 có thể bảo vệ trong bao lâu?
+- intent: covid_faq/q_661
+  examples: |
+    - Vắc-xin COVID-19 có thể làm tôi mắc COVID-19 không?
+- intent: covid_faq/q_662
+  examples: |
+    - Vắc-xin COVID-19 sẽ có hiệu quả sau bao lâu?
+- intent: covid_faq/q_663
+  examples: |
+    - Vắc-xin Johnson & Johnson có an toàn không?
+- intent: covid_faq/q_664
+  examples: |
+    - Vắc-xin an toàn như thế nào khi mọi thứ xảy ra quá nhanh?
+- intent: covid_faq/q_665
+  examples: |
+    - Vắc-xin an toàn như thế nào nếu chúng ta không biết các tác dụng phụ lâu dài?
+- intent: covid_faq/q_666
+  examples: |
+    - Vắc-xin có giúp bảo vệ chống lại sự lây nhiễm không mang triệu chứng và ngăn chặn sự lây lan virus của những người đã được tiêm phòng không?
+- intent: covid_faq/q_667
+  examples: |
+    - Vắc-xin có hiệu quả với các biến thể của COVID-19 không?
+- intent: covid_faq/q_668
+  examples: |
+    - Vắc-xin ngừa COVID-19 có an toàn cho những người đang nhiễm HIV không?
+- intent: covid_faq/q_669
+  examples: |
+    - Vắc-xin được thử nghiệm với ai?
+- intent: covid_faq/q_670
+  examples: |
+    - Vệ sinh đồ vật và môi trường như thế nào là đúng cách?
+- intent: covid_faq/q_671
+  examples: |
+    - Với các bệnh như sởi, quai bị, thủy đậu chỉ có học sinh nào bị bệnh thì học sinh đó phải nghỉ học; tại sao với bệnh Covid-19 tất cả học sinh phải nghỉ học kể cả chưa có ai bị bệnh?
+- intent: covid_faq/q_672
+  examples: |
+    - Xét nghiệm Covid-19 bao nhiêu tiền?
+- intent: covid_faq/q_673
+  examples: |
+    - Xét nghiệm Covid-19 có được ăn sáng không?
+- intent: covid_faq/q_674
+  examples: |
+    - Xét nghiệm Covid-19 lần 2 cách lần 1 bao lâu?
+- intent: covid_faq/q_675
+  examples: |
+    - Xét nghiệm covid miễn phí ở đâu?
+- intent: covid_faq/q_676
+  examples: |
+    - Xét nghiệm nhanh Covid-19 có được thanh toán bảo hiểm không?
+- intent: covid_faq/q_677
+  examples: |
+    - Đang mang thai IVF thì tiêm vắc xin Covid-19 có ảnh hưởng gì không?
+- intent: covid_faq/q_678
+  examples: |
+    - Đang mang thai, có được đi tiêm không?
+- intent: covid_faq/q_679
+  examples: |
+    - Đang trong đợt nhà trường cho nghỉ học để phòng tránh dịch Covid-19, con không đến trường là con sẽ không bị nhiễm virus gây bệnh Covid-19 phải không?
+- intent: covid_faq/q_680
+  examples: |
+    - Đeo khẩu trang là để bảo vệ người chưa bị nhiễm hay bảo vệ người đã bị nhiễm virus gây bệnh Covid-19?
+- intent: covid_faq/q_681
+  examples: |
+    - Đeo khẩu trang như thế nào là đúng cách?
+- intent: covid_faq/q_682
+  examples: |
+    - Đeo khẩu trang y tế như thế nào là đúng cách?
+- intent: covid_faq/q_683
+  examples: |
+    - Đi xa hoặc du lịch là gì?
+- intent: covid_faq/q_684
+  examples: |
+    - Điều gì dự kiến sẽ xảy ra tại cuộc hẹn tiêm chủng COVID-19?
+- intent: covid_faq/q_685
+  examples: |
+    - Điều gì sẽ xảy ra nếu có hành khách bị bệnh trên một chuyến bay quốc tế hoặc nội địa?
+- intent: covid_faq/q_686
+  examples: |
+    - Điều gì xảy ra nếu quên tiêm mũi COVID-19 thứ 2?
+- intent: covid_faq/q_687
+  examples: |
+    - Điều gì xảy ra nếu tôi chỉ muốn tiêm 1 mũi?
+- intent: covid_faq/q_688
+  examples: |
+    - Đã có loại thuốc đặc hiệu nào để phòng và điều trị bệnh viêm đường hô hấp cấp do chủng mới vi rút corona (nCoV) gây ra chưa?
+- intent: covid_faq/q_689
+  examples: |
+    - Đã có thuốc điều trị và vắc-xin phòng bệnh Covid-19 chưa?
+- intent: covid_faq/q_690
+  examples: |
+    - Đã có vắc xin Covid-19 chưa?
+- intent: covid_faq/q_691
+  examples: |
+    - Đã nhiễm virus Corona tiêm phòng có tác dụng không?
+- intent: covid_faq/q_692
+  examples: |
+    - Đã đến lúc tôi cần chủng ngừa bồi dưỡng chưa?
+- intent: covid_faq/q_693
+  examples: |
+    - Đến ngày đi học trở lại con tôi bị sốt tôi có phải báo cho nhà trường biết không?
+- intent: covid_faq/q_694
+  examples: |
+    - Để khẳng định chắc chắn bị bệnh do Covid-19 thì cần làm những xét nghiệm gì?
+- intent: covid_faq/q_695
+  examples: |
+    - Đối nào được tượng tiêm phòng vắc xin BNT162b2
+- intent: covid_faq/q_696
+  examples: |
+    - Đối tượng không nên tiêm ngừa vắc xin mRNA-1273 của Moderna
+- intent: covid_faq/q_697
+  examples: |
+    - Đối tượng nào dễ mắc virus gây dịch covid 19 (Sars-Cov-2)?
+- intent: covid_faq/q_698
+  examples: |
+    - Đối tượng nào nên cách ly?
+- intent: covid_faq/q_699
+  examples: |
+    - Đối tượng nào được tiêm vaccine Covid-19 mũi 3?
+- intent: covid_faq/q_700
+  examples: |
+    - Đối tượng nên tiêm ngừa vắc xin mRNA-1273 của Moderna
+- intent: covid_faq/q_701
+  examples: |
+    - Độ an toàn của vaccine Moderna
+- intent: covid_faq/q_702
+  examples: |
+    - Động vật có thể mang vi-rút gây COVID-19 trên da hoặc lông của chúng không?
+- intent: covid_faq/q_703
+  examples: |
+    - Động vật hoang dã có thể lây lan vi-rút gây ra COVID-19 cho người không?
+- intent: covid_faq/q_704
+  examples: |
+    - Thế nào là bệnh truyền nhiễm?
+- intent: covid_faq/q_705
+  examples: |
+    - Thế nào là dịch bệnh truyền nhiễm?
+- intent: covid_faq/q_706
+  examples: |
+    - Dịch Covid-19 là gì?
+- intent: covid_faq/q_707
+  examples: |
+    - Khi nào nước ta công bố dịch bệnh?
+- intent: covid_faq/q_708
+  examples: |
+    - Có phải dịch Covid-19 nguy hiểm hơn các dịch bệnh khác nên Thủ tướng Chính phủ công bố dịch?
+- intent: covid_faq/q_709
+  examples: |
+    - Dịch Covid-19 nguy hiểm như thế nào?
+- intent: covid_faq/q_710
+  examples: |
+    - Dịch Covid-19 xuất hiện như thế nào?
+- intent: covid_faq/q_711
+  examples: |
+    - Dịch Covid-19 lan truyền bằng cách nào?
+- intent: covid_faq/q_712
+  examples: |
+    - Dịch Covid-19 so với dịch SARS và dịch viêm đường hô hấp Trung Đông (MERS), dịch nào nguy hiểm hơn?
+- intent: covid_faq/q_713
+  examples: |
+    - Dịch Covid-19 sẽ kéo dài bao lâu?
+- intent: covid_faq/q_714
+  examples: |
+    - Tác nhân gây bệnh Covid-19 là gì?
+- intent: covid_faq/q_715
+  examples: |
+    - Virus Covid-19 có nguồn gốc từ đâu?
+- intent: covid_faq/q_716
+  examples: |
+    - Virus Covid-19 có ở đâu trong môi trường xung quanh chúng ta?
+- intent: covid_faq/q_717
+  examples: |
+    - Virus Covid-19 có nhân lên trong môi trường tự nhiên không?
+- intent: covid_faq/q_718
+  examples: |
+    - Virus Covid-19 tồn tại bao lâu trong môi trường tự nhiên?
+- intent: covid_faq/q_719
+  examples: |
+    - Virus Covid-19 lây nhiễm vào con người như thế nào?
+- intent: covid_faq/q_720
+  examples: |
+    - Tôi đang ở nơi được gọi là “vùng dịch” thì có phải là tôi đã bị nhiễm Covid-19 rồi không?
+- intent: covid_faq/q_721
+  examples: |
+    - Tôi đang khỏe mạnh nhưng nếu cứ ở vùng có dịch là tôi sẽ bị nhiễm Covid-19 phải không?
+- intent: covid_faq/q_722
+  examples: |
+    - Tôi vừa đi cùng chuyến máy bay/chuyến ô-tô/ toa tầu; ở cùng phòng họp/lớp học với một người vừa được xác định là người nhiễm Covid-19 có nghĩa là tôi cũng đã nhiễm Covid-19 phải không?
+- intent: covid_faq/q_723
+  examples: |
+    - Thế nào là tiếp xúc trực tiếp với người bệnh?
+- intent: covid_faq/q_724
+  examples: |
+    - Thế nào là tiếp xúc gần với người bệnh?
+- intent: covid_faq/q_725
+  examples: |
+    - Bắt tay có làm lây Covid-19 không?
+- intent: covid_faq/q_726
+  examples: |
+    - Hôn nhau có làm lây Covid-19 không?
+- intent: covid_faq/q_727
+  examples: |
+    - Sinh hoạt tình dục có làm lây Covid-19 không?
+- intent: covid_faq/q_728
+  examples: |
+    - Covid-19 có lây qua thức ăn không?
+- intent: covid_faq/q_729
+  examples: |
+    - Covid-19 có lây qua đường máu không?
+- intent: covid_faq/q_730
+  examples: |
+    - Covid-19 có lây từ mẹ sang con không?
+- intent: covid_faq/q_731
+  examples: |
+    - Virus Covid-19 gây bệnh như thế nào?
+- intent: covid_faq/q_732
+  examples: |
+    - Virus Covid-19 gây bệnh cho cơ quan nào?
+- intent: covid_faq/q_733
+  examples: |
+    - Covid-19 có gây quái thai không?
+- intent: covid_faq/q_734
+  examples: |
+    - Tại sao có người nhiễm Covid-19 thì bị bệnh, có người không bị bệnh?
+- intent: covid_faq/q_735
+  examples: |
+    - Có ai có đề kháng tự nhiên với Covid-19 hay không?
+- intent: covid_faq/q_736
+  examples: |
+    - Cơ thể người đề kháng với Covid-19 như thế nào?
+- intent: covid_faq/q_737
+  examples: |
+    - Sau khi nhiễm Covid-19 bao lâu thì có kháng thể?
+- intent: covid_faq/q_738
+  examples: |
+    - Người bị bệnh do Covid-19 một lần đã khỏi có bị lại bệnh này nữa không?
+- intent: covid_faq/q_739
+  examples: |
+    - Có thể lấy huyết tương của người bị bệnh Covid-19 đã khỏi bệnh để chữa cho người đang bị bệnh hay không?
+- intent: covid_faq/q_740
+  examples: |
+    - Covid-19, SARS-CoV và MERS-CoV đều là virus corona, người bị SARS hoặc MERS đã khỏi bệnh có bị bệnh do Covid-19 nữa hay không?
+- intent: covid_faq/q_741
+  examples: |
+    - Tại sao dùng vắc xin dự phòng được bệnh?
+- intent: covid_faq/q_742
+  examples: |
+    - Hiện nay đã có vắc xin phòng bệnh Covid-19 chưa?
+- intent: covid_faq/q_743
+  examples: |
+    - Khi nào thì có vắc xin phòng bệnh Covid-19?
+- intent: covid_faq/q_744
+  examples: |
+    - Người bị bệnh Covid-19 có biểu hiện gì?
+- intent: covid_faq/q_745
+  examples: |
+    - Bị nhiễm Covid-19 nếu không được điều trị có thể dẫn đến những hậu quả gì?
+- intent: covid_faq/q_746
+  examples: |
+    - Tôi đang tự theo dõi vì nghi ngờ mình bị nhiễm Covid-19, khi có dấu hiệu gì thì tôi phải báo ngay cho cơ quan y tế?
+- intent: covid_faq/q_747
+  examples: |
+    - Có phải cứ ho, sốt là bị bệnh do Covid-19 hay không?
+- intent: covid_faq/q_748
+  examples: |
+    - Để khẳng định chắc chắn bị bệnh do Covid-19 thì cần làm những xét nghiệm gì?
+- intent: covid_faq/q_749
+  examples: |
+    - Nếu chỉ ho, sốt, khó thở nhẹ tôi có phải đi bệnh viện không?
+- intent: covid_faq/q_750
+  examples: |
+    - Để cho yên tâm tôi có nên đến thẳng các bệnh viện lớn tuyến trung ương để khám và làm xét nghiệm không?
+- intent: covid_faq/q_751
+  examples: |
+    - Hiện nay đã có thuốc điều trị đặc hiệu cho bệnh Covid-19 chưa?
+- intent: covid_faq/q_752
+  examples: |
+    - Thông tin về thuốc điều trị HIV chữa được Covid-19 là đúng hay sai?
+- intent: covid_faq/q_753
+  examples: |
+    - Hiện nay các biện pháp chính để điều trị bệnh do Covid-19 là gì?
+- intent: covid_faq/q_754
+  examples: |
+    - Cách ly y tế là gì?
+- intent: covid_faq/q_755
+  examples: |
+    - Tại sao khi có dịch Covid-19 lại phải tiến hành cách ly y tế?
+- intent: covid_faq/q_756
+  examples: |
+    - Có những hình thức cách ly y tế nào?
+- intent: covid_faq/q_757
+  examples: |
+    - Thế nào là cách ly y tế tập trung?
+- intent: covid_faq/q_758
+  examples: |
+    - Thế nào là tự cách ly?
+- intent: covid_faq/q_759
+  examples: |
+    - Những người nào thuộc diện phải cách ly trong đợt dịch Covid-19 này?
+- intent: covid_faq/q_760
+  examples: |
+    - Người đang bị bệnh Covid-19 chưa khỏi thì phải áp dụng hình thức cách ly nào và thời gian cách ly trong bao lâu?
+- intent: covid_faq/q_761
+  examples: |
+    - Người đang bị ho, sốt, khó thở mới chỉ nghi ngờ bị bệnh Covid-19 chưa có khẳng định chắc chắn thì phải áp dụng hình thức cách ly nào, thời gian cách ly trong bao lâu và tại sao?
+- intent: covid_faq/q_762
+  examples: |
+    - Người không có biểu hiện bệnh mới chỉ nghi ngờ bị nhiễm Covid-19 (do trước đó nghi có tiếp xúc với mầm bệnh) thì phải áp dụng hình thức cách ly nào, thời gian cách ly trong bao lâu và tại sao?
+- intent: covid_faq/q_763
+  examples: |
+    - Tại sao người đi về từ vùng có dịch dù không có biểu biện bị bệnh hoặc nghi ngờ tiếp xúc với mầm bệnh vẫn phải tiến hành cách ly?
+- intent: covid_faq/q_764
+  examples: |
+    - Người từ vùng dịch làm nhiệm vụ trở về có phải tiến hành cách ly không?
+- intent: covid_faq/q_765
+  examples: |
+    - Một nhóm người đi về từ vùng có dịch nên được tổ chức cách ly tập trung trong theo kế hoạch 14 ngày; ban đầu tất cả không có biểu hiện bệnh nhưng ngày thứ 10 thì có một người sốt nên người này được chuyển đi nơi khác để điều trị và theo dõi thêm, những người còn lại đến ngày thứ 14 cũng không có ai bị sốt vậy, những người này sẽ được ra khỏi nơi cách ly hay vẫn tiếp tục phải cách ly?
+- intent: covid_faq/q_766
+  examples: |
+    - Tại sao phải hạn chế đi lại với những người đang sống trong vùng có dịch mặc dù họ không có biểu biện bị bệnh hoặc nghi ngờ tiếp xúc với người bệnh?
+- intent: covid_faq/q_767
+  examples: |
+    - Những người đang sống trong vùng có dịch cần phải hạn chế đi lại cho đến khi nào và tại sao?
+- intent: covid_faq/q_768
+  examples: |
+    - Một người đang ở trong vùng có dịch, ban đầu khỏe mạnh, sau đó tự nhiên bị sốt thì có phải là đã bị nhiễm Covid-19 hay không?
+- intent: covid_faq/q_769
+  examples: |
+    - Tại sao lại cần tiến hành giám sát thân nhiệt để kiểm soát dịch bệnh?
+- intent: covid_faq/q_770
+  examples: |
+    - Ngoài giám sát thân nhiệt còn có biện pháp nào để kiểm soát dịch bệnh nữa không?
+- intent: covid_faq/q_771
+  examples: |
+    - Những cách đo thân nhiệt nào thường được áp dụng trong phòng chống dịch và độ tin cậy của các phương pháp ấy như thế nào?
+- intent: covid_faq/q_772
+  examples: |
+    - Nếu không có nhiệt kế điện tử thì nên dùng nhiệt kế gì để giám sát thân nhiệt cho nhiều người và phải lưu ý vấn đề gì khi sử dụng loại nhiệt kế đó?
+- intent: covid_faq/q_773
+  examples: |
+    - Khi đo nhiệt độ ở trán bằng nhiệt kế điện tử, nhiệt độ bao nhiêu trở lên thì coi là bị sốt?
+- intent: covid_faq/q_774
+  examples: |
+    - Tại sao đeo khẩu trang có thể ngăn ngừa được bệnh lây nhiễm qua đường hô hấp?
+- intent: covid_faq/q_775
+  examples: |
+    - Có bao nhiêu loại khẩu trang y tế, cấu tạo cơ bản và công dụng của mỗi loại?
+- intent: covid_faq/q_776
+  examples: |
+    - Khi nào cần dùng khẩu trang y tế N95 để dự phòng lây nhiễm Covid-19?
+- intent: covid_faq/q_777
+  examples: |
+    - Đeo khẩu trang là để bảo vệ người chưa bị nhiễm hay bảo vệ người đã bị nhiễm Covid-19?
+- intent: covid_faq/q_778
+  examples: |
+    - Tại sao người đã nhiễm Covid-19 vẫn cần phải đeo khẩu trang?
+- intent: covid_faq/q_779
+  examples: |
+    - Vì sao nói khẩu trang y tế 3 lớp đã có thể ngăn cản hiệu quả lây nhiễm Covid-19?
+- intent: covid_faq/q_780
+  examples: |
+    - Đeo khẩu trang y tế như như nào là đúng cách?
+- intent: covid_faq/q_781
+  examples: |
+    - Khi ở bên ngoài vùng có dịch có nhất thiết phải đeo khẩu trang không?
+- intent: covid_faq/q_782
+  examples: |
+    - Khi nào cần đeo khẩu trang?
+- intent: covid_faq/q_783
+  examples: |
+    - Khẩu trang vải có tác dụng dự phòng lây nhiễm Covid-19 không?
+- intent: covid_faq/q_784
+  examples: |
+    - Covid-19 là virus gây bệnh đường hô hấp, tại sao rửa tay lại hạn chế được lây nhiễm mầm bệnh?
+- intent: covid_faq/q_785
+  examples: |
+    - Khi nào thì phải rửa tay để hạn chế lây nhiễm Covid-19?
+- intent: covid_faq/q_786
+  examples: |
+    - Phải rửa tay như như nào mới đúng để có thể hạn chế được sự lây nhiễm của Covid-19?
+- intent: covid_faq/q_787
+  examples: |
+    - Vì sao phải rửa tay bằng xà phòng?
+- intent: covid_faq/q_788
+  examples: |
+    - Vì sao khi rửa tay với xà phòng cần phải rửa tối thiểu trong 30 giây?
+- intent: covid_faq/q_789
+  examples: |
+    - Thế nào gọi là rửa tay khô?
+- intent: covid_faq/q_790
+  examples: |
+    - Dung dịch rửa tay khô phải bảo đảm điều kiện gì mới có thể sử dụng để rửa tay khô phòng lây nhiễm Covid-19?
+- intent: covid_faq/q_791
+  examples: |
+    - Ngoài việc rửa tay sạch, cần thực hiện thêm thói quen gì với đôi tay để hạn chế lây nhiễm Covid-19?
+- intent: covid_faq/q_792
+  examples: |
+    - Tại sao phải vệ sinh môi trường để hạn chế lây nhiễm Covid-19?
+- intent: covid_faq/q_793
+  examples: |
+    - Cần vệ sinh môi trường như thế nào để hạn chế lây nhiễm Covid-19?
+- intent: covid_faq/q_794
+  examples: |
+    - Cần vệ sinh nhà cửa như thế nào để hạn chế lây nhiễm Covid-19?
+- intent: covid_faq/q_795
+  examples: |
+    - Những đồ vật nào cần phải vệ sinh thường xuyên để hạn chế lây nhiễm Covid-19?
+- intent: covid_faq/q_796
+  examples: |
+    - Vệ sinh đồ vật và môi trường như thế nào là đúng cách?
+- intent: covid_faq/q_797
+  examples: |
+    - Chất tẩy rửa nào thường được sử dụng để vệ sinh đồ vật và môi trường dự phòng lây nhiễm Covid-19?
+- intent: covid_faq/q_798
+  examples: |
+    - Nên vệ sinh cá nhân như thế nào để đề phòng lây nhiễm Covid-19?
+- intent: covid_faq/q_799
+  examples: |
+    - Nên vệ sinh mũi, họng như thế nào để đề phòng lây nhiễm Covid-19?
+- intent: covid_faq/q_800
+  examples: |
+    - Vì sao cần giữ ấm cơ thể để đề phòng lây nhiễm Covid-19?
+- intent: covid_faq/q_801
+  examples: |
+    - Nên duy trì chế độ ăn như thế nào để tăng sức đề kháng phòng chống Covid-19?
+- intent: covid_faq/q_802
+  examples: |
+    - Ăn nhiều tỏi có tác dụng chống Covid-19 không?
+- intent: covid_faq/q_803
+  examples: |
+    - Nên chuẩn bị tâm lý như thế nào để vượt qua đại dịch Covid-19?

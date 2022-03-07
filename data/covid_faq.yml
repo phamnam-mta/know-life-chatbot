@@ -1,0 +1,809 @@
+version: "3.0"
+
+nlu:
+- intent: covid_faq
+  examples: |
+    - 'COVID kéo dài' là gì? Trẻ em có bị ảnh hưởng gì không?
+    - AY.3 có khả năng lây nhiễm cao hơn, gây chết người hay kháng thuốc?
+    - AY.3 khác với biến thể Delta Plus ra sao?
+    - AY.3 phát hiện lần đầu tiên ở đâu?
+    - Ai có nguy cơ mắc các vấn đề sức khỏe nghiêm trọng từ Covid-19?
+    - Ai có nhiều nguy cơ nhất mắc bệnh nghiêm trọng?
+    - Ai cần cách ly?
+    - Ai nên tiêm phòng trước?
+    - Ai được coi là tiếp xúc gần với người nhiễm COVID-19?
+    - Biến chủng AY.3 lây lan như thế nào?
+    - Biến chủng Delta Plus lây lan như thế nào?
+    - Biến chủng virus Corona là gì?
+    - Biến chứng do virus Covid-19
+    - Biến thể AY3 là gì?
+    - Biến thể Delta Plus liệu có gây ra làn sóng đại dịch tiếp theo?
+    - Biến thể Delta Plus là gì?
+    - Biến thể Delta Plus nguy hiểm tới mức nào?
+    - Biến thể Delta có nguy cơ dễ lây lan hơn hay không?
+    - Biến thể Delta khác biệt như thế nào?
+    - Biến thể Delta là gì?
+    - Biến thể Lambda có kháng vaccine không?
+    - Biến thể Lambda là gì?
+    - Biến thể Omicron có gây ra những triệu chứng khác hay không?
+    - Biến thể Omicron có lây lan nhanh hơn không?
+    - Biến thể Omicron là gì? 
+    - Biến thể Omicron phát triển như thế nào?
+    - Biến thể Omicron xuất hiện ở đâu?
+    - Biểu hiện Covid-19 có sổ mũi không?
+    - Biểu hiện sớm nhất của bệnh virus corona là gì?
+    - Bác sĩ nào phát hiện ra biến chủng Omicron đầu tiên?
+    - Bác sĩ ơi, Covid-19 là dịch bệnh gì ạ?
+    - Bác sĩ ơi, bệnh Covid-19 lây từ người này sang người khác bằng cách nào ạ?
+    - Bác sĩ ơi, bệnh Covid-19 nguy hiểm như thế nào ạ?
+    - Bác sĩ ơi, con thấy trên TV còn bảo bệnh Covid-19 là bệnh đặc biệt nguy hiểm có phải không ạ?
+    - Bác sĩ ơi, con virus Corona mới nhìn như thế nào ạ?
+    - Bác sĩ ơi, cứ bị nhiễm con virus “vương miện mới” này là bị bệnh Covid-19 phải không?
+    - Bác sĩ ơi, thế cứ bị bệnh Covid-19 là chết phải không ạ?
+    - Bác sĩ ơi, viêm phổi là bệnh như thế nào ạ?
+    - Bên cạnh việc đeo khẩu trang, những biện pháp phòng ngừa nhiễm trùng đường hô hấp nào khác nên được áp dụng?
+    - Bắt tay có làm lây Covid-19 không?
+    - Bảo quản vắc xin BNT162b2
+    - Bảo quản vắc xin mRNA-1273 của Moderna
+    - Bảo quản vắc xin phòng COVID-19 của AstraZeneca
+    - Bệnh Covid-19 lây truyền bằng cách nào?
+    - Bệnh Covid-19 nguy hiểm như thế nào?
+    - Bệnh truyền nhiễm do tác nhân Novel là gì?
+    - Bệnh viêm đường hô hấp cấp do chủng mới của virus corona được phát hiện lần đầu tiên ở đâu?
+    - Bệnh viện có biện pháp gì để phòng ngừa virus lây lan?
+    - Bị bệnh Covid-19 nếu không được điều trị có thể dẫn đến những hậu quả gì?
+    - Bị bệnh xuất huyết giảm tiểu cầu vô căn, tiền căn nổi mẩn ngứa mệt khi truyền tiểu cầu phải tiêm hydrocortison, pipolphen; giảm tiểu cầu khi tiêm ngừa sởi – quai bị – rubella thì có tiêm vắc xin Covid-19 không?
+    - Bị nhiễm COVID-19 từ trước có hiệu quả đối với biến thể Omicron?
+    - CDC xác định Cấp Độ Thông Báo Y Tế Du Lịch COVID-19 của một điểm đến như thế nào?
+    - COVAX là gì?
+    - COVID-19 có giống với virus gây bệnh MERS-CoV hoặc SARS?
+    - COVID-19 có lây thể truyền qua đường không khí?
+    - COVID-19 có thể lan truyền ngoài trời không?
+    - COVID-19 có thể lây truyền qua ruồi, muỗi không?
+    - COVID-19 không có triệu chứng phát ra bên ngoài đúng không? Bệnh nhân có thể đột ngột tử vong khi đang đi trên phố?
+    - COVID-19 là gì?
+    - COVID-19 lây lan như thế nào?
+    - COVID-19 sẽ tự biến mất khi thời tiết ấm lên?
+    - COVID-19 vaccines có an toàn không?
+    - COVID-19 đã được mô tả là một “đại dịch”. Điều đó nghĩa là gì?
+    - COVID-19 ảnh hưởng đến trẻ em như thế nào?
+    - Cho con đi tiêm có an toàn không?
+    - Chuyện gì sẽ xảy ra với thông tin cá nhân của tôi trong khi truy tìm người tiếp xúc?
+    - Chúng ta cần làm gì nếu chúng ta có dự định đi nghỉ qua đêm?
+    - Chúng ta nên làm gì khi trở về nhà?
+    - Chúng ta nên thực hiện những biện pháp phòng ngừa an toàn nào khi đi du lịch?
+    - Chất tẩy rửa nào thường được sử dụng để vệ sinh đồ vật và môi trường dự phòng lây nhiễm virus gây bệnh Covid-19?
+    - Chỉ thị 11 là gì?
+    - Chỉ thị số 10 là gì?
+    - Chỉ đeo khẩu trang đã đủ để phòng dịch bệnh chưa?
+    - Cocktail kháng thể Evusheld có chống được biến thể Omicron không?
+    - Con cần làm gì để có sức đề kháng chống bệnh Covid-19?
+    - Con tôi bị sốt trong đợt nghỉ vừa rồi nhưng con đã đã hết sốt, vậy khi con đi học trở lại tôi có phải báo cho nhà trường biết điều này không? nếu có thì cần chuẩn bị thông tin gì về bệnh của con để báo cho nhà trường biết?
+    - Con tôi có nên tiêm vắc xin COVID-19 không?
+    - Con tôi không đến trường đã chắc chắn tránh được dịch bệnh Covid-19 hay chưa?
+    - Covid 19 là gì?
+    - Covid 19 sốt bao nhiêu độ?
+    - Covid-19 có gây quái thai không?
+    - Covid-19 có lây qua đường máu không?
+    - Covid-19 có lây từ mẹ sang con không?
+    - Covid-19 có dấu hiệu da nổi mẩn không?
+    - Covid-19 có triệu chứng buồn nôn không?
+    - Covid-19 có triệu chứng chảy nước mũi không?
+    - Covid-19 có triệu chứng khó thở không?
+    - Covid-19 có triệu chứng tiêu chảy không?
+    - Covid-19 có đau họng không?
+    - Có ai có đề kháng tự nhiên với Covid-19 hay không?
+    - Có thể lấy huyết tương của người bị bệnh Covid-19 đã khỏi bệnh để chữa cho người đang bị bệnh hay không?
+    - Cơ thể người đề kháng với Covid-19 như thế nào?
+    - Các biến chủng virus Corona mới nhất hiện nay là gì?
+    - Các biện pháp chính để điều trị bệnh Covid-19 là gì?
+    - Các bác sĩ cần lưu ý gì khi khám sàng lọc trước tiêm cho mẹ bầu?
+    - Các chuyên gia quản lý trường học, văn phòng và các tòa nhà thương mại có thể lấy thông tin về thông gió và lọc để đối phó với COVID-19 ở đâu?
+    - Các loại biến thể Covid hiện nay trên toàn thế giới?
+    - Các loại thuốc kháng thể đơn dòng hỗ trợ điều trị Covid-19
+    - Các loại thuốc kháng thể đơn dòng hỗ trợ điều trị ung thư
+    - Các loại vaccine Covid hiện nay có chống lại các biến thể virus Corona mới này được không?
+    - Các loại vaccine Covid-19 có chống được AY.3 không?
+    - Các loại vaccine Covid-19 có chống được Delta không?
+    - Các loại vaccine Covid-19 nào chống được Lambda?
+    - Các loại vắc xin ngừa COVID-19 có hiệu quả trước biến thể Delta không?
+    - Các loại vắc-xin đã được phát triển quá nhanh. Có chắc là chúng an toàn không?
+    - Các mức độ rủi ro lây nhiễm Covid-19?
+    - Các nhà máy xử lý nước thải có xử lý được COVID-19 không?
+    - Các nhân viên y tế đang cho con bú không tiêm vắc-xin phòng COVID-19 có được được ưu tiên sử dụng thiết bị bảo hộ cá nhân (PPE) hoặc được giao nhiệm vụ có nguy cơ phơi nhiễm thấp không?
+    - Các phản ứng sau khi tiêm?
+    - Các sự kiện trong nhà như phòng tập thể dục, quán bar, rạp chiếu phim và nhà hàng thì sao?
+    - Các thành phần trong vắc-xin COVID-19 bao gồm những gì?
+    - Các triệu chứng của COVID-19 là gì?
+    - Các triệu chứng khởi phát thường gặp khi nhiễm bệnh COVID-19 là gì?
+    - Các tác dụng phụ khi tiêm Evusheld là gì?
+    - Các tác dụng phụ sau khi tiêm vaccine Covid-19 thường gặp
+    - Các xét nghiệm COVID-19 hiện nay có thể phát hiện biến thể Omicron không?
+    - Các đường lây nhiễm Covid-19?
+    - Cách chẩn đoán và xét nghiệm Covid 19
+    - Cách hoạt động của vaccine dựa trên Vector Adenovirus
+    - Cách ly tại nhà nghĩa là gì?
+    - Cách ly và giản cách xã hội là gì?
+    - Cách làm sạch khẩu trang vải như thế nào?
+    - Cách nào tốt hơn: rửa tay bằng xà phòng và nước hay dùng nước rửa tay?
+    - Cách phòng ngừa cho trẻ em?
+    - Cách phòng ngừa virus Corona?
+    - Cách sử dụng gel rửa tay
+    - Cách thức lây nhiễm COVID-19 là gì?
+    - Cách thức để tôi bảo vệ bản thân khỏi COVID-19 khi dùng các phương tiện giao thông khác nhau?
+    - Cách tốt nhất để phòng ngừa bảo vệ trẻ khỏi virus Sars-Cov-2
+    - Cách xử lý khi bị ho là gì?
+    - Cần vệ sinh nhà cửa như thế nào để hạn chế lây nhiễm Covid-19?
+    - Còn các phản ứng dị ứng do vắc-xin thì sao?
+    - Còn tấm che mặt thì sao?
+    - Có an toàn cho con tôi đi bơi (cả trong nhà và ngoài trời) không?
+    - Có an toàn cho người mẹ cho con bú nếu bị nhiễm COVID-19 không?
+    - Có dịch vụ lấy mẫu hoặc xét nghiệm tại nhà không?
+    - Có giấy xác nhận đã tiêm vắc xin phòng COVID-19 sau khi tiêm hay không?
+    - Có hướng dẫn HVAC nào mà các chuyên gia xây dựng và bảo trì có thể tuân theo để giúp bảo vệ khỏi COVID-19 không?
+    - Có nên tiêm chủng phòng bệnh trong giai đoạn dịch bệnh này không?
+    - Có nên tiêm vaccine Covid-19 không?
+    - Có nên tiến hành nghiên cứu về tiêm chủng đối với phụ nữ đang cho con bú không?
+    - Có nên đến bệnh viện và cơ sở y tế khám bệnh lúc này (nếu không phải nhiễm bệnh về hô hấp)?
+    - Có nước nào cho học sinh sinh viên nghỉ học trong đại dịch Covid-19 này không?
+    - Có phải các loại vắc-xin đều có chung tuyên bố về phòng ngừa/dị ứng không?
+    - Có phải cứ ho, sốt là bị bệnh do Covid-19 hay không?
+    - Có phải tỷ lệ tử vong do dịch COVID-19 là rất cao?
+    - Có rất nhiều thông tin sai lệch về COVID-19 trên mạng. Tôi nên làm gì?
+    - Có thể dùng thuốc HIV (ART) để điều trị COVID-19 không?
+    - Có thể tiêm vắc xin covid-19 của Pfizer-BioNTech với các loại vắc xin khác không?
+    - Có thể xả giấy lau khử trùng vào bồn cầu không?
+    - Có thể đi du lịch trong mùa dịch COVID-19 không?
+    - Công nhân nước thải có nên thực hiện các biện pháp phòng ngừa bổ sung để bảo vệ cho bản thân khỏi vi rút COVID-19 không?
+    - Cơ chế của vắc xin BNT162b2
+    - Cơ chế hoạt động của Sinopharm
+    - Cơ chế hoạt động của thuốc kháng thể đơn dòng Evusheld
+    - Cơ chế lây lan của SAR-CoV-2 như thế nào?
+    - Cơ chế sinh miễn dịch của vắc xin phòng COVID-19 AstraZeneca
+    - Cơ chế sản xuất vắc xin mRNA-1273 của Moderna
+    - Cơ chế vi rút corona (nCoV) lây lan như thế nào?
+    - Cơ quan FDA của Mỹ đã chấp nhận Evusheld trong điều trị Covid chưa?
+    - Cơ thể người đề kháng với virus gây bệnh Covid-19 như thế nào?
+    - Cần làm gì sau khi tiếp xúc với người nhiễm Virus Corona?
+    - Cần vệ sinh môi trường như thế nào để hạn chế lây nhiễm virus gây bệnh Covid-19?
+    - Cần vệ sinh nhà cửa như thế nào để hạn chế lây nhiễm virus gây bệnh Covid-19?
+    - Delta Plus có khả năng lây nhiễm cao hơn, gây chết người hay kháng thuốc?
+    - Delta Plus khác với biến thể Delta ra sao?
+    - Delta Plus phát hiện lần đầu tiên ở đâu?
+    - Dinh dưỡng cho người nhiễm Covid 19
+    - Dung dịch rửa tay khô phải bảo đảm điều kiện gì mới có thể sử dụng để rửa tay khô phòng lây nhiễm virus gây bệnh Covid-19?
+    - Dơi ở Hoa Kỳ có thể nhiễm vi-rút gây ra COVID-19 và chúng có thể lây lan trở lại cho con người không?
+    - Dịch Covid-19 có thể lây lan trong trường học bằng cách nào?
+    - Dịch Covid-19 có thể “tấn công” vào trường học bằng cách nào?
+    - Dịch Covid-19 là dịch bệnh gì?
+    - Dịch Covid-19 nguy hiểm như thế nào?
+    - Dịch Covid-19 xuất hiện như thế nào?
+    - Dịch bệnh Covid-19 là gì?
+    - Dịch bệnh coronavirus 2019 (COVID-19) là gì?
+    - Dựa trên các Tiêu chuẩn của Tổ chức Lao động Quốc tế, làm thế nào người sử dụng lao động có thể đảm bảo rằng người lao động đang cho con bú hoặc vắt sữa nhưng chưa được tiêm vắc-xin phòng COVID-19 vẫn duy trì công việc của họ và được bảo vệ khỏi mọi hậu quả không đáng có?
+    - Evusheld là gì?
+    - Gia đình chúng ta nên chuẩn bị thế nào để đi du lịch cùng nhau?
+    - Giãn cách xã hội là gì?
+    - Giảm thiểu nguy cơ cho cộng đồng là gì?
+    - Giữ khoảng cách xã hội là gì?
+    - Gần ngày dự sinh, mẹ bầu nên tiêm vắc xin Covid-19 trước khi sinh, hay để khi sinh xong mới tiêm?
+    - Hiện nay đã có thuốc điều trị đặc hiệu cho bệnh Covid-19 chưa?
+    - Hiện nay đã có vắc xin phòng bệnh Covid-19 chưa?
+    - Hiện ở Việt Nam đã có dịch vụ tiêm vaccine COVID-19 chưa?
+    - Hiệu quả của một liều vắc-xin COVID-19 Pfizer hoặc Moderna so với hai liều là như thế nào?
+    - Hiệu quả vắc xin mRNA-1273 của Modern
+    - Hàng rào bảo vệ từ vắc-xin ngừa COVID-19 có thể kéo dài bao lâu?
+    - Hạn sử dụng của vaccine AstraZeneca
+    - Hệ gen của virus corona là gì?
+    - Hồ sơ tiêm chủng của bệnh nhân có được bảo vệ tránh tiết lộ không?
+    - Hội chứng viêm đa hệ thống ở trẻ em (MIS-C) là gì?
+    - Khi nào COVID-19 vaccine có mặt ở Việt Nam?
+    - Khi nào bạn không nên đeo khẩu trang?
+    - Khi nào cần rửa tay?
+    - Khi nào cần đeo khẩu trang?
+    - Khi nào gia đình tôi nên đeo khẩu trang?
+    - Khi nào là an toàn để trẻ em trở lại sinh hoạt tập thể?
+    - Khi nào mới chắc chắn là có dịch Covid-19 xuất hiện ở trường con tôi đang học?
+    - Khi nào phải rửa tay để hạn chế lây nhiễm virus gây bệnh Covid-19?
+    - Khi nào sẽ có vắc xin COVID-19 ở quốc gia của tôi?
+    - Khi nào thì bạn không nên tiêm vắc xin COVID-19?
+    - Khi nào thì có vắc xin phòng bệnh Covid-19?
+    - Khi nào tôi có thể tiêm tăng cường?
+    - Khi nào tôi cần được chăm sóc khẩn cấp nếu mắc COVID-19?
+    - Khi nào tôi nên rửa tay?
+    - Khi nào tôi nên đến bệnh viện để kiểm tra đã bị lây nhiễm Virus?
+    - Khi phát bệnh, người bị bệnh Covid-19 có biểu hiện gì?
+    - Khi tiêm vắc-xin, tôi có cần tiếp tục đeo khẩu trang, thực hiện giãn cách xã hội, v.v... không?
+    - Khi ở bên ngoài vùng có dịch có nhất thiết phải đeo khẩu trang không?
+    - Khi ở nhà, chỉ mình con phải thực hiện các biện pháp phòng chống bệnh Covid-19 hay mọi người trong nhà cùng phải làm như con?
+    - Khám sàng lọc tiêm chủng cho phụ nữ mang thai giống và khác như thế nào so với khám sàng lọc tiêm chủng cho người bình thường?
+    - Kháng thể đơn dòng có gây ra các tác dụng phụ gì không?
+    - Kháng thể đơn dòng có tác dụng gì không?
+    - Kháng thể đơn dòng là gì?
+    - Kháng thể đơn dòng trần (Naked mAbs) là gì?
+    - Kháng thể đơn dòng đặc hiệu kép là gì
+    - Khả năng lây lan của Virus Corona?
+    - Khả năng tiếp tục cho con bú hoặc cung cấp sữa đã vắt ra có thay đổi sau khi người mẹ được tiêm vắc-xin phòng COVID-19 không? (tức là vắc-xin có thể/ sẽ làm giảm nguồn sữa không?)
+    - Khẩu trang có tác dụng gì?
+    - Khẩu trang vải có tác dụng dự phòng lây nhiễm virus gây bệnh Covid-19 không?
+    - Khử trùng bằng ozone có hiệu quả không?
+    - Kết quả kiểm nghiệm lâm sàng của thuốc kháng thể Evusheld như thế nào?
+    - Lambda có lây nhiễm và gây tử vong cao hơn không?
+    - Lambda có nguồn gốc từ đâu?
+    - Liều dùng và kết quả kiểm tra lâm sàng vắc xin phòng COVID-19 của AstraZeneca
+    - Liệu CDC có thể hỗ trợ để được bồi hoàn chi phí du lịch nếu tôi phải hủy hoặc hoãn chuyến đi do yêu cầu xét nghiệm hay tiêm chủng hoặc các vấn đề khác liên quan đến COVID-19 không?
+    - Liệu con tôi có thể tiêm vắc xin ngừa COVID-19 không?
+    - Liệu các vắc xin Covid hiện tại có chống được Omicron không?
+    - Liệu có biến thể COVID-19 mới nào nguy hiểm hơn cho trẻ em không?
+    - Liệu có người có thể có xét nghiệm âm tính và sau đó có xét nghiệm dương tính khi thực hiện xét nghiệm vi-rút COVID-19 không?
+    - Liệu hệ thống tự hoại của tôi có xử lý được COVID-19 không?
+    - Liệu việc chạy máy làm mát qua việc bay hơi (đôi khi được gọi là 'máy làm mát đầm lầy') hoặc quạt cho toàn bộ ngôi nhà có giúp bảo vệ tôi và gia đình khỏi COVID-19 không?
+    - Liệu việc chạy máy lạnh gắn cửa sổ có giúp bảo vệ tôi và gia đình khỏi COVID-19 không?
+    - Liệu vắc xin COVID-19 có hiệu quả chống lại các biến thể mới không?
+    - Loại khẩu trang vải nào tốt nhất?
+    - Loại vaccine Covid nào hiệu quả và được công nhận?
+    - Loại vắc xin COVID-19 nào tốt nhất cho tôi?
+    - Làm cách nào tôi có thể tăng thông gió tại nhà để giúp bảo vệ gia đình tôi khỏi COVID-19?
+    - Làm cách nào để báo cáo nếu tôi gặp bất kỳ tác dụng phụ nào sau khi tiêm vắc-xin COVID-19?
+    - Làm cách nào để bảo vệ bản thân và những người khác khỏi COVID-19?
+    - Làm cách nào để khai báo y tế khi có dấu hiệu bệnh COVID-19?
+    - Làm cách nào để tôi có thể bảo vệ gia đình mình cho đến khi tất cả chúng ta đều được tiêm vắc-xin COVID-19?
+    - Làm cách nào để đăng ký online tiêm chủng COVID-19?
+    - Làm gì khi gặp phải tác dụng phụ khi tiêm phòng?
+    - Làm gì để giảm phản ứng phụ sau khi tiêm vacxin Covid-19
+    - Làm sao chúng ta biết được liệu vắc-xin có an toàn hay không?
+    - Làm thế nào chúng ta có thể giúp ngăn ngừa sự lây lan của virút corona?
+    - Làm thế nào giúp tôi có thể bảo vệ bản thân?
+    - Làm thế nào mà vắc-xin COVID-19 được phát triển nhanh chóng như vậy?
+    - Làm thế nào tôi có thể trò chuyện với con về Omicron và các biến thể COVID-19 khác?
+    - Làm thế nào để bảo vệ bản thân và gia đình?
+    - Làm thế nào để các nhà khoa học nghiên cứu kháng thể?
+    - Làm thế nào để gia đình tôi có thể dành thời gian bên ngoài cùng nhau một cách an toàn?
+    - Làm thế nào để kiểm tra một người có nhiễm nCoV?
+    - Làm thế nào để ngăn ngừa COVID-19?
+    - Làm thế nào để tôi có thể nhận được thẻ tiêm chủng ngừa COVID-19 mới?
+    - Làm thế nào để tôi rửa tay đúng cách?
+    - Lây lan trong cộng đồng là gì?
+    - Lịch tiêm chủng vaccine Moderna
+    - Lịch tiêm vắc xin Pfizer (BNT162b2)
+    - Lợi ích của việc tiêm vắc-xin COVID-19 là gì?
+    - Máy lọc hoặc làm sạch không khí có giúp bảo vệ tôi và gia đình khỏi COVID-19 ở trong nhà không?
+    - Máy sấy tay có hiệu quả trong việc diệt virus SAR-CoV-2 hay không?
+    - Máy tạo Ozone có bảo vệ tôi và gia đình khỏi COVID-19 không?
+    - Mẹ bầu bị hở van 2 lá ¼ nếu mắc Covid-19 có nguy hiểm không?
+    - Mẹ bầu có nhất thiết phải tiêm đủ 2 mũi vắc xin Covid-19 trước khi sinh không?
+    - Mẹ bầu có thai yếu thì có thể tiêm vắc xin Covid-19 được hay không?
+    - Mẹ bầu có thể tiêm phối hợp 2 loại vắc xin Covid-19 khác nhau được không?
+    - Mẹ bầu mới sinh xong cần lưu ý gì khi tiêm vắc xin Covid-19?
+    - Mẹ bầu sau khi tiêm vắc xin Covid-19 bị sốt cao có nên uống thuốc hạ sốt không?
+    - Mẹ bầu tiêm vắc xin Covid-19 có ảnh hưởng đến thai nhi không?
+    - Mẹ bầu từng bị xuất huyết âm đạo có tiêm vắc xin AstraZeneca ở tuần 35 được không? Tiêm vắc xin xong thì tiếp tục uống thuốc được không?
+    - Mẹ bầu từng điều trị bệnh chèn dây thần kinh số 8 có được tiêm vắc xin Covid-19 không?
+    - Mẹ bầu đang mang thai tuần thứ 14 và có tiền sử sảy thai sớm thì có liên quan đến việc tiêm vắc xin Covid-19 không?
+    - Mẹ bầu đã tiêm 1 mũi vắc xin Pizer vào tuần thứ 4 và lịch tiêm mũi 2 vào tuần 9, sớm hơn so với Bộ Y tế quy định, vậy thì có tiêm tiếp hay trì hoãn đến 13 tuần thai rồi tiêm?
+    - Mẹ bầu đã được 31 tuần, nếu tiêm vắc xin Covid-19 mũi 1 thì bao lâu mới tiêm được mũi 2? Phụ nữ trong giai đoạn hậu sản có được tiêm ngừa vắc xin Covid-19 không?
+    - Mẹ bầu ở tuần thai 21 nên tiêm vắc xin Covid-19 trước hay mũi 2 vắc xin Uốn ván trước?
+    - Mẹ cho con bú sau khi tiêm vắc-xin phòng COVID-19 có an toàn không?
+    - Một lọ vắc xin AstraZeneca bao nhiêu ml?
+    - Một lọ vắc xin AstraZeneca tiêm được cho bao nhiêu người?
+    - Một số hiện tượng sốc phản vệ ít gặp sau khi tiêm vaccine Covid-19
+    - Một số tác dụng phụ khi tiêm phòng vắc xin AstraZeneca
+    - Ngoài giám sát thân nhiệt còn có biện pháp nào để kiểm soát dịch bệnh nữa không?
+    - Ngoài việc rửa tay sạch, cần thực hiện thêm thói quen gì với đôi tay để hạn chế lây nhiễm virus gây bệnh Covid-19?
+    - Nguy cơ con tôi mắc bệnh COVID-19 là như thế nào?
+    - Nguyên nhân nhiễm vi rút Corona?
+    - Người bị bệnh Covid-19 có biểu hiện gì?
+    - Người mắc Covid-19 một lần đã khỏi, liệu có mắc lại bệnh này nữa không?
+    - Nguồn gốc của Covid-19 từ đâu?
+    - Nguồn gốc của siêu vắc xin Evusheld từ đâu?
+    - Nguồn gốc của vaccine Sputnik-V
+    - Nguồn gốc của vi rút corona (nCoV) từ đâu?
+    - Nguồn gốc vaccine Moderna của nước nào?
+    - Nguồn gốc vắc xin Pfizer (BNT162b2) của nước nào sản xuất?
+    - Nguồn gốc vắc xin phòng COVID-19 của AstraZeneca
+    - Người bị nhiễm virus gây bệnh Covid-19 có biểu hiện gì?
+    - Người có HIV có thể làm gì để bảo vệ bản thân tránh COVID-19?
+    - Người có kết quả dương tính với COVID-19 có nên nhận vắc-xin không?
+    - Người không có triệu chứng có thể lây truyền virus không?
+    - Người mới hồi phục sau COVID-19 có được đi du lịch không?
+    - Người nhiễm HIV có nguy cơ mắc bệnh nghiêm trọng do COVID-19 cao hơn những người khác không?
+    - Người nhiễm HIV cần tiêm bao nhiêu liều vắc-xin COVID-19?
+    - Người tiêu dùng có nên vệ sinh túi đựng thực phẩm không?
+    - Người tiếp xúc gần quý vị là ai?
+    - Nhiễm virus gây bệnh Covid-19 bao lâu thì phát bệnh?
+    - Nhóm độ tuổi nào dễ bị mắc chủng mới của vi rút corona (nCoV)?
+    - Những cách đo thân nhiệt nào thường được áp dụng trong phòng, chống dịch và độ tin cậy của các phương pháp ấy như thế nào?
+    - Những khuyến cáo nào khi tôi có lịch trình đi lại, du lịch?
+    - Những khuyến nghị nào dành cho người có các triệu chứng của COVID-19?
+    - Những loại vắc-xin COVID-19 nào được cấp phép sử dụng cho người dân tại Hoa Kỳ?
+    - Những người có tiền sử dị ứng có nên tiêm vắc-xin COVID-19 không?
+    - Những người nhập cư không đủ giấy tờ có được nhận vắc-xin miễn phí không?
+    - Những người nào phải cách ly vì dịch Covid-19?
+    - Những người sống tạm trú ở tiểu bang hoặc quốc gia khác (ví dụ: sinh viên, người về hưu, những người mang hai quốc tịch) có thể tiêm vắc-xin COVID-19 ở Massachusetts không?
+    - Những người đang mang thai hoặc đang cho con bú có thể tiêm vắc-xin COVID-19 không?
+    - Những người đã từng mắc COVID-19 có nên được tiêm chủng không?
+    - Những triệu chứng và biến chứng mà vi rút corona (nCoV) có thể gây ra?
+    - Những triệu chứng và các biến chứng mà COVID-19 có thể gây ra là gì?
+    - Những đối tượng nào không cần cách ly?
+    - Những đồ vật nào cần phải vệ sinh thường xuyên để hạn chế lây nhiễm virus gây bệnh Covid-19?
+    - Novel Coronavirus là gì?
+    - Novel coronavirus được xác định là tác nhân gây bệnh của dịch COVID-19, bệnh này có chữa được không?
+    - Néu tôi chưa tiêm mũi thứ hai loại vắc-xin COVID-19 cần tiêm 2 liều trong khoảng thời gian khuyến nghị, tôi nên làm gì?
+    - Nên chuẩn bị tâm lý như thế nào để vượt qua đại dịch Covid-19?
+    - Nên có chế độ ăn như thế nào khi tiêm vaccine COVID-19?
+    - Nên duy trì chế độ ăn như thế nào để tăng sức đề kháng phòng chống dịch bệnh Covid-19?
+    - Nên sử dụng nước rửa tay nào?
+    - Nên thực hiện những biện pháp phòng tránh dịch bệnh nào khi du lịch ở ngoài Hồng Kông?
+    - Nên tiêm phòng vắc xin Moderna của Mỹ ở đâu?
+    - Nên vệ sinh cá nhân như thế nào để đề phòng lây nhiễm virus gây bệnh Covid-19?
+    - Nên đeo loại khẩu trang nào?
+    - Nước máy có an toàn để dùng rửa tay không?
+    - Nếu không có nước sạch và xà phòng dạng lỏng, tôi có thể sử dụng nước rửa tay có cồn để thay thế không?
+    - Nếu mang thai hoặc đang cho con bú có tiêm vắc xin BNT162b2 (Pfizer) được không?
+    - Nếu nghi ngờ nhiễm Covid-19, có nên đến các bệnh viện tuyến trung ương để khám và xét nghiệm?
+    - Nếu nhà trường không có nhiệt kế điện tử thì nên dùng nhiệt kế gì để giám sát thân nhiệt cho nhiều người và phải lưu ý vấn đề gì khi sử dụng loại nhiệt kế đó?
+    - Nếu trong tương lai tôi muốn mang thai thì sao?
+    - Nếu tôi không có xà phòng thì sao?
+    - Nếu tôi là người tiếp xúc gần, liệu tôi có phải xét nghiệm COVID-19 không?
+    - Nếu tôi đang mang thai hoặc có dự định mang thai, liệu tôi có thể tiêm vắc-xin ngừa COVID-19 không?
+    - Nếu tôi đã mắc covid-19 và phục hồi, tôi có cần tiêm vaccine không?
+    - Nếu đã tiêm 2 mũi, thì có cần mang khẩu trang và tránh tiếp xúc với những người khác không?
+    - Nếu đã tiêm đủ 2 liều vắc xin Covid-19 thì em có thể miễn nhiễm Covid-19 và có thể đi lại thoải mái không?
+    - Nếu đến ngày đi học trở lại con tôi bị sốt chưa rõ nguyên nhân tôi có được cho con đi học không?
+    - Omicron là gì?
+    - Omicron đã lây lan tới bao nhiêu quốc gia?
+    - Phun cồn hoặc clo lên khắp cơ thể có diệt được virus SAR-CoV-2 hay không?
+    - Phương thức điều trị COVID-19 là gì?
+    - Phương tiện giao thông công cộng như máy bay, xe buýt, xe lửa, đi chung xe và taxi thì sao?
+    - Phải rửa tay như như nào mới đúng để có thể hạn chế được sự lây nhiễm của Covid-19?
+    - Phụ nữ cho con bú tiêm vắc xin Covid-19 có làm giảm tác dụng của vắc xin hay không?
+    - Phụ nữ chuẩn bị sinh con nếu tiêm vắc xin Covid-19 thì có nguy hiểm không? Hiệu quả của vắc xin sẽ ở trên người mẹ hay em bé?
+    - Phụ nữ hiện đang cho con bú hoặc vắt sữa nên nhận được lời khuyên gì về vắc-xin?
+    - Phụ nữ mang thai có thể truyền COVID-19 cho thai nhi không?
+    - Phụ nữ mang thai nên tiêm loại vắc xin Covid-19 nào?
+    - Phụ nữ đang cho con bú hoặc đang vắt sữa có nên tiêm vắc-xin không?
+    - Phụ nữ đang mang thai hoặc cho con bú sữa mẹ có thể tiêm vắc-xin COVID-19 không?
+    - Quy trình sản xuất kháng thể đơn dòng như thế nào?
+    - Quên tiêm mũi vacxin COVID-19 nhắc lại thì nên làm gì ngay?
+    - Rửa tay như thế nào là đúng cách
+    - Sau khi chích Evusheld bao lâu thì cơ thể sản sinh kháng thể?
+    - Sau khi rửa tay với nước và xà phòng dạng lỏng, làm cách nào để tắt vòi nước?
+    - Sau khi tiêm vaccine, có cần ăn kiêng hoặc hạn chế nhiều hoạt động?
+    - Sau khi tiêm, tôi có cần cách ly và giữ khoảng cách với người xung quanh hay không?
+    - Sinh hoạt tình dục có làm lây Covid-19 không?
+    - Sinopharm – vaccine Covid-19 của Trung Quốc có tốt không?
+    - Sputnik V là gì?
+    - Sử dụng chất khử trùng nào để lau các bề mặt, giúp bảo vệ khỏi Covid-19?
+    - Sử dụng khẩu trang có giúp xác định liệu ai đó được coi là người tiếp xúc gần không?
+    - Sử dụng nhà vệ sinh công cộng có an toàn không?
+    - Sự khác biệt giữa giấy phép sử dụng khẩn cấp và phê duyệt đầy đủ là gì?
+    - Tại sao lại cần giám sát thân nhiệt để kiểm soát dịch bệnh?
+    - Thai nhi nhỏ hơn tiêu chuẩn, chẩn đoán thai dây rốn bám màng bánh nhau. Cần làm gì để bảo vệ thai phát triển tốt nhất? Mẹ bầu có được tiêm vắc xin Covid-19 không?
+    - Thai phụ chỉ có thể tiêm vắc xin Covid-19 tại bệnh viện chuyên về sản khoa, những nơi khác thì không được tiêm phải không?
+    - Thai phụ có nguy cơ tiền sản giật, đang uống Aspirin thì có tiêm vắc xin Covid-19 được không?
+    - Thai phụ có tiền sử tiểu đường, huyết áp cao, mỡ máu,… có được tiêm vắc xin Covid-19 không?
+    - Thai phụ mang thai còn nghén thì có nên tiêm vắc xin Covid-19 không?
+    - Thuốc chủng ngừa COVID-19 có an toàn cho phụ nữ mang thai không?
+    - Thuốc chủng ngừa bồi dưỡng nào đang có sẵn?
+    - Thuốc kháng thể đơn dòng liên hợp (Conjugated mAbs) là gì?
+    - Thuốc kháng thể đơn dòng điều trị Covid-19 Evusheld giá bao nhiêu tiền?
+    - Thành phần trong vắc-xin là gì?
+    - Thế nào là tiếp xúc trực tiếp, tiếp xúc gần với người bệnh?
+    - Thông gió có quan trọng đối với chất lượng không khí trong nhà khi làm sạch và/hoặc khử trùng COVID-19 trong nhà không?
+    - Thông tin nào mà các kháng thể đối với SARS-CoV-2 cho chúng tôi biết về cách phản ứng với COVID-19?
+    - Thông tin về mức độ hiệu quả của vắc xin Pfizer-BioNTech
+    - Thường xuyên rửa mũi bằng nước muối có giúp ngăn ngừa lây nhiễm Covid-19 không?
+    - Thế nào gọi là rửa tay khô?
+    - Thế nếu con hoặc bạn con vẫn bị nhiễm virus gây bệnh Covid-19 thì sao?
+    - Thể thao và hoạt động thì sao?
+    - Thời gian ủ bệnh COVID-19 là bao lâu?
+    - Thời gian ủ bệnh Corona thông thường là bao lâu?
+    - Thời gian ủ bệnh là gì? Thời gian ủ bệnh của COVID-19 là bao lâu?
+    - Thời kỳ ủ bệnh là gì?
+    - Thời điểm thích hợp để tiêm phòng vắc xin phòng COVID-19 của AstraZeneca?
+    - Thực hiện các biện pháp phòng chống dịch Covid-19 có giúp con tránh được các bệnh khác không?
+    - Tiêm Vắc xin COVID-19 của AstraZeneca không đúng lịch có sao không?
+    - Tiêm vaccine COVID-19 rồi có bị mắc COVID-19 không?
+    - Tiêm vaccine Covid rồi có sử dụng Evusheld được không?
+    - Tiêm vaccine Covid-19 nên ăn gì, kiêng gì?
+    - Tiêm vaccine Sinopharm bao nhiêu mũi?
+    - Tiêm vaccine virus Corona có gây vô sinh không?
+    - Tiêm vacxin xong có bị nhiễm Covid lại không? (Tiêm trong bao lâu để có kháng thể và phát huy hiệu quả)
+    - Tiêm vắc xin AstraZeneca bị tiêu chảy?
+    - Tiêm vắc xin AstraZeneca sau bao lâu có kháng thể?
+    - Tiêm vắc xin COVID-19 ở đâu?
+    - Tiêm vắc xin Covid-19 xong mới phát hiện mang thai thì có ảnh hưởng đến thai nhi không? Nếu mẹ bầu là F0 thì có cần tiêm tiếp mũi vắc xin thứ 2 không?
+    - Tiêm vắc xin Covid-19 xong nên kiêng ăn gì cho tốt?
+    - Tiêm vắc xin phòng bệnh cúm rồi có miễn nhiễm với Virus Corona không?
+    - Tiêm vắc-xin COVID-19 có an toàn không nếu tôi dự định có con?
+    - Triệu chứng covid có hắt hơi không?
+    - Triệu chứng covid xuất hiện sau bao lâu?
+    - Triệu chứng của biến chủng AY3
+    - Triệu chứng của biến chủng Delta Plus
+    - Triệu chứng của biến chủng Lambda
+    - Triệu chứng của biến thể Omicron Covid là gì?
+    - Triệu chứng nhiễm COVID-19 là gì?
+    - Triệu chứng vi rút covid-19 ho có đờm không?
+    - Triệu chứng virus covid-19 có nghẹt mũi không?
+    - Trong những ngày có dịch Covid-19, con phải làm gì khi ở trường học để không bị bệnh Covid-19 ạ?
+    - Trong những ngày có dịch Covid-19, khi về nhà con phải làm gì để phòng bệnh Covid-19 ạ?
+    - Trong những ngày có dịch Covid-19, ngoài sách vở, con phảichuẩn bị thêm những gì trước khi ra khỏi nhà để đi học?
+    - Trong những ngày ở nhà, con cần làm gì để không bị lây bệnh Covid-19?
+    - Trong thời gian còn đang nghỉ chúng tôi cần chuẩn bị những gì cho các con để khi đi học trở lại con không bị lây nhiễm virus gây bệnh Covid-19?
+    - Trong thời gian có dịch Covid-19, dù nhà trường không thông báo nhưng trên mạng xã hội có thông tin ở trường có học sinh bị ho, sốt tôi cần phải làm gì?
+    - Trong thời gian có dịch Covid-19, hàng ngày tôi cần chuẩn bị gì cho con trước khi con ra khỏi nhà để đi học?
+    - Trong thời gian có dịch Covid-19, khi đón con ở cổng trường hoặc khi con vừa về đến nhà tôi nên hỏi con và kiểm tra những gì?
+    - Trong thời gian có dịch Covid-19, khi đưa con đến cổng trường tôi (hoặc người đưa con tôi đi học) có được tự do ra vào trường của con không?
+    - Trong thời gian có dịch Covid-19, nhận được tin nhà trường báo con tôi bị ho, sốt có phải con tôi bị bệnh Covid-19 hay không?
+    - Trong thời gian có dịch Covid-19, nhận được tin nhà trường báo con tôi bị ho, sốt tôi cần phải làm gì?
+    - Trong thời gian có dịch Covid-19, nếu ở trường có học sinh bị ho, sốt tôi có nên cho con nghỉ học ở nhà hay không?
+    - Trong thời gian có dịch Covid-19, phát hiện thấy con bị ho, sốt khi đang ở nhà tôi có phải báo cho nhà trường không?
+    - Trong thời gian có dịch Covid-19, phát hiện thấy con bị sốt khi đang ở nhà, ngoài việc liên hệ với nhà trường (thông báo tin con bị ho, sốt; hỏi tình hình nhà trường có học sinh nào bị ho, sốt không…) tôi cần cho con đi khám bệnh ở đâu?
+    - Trong thời gian có dịch Covid-19, phát hiện thấy con bị sốt và ở trường/lớp cũng có học sinh khác bị sốt, có phải dịch Covid-19 đã xuất hiện ở trường của con hay không?
+    - Trong thời gian có dịch Covid-19, tôi cần chuẩn bị và nên dặn dò con điều gì nếu con tự đi học?
+    - Trong thời gian có dịch Covid-19, tôi cần làm gì để tránh cho con tôi không bị nhiễm virus gây bệnh Covid-19 trên đường từ nhà tới trường?
+    - Truy tìm người tiếp xúc là gì?
+    - Trước khi đi tiêm vắc xin Covid xong nên ăn gì cho tốt?
+    - Trường học cần triển khai các biện pháp phòng, chống dịch COVID-19 nào?
+    - Trường học sẽ mở cửa trở lại khi nào và như thế nào?
+    - Trẻ em có nguy cơ mắc biến thể Omicron cao hơn không?
+    - Trẻ em có nhiều khả năng mắc biến thể Delta hơn hay không?
+    - Trẻ em có thể đeo khẩu trang không?
+    - Tác dụng không mong muốn của vắc xin Pfizer
+    - Tác dụng phụ của chủng vắc xin Moderna
+    - Tác dụng phụ khi tiêm vaccine Sinopharm
+    - Tác dụng phụ kéo dài sau khi chích ngừa vacxin Covid-19
+    - Tác nhân gây bệnh Covid-19 là gì?
+    - Tình hình dịch COVID-19 trên thế giới hiện nay như thế nào?
+    - Tôi có bị nhiễm COVID-19 sau khi tiêm vắc-xin không? Liệu tôi có kết quả xét nghiệm dương tính sau khi tiêm vắc-xin không?
+    - Tôi có cần báo cáo kết quả từ việc tự xét nghiệm không?
+    - Tôi có cần dùng nước ấm để rửa tay không?
+    - Tôi có cần lau khô tay bằng khăn không?
+    - Tôi có cần mua nước đóng chai hoặc lưu trữ nước uống không?
+    - Tôi có cần phải làm xét nghiệm COVID-19 trước khi tiêm vắc-xin không?
+    - Tôi có cần tiêm liều vắc-xin nhắc lại ngừa COVID-19 không?
+    - Tôi có cần tiêm vắc-xin COVID-19 nếu trước đây đã bị nhiễm COVID-19 không?
+    - Tôi có cần tiêm vắc-xin để được làm việc không?
+    - Tôi có cần đeo khẩu trang khi nhận vắc-xin COVID-19 không?
+    - Tôi có cần đeo khẩu trang và tránh tiếp xúc gần với người khác nếu đã được tiêm chủng không?
+    - Tôi có cần đun sôi nước uống không?
+    - Tôi có cần được xét nghiệm COVID-19 không?
+    - Tôi có kháng thể COVID-19. Điều đó có nghĩa là gì?
+    - Tôi có nhận được bất cứ thứ gì chứng minh mình đã tiêm vắc-xin không?
+    - Tôi có nên cho con bú nếu con tôi bị bệnh?
+    - Tôi có nên cho con bú nếu tôi có hoặc nghi ngờ tôi bị nhiễm COVID-19 không?
+    - Tôi có nên cho con bú trong thời kỳ đại dịch?
+    - Tôi có nên không đưa con đến nhà trẻ hay đi học không?
+    - Tôi có nên sử dụng xà phòng và nước hoặc dung dịch sát trùng tay để bảo vệ chống lại COVID-19 không?
+    - Tôi có nên tin tưởng vào kết quả từ bộ tự xét nghiệm không?
+    - Tôi có nên tiêm vắc xin COVID-19 nếu tôi đang cho con bú không?
+    - Tôi có nên tiêm vắc xin COVID-19 nếu tôi đang mang thai không?
+    - Tôi có nên tiêm vắc xin nếu tôi đã có COVID-19?
+    - Tôi có nên đeo khẩu trang nếu có hệ miễn dịch yếu?
+    - Tôi có nên đeo khẩu trang y tế để chống lại COVID-19 không?
+    - Tôi có nên đi tiêm vắc xin COVID-19 khi đã mắc COVID-19 và khỏi bệnh?
+    - Tôi có nên đi xét nghiệm để xác định xem liệu hiện tại mình có bị lây nhiễm không?
+    - Tôi có phải thanh toán cho vắc-xin không?
+    - Tôi có thể bị nhiễm COVID-19 từ nước thải hoặc nước cống không?
+    - Tôi có thể chọn loại vắc-xin ngừa COVID-19 để tiêm không?
+    - Tôi có thể chọn loại vắc-xin để tiêm không? Tôi có nên lựa chọn vắc-xin dựa trên tỷ lệ hiệu quả hoặc các tác dụng phụ của chúng không?
+    - Tôi có thể dùng dung dịch sát trùng tay cho thú cưng không?
+    - Tôi có thể giúp ngăn chặn sự lây lan của coronavirus bằng cách nào khác?
+    - Tôi có thể liên hệ thông báo thông tin bằng cách nào?
+    - Tôi có thể làm gì để bảo vệ bản thân và gia đình trước biến thể Delta?
+    - Tôi có thể nhiễm COVID-19 từ thú cưng hoặc động vật khác hay không?
+    - Tôi có thể tiêm ngừa COVID-19 khi tôi hiện đang bị bệnh vì COVID-19 không?
+    - Tôi có thể tiêm vắc-xin COVID-19 khi đang mang thai không?
+    - Tôi có thể tiêm vắc-xin khi đang trong thời kỳ cho con bú không?
+    - Tôi có thể tiêm vắc-xin nếu đã dùng các loại thuốc uống khác (thuốc chống lo âu/trầm cảm/dùng ở nhà và thuốc kháng sinh) không?
+    - Tôi có thể đi làm không nếu nơi làm việc của tôi có hơn 100 người?
+    - Tôi có thể đến các buổi tụ họp công cộng như các buổi hòa nhạc và các sự kiện thể thao không?
+    - Tôi có thể đến thăm người nhà và bạn bè ở các viện dưỡng lão không?
+    - Tôi có được coi là đã tiêm chủng đầy đủ nếu tôi đã tiêm chủng ở quốc gia khác?
+    - Tôi có được theo dõi sau khi tiêm chủng không?
+    - Tôi có đủ điều kiện để tiêm một mũi nhắc lại và/hoặc liều chính bổ sung nếu tôi đã được tiêm chủng đầy đủ ở một quốc gia khác không?
+    - Tôi cần làm gì nếu con tôi gặp khó khăn trong việc quay trở lại 'trạng thái học tập'?
+    - Tôi cần làm gì nếu con tôi không theo kịp với lớp?
+    - Tôi cần làm gì để tránh cho con tôi không bị nhiễm virus gây bệnh Covid-19 trong những ngày nghỉ học?
+    - Tôi cần phải tiêm bao nhiêu liều vắc-xin ngừa COVID-19 để hoàn thành loạt tiêm chính?
+    - Tôi cần đặt những câu hỏi nào cho giáo viên của con tôi hoặc cán bộ quản lý nhà trường?
+    - Tôi cần đợi bao lâu sau khi tiêm vắc-xin cúm hoặc vắc-xin khác trước khi tiêm vắc-xin COVID-19?
+    - Tôi dự định có em bé. Việc tiêm vắc-xin COVID-19 liệu có an toàn cho tôi không?
+    - Tôi lo lắng về việc bị bắt nạt, phân biệt đối xử và kỳ thị. Cách tốt nhất để nói về những gì đang xảy ra là gì?
+    - Tôi nghe nói rằng có tác dụng phụ sau khi được tiêm vắc-xin. Chúng ta biết gì về điều đó?
+    - Tôi nhiễm COVID-19. Tôi nói với mọi người xung quanh như thế nào?
+    - Tôi nên làm gì nếu con tôi có các triệu chứng của COVID-19?
+    - Tôi nên làm gì nếu có nhiều người sống cùng có xét nghiệm dương tính với COVID-19 vào những thời điểm khác nhau?
+    - Tôi nên làm gì nếu gặp phải các triệu chứng sau khi nhận vắc-xin COVID-19?
+    - Tôi nên làm gì nếu thú cưng của tôi mắc bệnh và tôi nghĩ đó là COVID-19?
+    - Tôi nên làm gì nếu tiếp tục bị phơi nhiễm với COVID-19 từ một người sống cùng?
+    - Tôi nên làm gì nếu tôi không khỏe để cho con bú?
+    - Tôi nên làm gì nếu tôi lo lắng về nước uống của mình?
+    - Tôi nên làm gì nếu tôi làm mất Thẻ Hồ Sơ Tiêm Chủng Vắc-xin COVID-19?
+    - Tôi nên làm gì nếu tôi mắc bệnh hoặc ai đó trong nhà tôi mắc bệnh?
+    - Tôi nên làm gì nếu tôi xuất hiện các triệu chứng này?
+    - Tôi nên lưu ý gì khi lựa chọn khẩu trang cho con mình?
+    - Tôi nên mua loại khẩu trang nào cho gia đình mình?
+    - Tôi nên rửa tay trong bao lâu?
+    - Tôi nên sử dụng loại bộ lọc nào trong hệ thống HVAC tại nhà để giúp bảo vệ gia đình tôi khỏi COVID-19?
+    - Tôi nên thực hiện những biện pháp phòng dịch nào cho gia đình mình nếu chúng tôi đi du lịch?
+    - Tôi nên thực hiện những lưu ý gì khi cho con bú?
+    - Tôi phải cung cấp những thông tin liên lạc nào cho hãng hàng không và bên khai thác tàu bay trước khi lên chuyến bay tới Hoa Kỳ?
+    - Tôi phải mang theo những gì khi đi chủng ngừa bồi dưỡng?
+    - Tôi phải đợi bao lâu từ liều đầu tiên đến liều thứ hai của vắc-xin COVID-19 đối với Pfizer và Moderna?
+    - Tôi sống chung với một người đang được xét nghiệm COVID19. Tôi có nên tự cách ly và cũng cần được xét nghiệm không?
+    - Tôi sống cùng người mắc COVID-19, nhưng tôi không thể tách khỏi họ. Làm cách nào để chúng tôi kiểm soát việc cách ly trong tình huống này?
+    - Tôi vẫn có thể tiêm vắc-xin nếu tôi không có thẻ ID đúng không?
+    - Tôi đã nghe nói về một biến thể có tên là Omicron. Tôi nên lo lắng như thế nào?
+    - Tôi đã nhiễm bệnh COVID-19 và đã hoàn thành giai đoạn cô lập. Tôi có cần phải cách ly hoặc đi xét nghiệm nếu người sống cùng tôi bị nhiễm COVID-19 ngay sau khi tôi hoàn thành giai đoạn cô lập?
+    - Tôi đã thấy thông tin không chính xác trên mạng internet về vắc xin COVID-19. Tôi nên làm gì?
+    - Tôi đã tiêm chủng ở quốc gia khác. Làm cách nào để tôi có thể chuyển giấy xác nhận tiêm chủng từ quốc gia đó sang thẻ tiêm chủng ở Hoa Kỳ?
+    - Tôi đã tiêm vắc-xin COVID-19 ở nước khác. Tôi có cần tiêm lại vắc-xin ở Hoa Kỳ với các mũi vắc-xin chính khác không?
+    - Tôi đã tiêm vắc-xin ở nước khác bằng vắc-xin COVID-19 không được cho phép ở Hoa Kỳ. Tôi bị suy giảm miễn dịch. Tôi có thể tiêm mũi thứ 3 của các mũi chính, cho những người bị suy giảm miễn dịch, ở Hoa Kỳ không?
+    - Tôi đã tiêm vắc-xin ở nước khác bằng vắc-xin COVID-19 không được cho phép ở Hoa Kỳ. Tôi có thể tiêm liều tăng cường ở Hoa Kỳ không?
+    - Tôi đã được tiêm phòng. Tôi có cần phải đề phòng không?
+    - Tôi đã được tiêm vắc xin ngừa COVID-19 rồi, tôi có cần phải xét nghiệm COVID-19 không?
+    - Tôi được tiêm vắc-xin Pfizer hoặc Moderna và sau đó có kết quả xét nghiệm dương tính với COVID-19 giữa liều 1 và liều 2, tôi có cần tiêm liều thứ 2 không?
+    - Tại sao Coronavirus lại ít lây nhiễm ở trẻ em?
+    - Tại sao biến chủng Omicron ban đầu được gọi là B.1.1.529?
+    - Tại sao biến thể Delta lại lây lan nhanh ở TP.HCM?
+    - Tại sao bị phản ứng phụ nhẹ sau khi tiêm vaccine Covid-19 là hoàn toàn bình thường?
+    - Tại sao con phải rửa tay sau khi chơi với đồ chơi để phòng chống dịch Covid-19?
+    - Tại sao con phải rửa tay sau khi đi vệ sinh để phòng chống dịch Covid-19?
+    - Tại sao con phải rửa tay trước khi ăn để phòng chống dịch Covid-19?
+    - Tại sao con/em tôi nên tiêm chủng ngừa COVID-19?
+    - Tại sao có nhiều cái tên như Covid-19, 2019-nCoV, SAR-CoV-2,…?
+    - Tại sao cùng bị nhiễm virus gây bệnh Covid-19 có người bị bệnh, có người không bị bệnh?
+    - Tại sao cần thiết lập và duy trì tốt các kênh thông tin về tình trạng sức khỏe của học sinh, sinh viên giữa nhà trường và cha mẹ học sinh?
+    - Tại sao dùng vắc xin dự phòng được bệnh?
+    - Tại sao học sinh sinh viên toàn trường phải nghỉ học khi có dịch Covid-19?
+    - Tại sao lại chọn mốc 13 tuần để phân biệt khi tiêm vắc xin Covid-19? Trước mốc 13 tuần có được không hoặc chưa mang thai có tiêm được không?
+    - Tại sao lại tiến hành giám sát thân nhiệt để kiểm soát dịch bệnh?
+    - Tại sao nhiễm covid 19 nhưng không có triệu chứng?
+    - Tại sao phải kiểm tra sức khỏe thai phụ sau tiêm vắc xin Covid-19?
+    - Tại sao phải vệ sinh môi trường trong trường học để hạn chế lây nhiễm virus gây bệnh Covid-19?
+    - Tại sao phải đeo khẩu trang hoặc tấm chắn?
+    - Tại sao tiêm AstraZeneca mũi trước không sốt mà mũi sau lại sốt?
+    - Tại sao trong thời gian có dịch cần kiểm soát nghiêm ngặt và hạn chế tối đa không cho người ngoài vào trường học?
+    - Tại sao tôi cần thuốc chủng ngừa bồi dưỡng cho COVID?
+    - Tại sao việc bảo trì đường ống thoát nước đúng cách và thường xuyên thêm đầy nước vào ống chữ U lại quan trọng đến vậy?
+    - Tại sao vắc xin Pfizer không có tên thương hiệu là Pfizer trên lọ?
+    - Tại sao đeo khẩu trang có thể ngăn ngừa được bệnh lây nhiễm qua đường hô hấp?
+    - Từ trường học virus gây bệnh Covid-19 có thể lây lan ra cộng đồng bằng cách nào?
+    - Tự Xét Nghiệm hay Xét Nghiệm Tại Nhà là gì?
+    - Uống nước máy có an toàn không?
+    - Vaccine Covid-19 có phản ứng phụ lâu dài nào không?
+    - Vaccine Covid-19 là gì?
+    - Vaccine Pfizer có phù hợp với trẻ em và thanh thiếu niên không?
+    - Vaccine Pfizer là gì?
+    - Vaccine Sinopharm bảo quản như thế nào?
+    - Vaccine Sinopharm của nước nào?
+    - Vaccine Sinopharm giá bao nhiêu?
+    - Vaccine Sinopharm là gì?
+    - Vaccine có ảnh hưởng đến khả năng sinh sản của tôi không?
+    - Vacxin Pfizer có chống được virus chủng mới từ Ấn Độ không?
+    - Vacxin Pfizer có làm bạn nhiễm Covid?
+    - Vacxin Pfizer-BioNTech có gây vô sinh không?
+    - Vai trò của EPA trong việc đảm bảo cho nước uống vẫn được an toàn là gì?
+    - Vi rút Corona được phát hiện khi nào?
+    - Vi rút corona (nCoV) là gì?
+    - Vi-rút Corona này lây lan như thế nào?
+    - Vi-rút Corona và COVID-19 là gì?
+    - Vi-rút lây lan như thế nào?
+    - Vi-rút được điều trị như thế nào?
+    - Virus Corona có lây không?
+    - Virus Corona gây bệnh như thế nào?
+    - Virus Corona là gì?
+    - Virus Corona lây lan như thế nào?
+    - Virus Corona sống trong không khí bao lâu?
+    - Virus Corona sống ở nhiệt độ bao nhiêu?
+    - Virus Corona tồn tại trên bề mặt bao lâu?
+    - Virus SAR-CoV-2 chỉ gây bệnh ở người già hay người trẻ cũng bị?
+    - Virus SAR-CoV-2 có nhân lên trong môi trường tự nhiên không?
+    - Virus SAR-CoV-2 có thể tồn tại ở vùng khí hậu nóng ẩm không?
+    - Virus SAR-CoV-2 gây bệnh cho cơ quan nào?
+    - Virus SAR-CoV-2 lây nhiễm vào con người như thế nào?
+    - Virus SAR-CoV-2 trông như thế nào?
+    - Virus Sars Cov 2 được cấu tạo như thế nào?
+    - Virus biến thể có phải là bình thường hay không? Chúng biến thể như thế nào?
+    - Virus corona chủng mới là gì?
+    - Virus gây bệnh Covid-19 có nguồn gốc từ đâu?
+    - Virus gây bệnh Covid-19 có nhân lên trong môi trường tự nhiên không?
+    - Virus gây bệnh Covid-19 có ở đâu trong môi trường xung quanh chúng ta?
+    - Virus gây bệnh Covid-19 gây bệnh cho cơ quan nào?
+    - Virus gây bệnh Covid-19 gây bệnh như thế nào?
+    - Virus gây bệnh Covid-19 là virus gây bệnh đường hô hấp, tại sao rửa tay lại hạn chế được lây nhiễm mầm bệnh?
+    - Virus gây bệnh Covid-19 nhiễm vào con người như thế nào?
+    - Virus gây bệnh Covid-19 tồn tại bao lâu trong môi trường tự nhiên?
+    - Việc cho chạy hệ thống HVAC trong nhà có thể giúp bảo vệ cho tôi khỏi COVID-19 không?
+    - Việc di chuyển bằng du thuyền có làm tăng nguy cơ nhiễm COVID-19 không?
+    - Việc tiêm vắc-xin COVID-19 có an toàn không nếu trong tương lai, tôi muốn mang thai?
+    - Việc tiêm vắc-xin có tác động tiêu cực đến tình trạng nhập cư của một cá nhân không?
+    - Việc đi học trở lại có an toàn cho con tôi không?
+    - Việt Nam bắt đầu thử nghiệm vắc xin COVID-19 từ khi nào?
+    - Việt Nam phê duyệt khẩn cấp vắc xin Moderna
+    - Vì sao cần rửa tay để phòng bệnh?
+    - Vì sao khi mang thai thì nên chủng ngừa COVID-19?
+    - Vì sao khi rửa tay với xà phòng cần phải rửa tối thiểu trong 30 giây?
+    - Vì sao mẹ bầu nên ưu tiên tiêm phòng vắc xin Covid-19 dù sống ở vùng dịch hay không?
+    - Vì sao nên đeo khẩu trang phòng dịch bệnh?
+    - Vì sao nói khẩu trang y tế 3 lớp đã có thể ngăn cản hiệu quả lây nhiễm virus gây bệnh Covid-19?
+    - Vì sao phải rửa tay bằng xà phòng?
+    - Vật nuôi trong nhà có truyền virus SAR-CoV-2 hay không?
+    - Vậy tôi nên chọn thuốc chủng ngừa bồi dưỡng nào?
+    - Vắc xin AstraZeneca 2 liều cách nhau bao lâu?
+    - Vắc xin AstraZeneca có tác dụng trong bao lâu?
+    - Vắc xin AstraZeneca dành cho độ tuổi nào? AstraZeneca có tiêm cho người trên 65 tuổi không?
+    - Vắc xin AstraZeneca ngừa được chủng virus nào?
+    - Vắc xin AstraZeneca và Pfizer loại nào tốt hơn?
+    - Vắc xin Astrazeneca bị đông máu sau khi tiêm?
+    - Vắc xin BNT162b2 của Pfizer-BioNTech có truyền vi rút vào cơ thể mình không?
+    - Vắc xin COVID-19 có chứa bất kỳ sản phẩm động vật nào trong đó không?
+    - Vắc xin COVID-19 có hiệu quả với các biến thể mới không?
+    - Vắc xin COVID-19 có hiệu quả đối với biến thể Omicron hay không?
+    - Vắc xin COVID-19 có thể ảnh hưởng đến DNA của bạn không?
+    - Vắc xin COVID-19 có thể ảnh hưởng đến khả năng sinh sản không?
+    - Vắc xin COVID-19 của AstraZeneca có an toàn hay không?
+    - Vắc xin COVID-19 của AstraZeneca có bất kỳ tác dụng phụ nào hay không?
+    - Vắc xin COVID-19 của AstraZeneca do hãng nào sản xuất?
+    - Vắc xin COVID-19 của AstraZeneca đã được cấp phép tại Việt Nam chưa?
+    - Vắc xin COVID-19 của AstraZeneca được vận chuyển và bảo quản như thế nào?
+    - Vắc xin COVID-19 hoạt động như thế nào?
+    - Vắc xin Moderna là gì?
+    - Vắc xin Pfizer có tiêm được cho phụ nữ mang thai không?
+    - Vắc xin mRNA-1273 có dùng vi rút sống không?
+    - Vắc xin mRNA-1273 của Moderna giá bao nhiêu?
+    - Vắc xin ngừa COVID-19 có an toàn và hiệu quả không?
+    - Vắc xin phòng COVID-19 của AstraZeneca là gì?
+    - Vắc-xin COVID-19 có an toàn dù các vắc-xin này được phát triển nhanh chóng không?
+    - Vắc-xin COVID-19 có an toàn với trẻ em không?
+    - Vắc-xin COVID-19 có bất kỳ tác dụng phụ nào không?
+    - Vắc-xin COVID-19 có cản trở loại thuốc phòng hoặc điều trị HIV nào không?
+    - Vắc-xin COVID-19 có hiệu quả chống lại các biến thể không?
+    - Vắc-xin COVID-19 có khiến tôi mắc COVID-19 không?
+    - Vắc-xin COVID-19 có làm thay đổi DNA của tôi không?
+    - Vắc-xin COVID-19 có thay đổi ADN của tôi phải không?
+    - Vắc-xin COVID-19 có thể bảo vệ trong bao lâu?
+    - Vắc-xin COVID-19 có thể làm tôi mắc COVID-19 không?
+    - Vắc-xin COVID-19 sẽ có hiệu quả sau bao lâu?
+    - Vắc-xin Johnson & Johnson có an toàn không?
+    - Vắc-xin an toàn như thế nào khi mọi thứ xảy ra quá nhanh?
+    - Vắc-xin an toàn như thế nào nếu chúng ta không biết các tác dụng phụ lâu dài?
+    - Vắc-xin có giúp bảo vệ chống lại sự lây nhiễm không mang triệu chứng và ngăn chặn sự lây lan virus của những người đã được tiêm phòng không?
+    - Vắc-xin có hiệu quả với các biến thể của COVID-19 không?
+    - Vắc-xin ngừa COVID-19 có an toàn cho những người đang nhiễm HIV không?
+    - Vắc-xin được thử nghiệm với ai?
+    - Vệ sinh đồ vật và môi trường như thế nào là đúng cách?
+    - Với các bệnh như sởi, quai bị, thủy đậu chỉ có học sinh nào bị bệnh thì học sinh đó phải nghỉ học; tại sao với bệnh Covid-19 tất cả học sinh phải nghỉ học kể cả chưa có ai bị bệnh?
+    - Xét nghiệm Covid-19 bao nhiêu tiền?
+    - Xét nghiệm Covid-19 có được ăn sáng không?
+    - Xét nghiệm Covid-19 lần 2 cách lần 1 bao lâu?
+    - Xét nghiệm covid miễn phí ở đâu?
+    - Xét nghiệm nhanh Covid-19 có được thanh toán bảo hiểm không?
+    - Đang mang thai IVF thì tiêm vắc xin Covid-19 có ảnh hưởng gì không?
+    - Đang mang thai, có được đi tiêm không?
+    - Đang trong đợt nhà trường cho nghỉ học để phòng tránh dịch Covid-19, con không đến trường là con sẽ không bị nhiễm virus gây bệnh Covid-19 phải không?
+    - Đeo khẩu trang là để bảo vệ người chưa bị nhiễm hay bảo vệ người đã bị nhiễm virus gây bệnh Covid-19?
+    - Đeo khẩu trang như thế nào là đúng cách?
+    - Đeo khẩu trang y tế như thế nào là đúng cách?
+    - Đi xa hoặc du lịch là gì?
+    - Điều gì dự kiến sẽ xảy ra tại cuộc hẹn tiêm chủng COVID-19?
+    - Điều gì sẽ xảy ra nếu có hành khách bị bệnh trên một chuyến bay quốc tế hoặc nội địa?
+    - Điều gì xảy ra nếu quên tiêm mũi COVID-19 thứ 2?
+    - Điều gì xảy ra nếu tôi chỉ muốn tiêm 1 mũi?
+    - Đã có loại thuốc đặc hiệu nào để phòng và điều trị bệnh viêm đường hô hấp cấp do chủng mới vi rút corona (nCoV) gây ra chưa?
+    - Đã có thuốc điều trị và vắc-xin phòng bệnh Covid-19 chưa?
+    - Đã có vắc xin Covid-19 chưa?
+    - Đã nhiễm virus Corona tiêm phòng có tác dụng không?
+    - Đã đến lúc tôi cần chủng ngừa bồi dưỡng chưa?
+    - Đến ngày đi học trở lại con tôi bị sốt tôi có phải báo cho nhà trường biết không?
+    - Để khẳng định chắc chắn bị bệnh do Covid-19 thì cần làm những xét nghiệm gì?
+    - Đối nào được tượng tiêm phòng vắc xin BNT162b2
+    - Đối tượng không nên tiêm ngừa vắc xin mRNA-1273 của Moderna
+    - Đối tượng nào dễ mắc virus gây dịch covid 19 (Sars-Cov-2)?
+    - Đối tượng nào nên cách ly?
+    - Đối tượng nào được tiêm vaccine Covid-19 mũi 3?
+    - Đối tượng nên tiêm ngừa vắc xin mRNA-1273 của Moderna
+    - Độ an toàn của vaccine Moderna
+    - Động vật có thể mang vi-rút gây COVID-19 trên da hoặc lông của chúng không?
+    - Động vật hoang dã có thể lây lan vi-rút gây ra COVID-19 cho người không?
+    - Thế nào là bệnh truyền nhiễm?
+    - Thế nào là dịch bệnh truyền nhiễm?
+    - Dịch Covid-19 là gì?
+    - Khi nào nước ta công bố dịch bệnh?
+    - Có phải dịch Covid-19 nguy hiểm hơn các dịch bệnh khác nên Thủ tướng Chính phủ công bố dịch?
+    - Dịch Covid-19 nguy hiểm như thế nào?
+    - Dịch Covid-19 xuất hiện như thế nào?
+    - Dịch Covid-19 lan truyền bằng cách nào?
+    - Dịch Covid-19 so với dịch SARS và dịch viêm đường hô hấp Trung Đông (MERS), dịch nào nguy hiểm hơn?
+    - Dịch Covid-19 sẽ kéo dài bao lâu?
+    - Tác nhân gây bệnh Covid-19 là gì?
+    - Virus Covid-19 có nguồn gốc từ đâu?
+    - Virus Covid-19 có ở đâu trong môi trường xung quanh chúng ta?
+    - Virus Covid-19 có nhân lên trong môi trường tự nhiên không?
+    - Virus Covid-19 tồn tại bao lâu trong môi trường tự nhiên?
+    - Virus Covid-19 lây nhiễm vào con người như thế nào?
+    - Tôi đang ở nơi được gọi là “vùng dịch” thì có phải là tôi đã bị nhiễm Covid-19 rồi không?
+    - Tôi đang khỏe mạnh nhưng nếu cứ ở vùng có dịch là tôi sẽ bị nhiễm Covid-19 phải không?
+    - Tôi vừa đi cùng chuyến máy bay/chuyến ô-tô/ toa tầu; ở cùng phòng họp/lớp học với một người vừa được xác định là người nhiễm Covid-19 có nghĩa là tôi cũng đã nhiễm Covid-19 phải không?
+    - Thế nào là tiếp xúc trực tiếp với người bệnh?
+    - Thế nào là tiếp xúc gần với người bệnh?
+    - Bắt tay có làm lây Covid-19 không?
+    - Hôn nhau có làm lây Covid-19 không?
+    - Sinh hoạt tình dục có làm lây Covid-19 không?
+    - Covid-19 có lây qua thức ăn không?
+    - Covid-19 có lây qua đường máu không?
+    - Covid-19 có lây từ mẹ sang con không?
+    - Virus Covid-19 gây bệnh như thế nào?
+    - Virus Covid-19 gây bệnh cho cơ quan nào?
+    - Covid-19 có gây quái thai không?
+    - Tại sao có người nhiễm Covid-19 thì bị bệnh, có người không bị bệnh?
+    - Có ai có đề kháng tự nhiên với Covid-19 hay không?
+    - Cơ thể người đề kháng với Covid-19 như thế nào?
+    - Sau khi nhiễm Covid-19 bao lâu thì có kháng thể?
+    - Người bị bệnh do Covid-19 một lần đã khỏi có bị lại bệnh này nữa không?
+    - Có thể lấy huyết tương của người bị bệnh Covid-19 đã khỏi bệnh để chữa cho người đang bị bệnh hay không?
+    - Covid-19, SARS-CoV và MERS-CoV đều là virus corona, người bị SARS hoặc MERS đã khỏi bệnh có bị bệnh do Covid-19 nữa hay không?
+    - Tại sao dùng vắc xin dự phòng được bệnh?
+    - Hiện nay đã có vắc xin phòng bệnh Covid-19 chưa?
+    - Khi nào thì có vắc xin phòng bệnh Covid-19?
+    - Người bị bệnh Covid-19 có biểu hiện gì?
+    - Bị nhiễm Covid-19 nếu không được điều trị có thể dẫn đến những hậu quả gì?
+    - Tôi đang tự theo dõi vì nghi ngờ mình bị nhiễm Covid-19, khi có dấu hiệu gì thì tôi phải báo ngay cho cơ quan y tế?
+    - Có phải cứ ho, sốt là bị bệnh do Covid-19 hay không?
+    - Để khẳng định chắc chắn bị bệnh do Covid-19 thì cần làm những xét nghiệm gì?
+    - Nếu chỉ ho, sốt, khó thở nhẹ tôi có phải đi bệnh viện không?
+    - Để cho yên tâm tôi có nên đến thẳng các bệnh viện lớn tuyến trung ương để khám và làm xét nghiệm không?
+    - Hiện nay đã có thuốc điều trị đặc hiệu cho bệnh Covid-19 chưa?
+    - Thông tin về thuốc điều trị HIV chữa được Covid-19 là đúng hay sai?
+    - Hiện nay các biện pháp chính để điều trị bệnh do Covid-19 là gì?
+    - Cách ly y tế là gì?
+    - Tại sao khi có dịch Covid-19 lại phải tiến hành cách ly y tế?
+    - Có những hình thức cách ly y tế nào?
+    - Thế nào là cách ly y tế tập trung?
+    - Thế nào là tự cách ly?
+    - Những người nào thuộc diện phải cách ly trong đợt dịch Covid-19 này?
+    - Người đang bị bệnh Covid-19 chưa khỏi thì phải áp dụng hình thức cách ly nào và thời gian cách ly trong bao lâu?
+    - Người đang bị ho, sốt, khó thở mới chỉ nghi ngờ bị bệnh Covid-19 chưa có khẳng định chắc chắn thì phải áp dụng hình thức cách ly nào, thời gian cách ly trong bao lâu và tại sao?
+    - Người không có biểu hiện bệnh mới chỉ nghi ngờ bị nhiễm Covid-19 (do trước đó nghi có tiếp xúc với mầm bệnh) thì phải áp dụng hình thức cách ly nào, thời gian cách ly trong bao lâu và tại sao?
+    - Tại sao người đi về từ vùng có dịch dù không có biểu biện bị bệnh hoặc nghi ngờ tiếp xúc với mầm bệnh vẫn phải tiến hành cách ly?
+    - Người từ vùng dịch làm nhiệm vụ trở về có phải tiến hành cách ly không?
+    - Một nhóm người đi về từ vùng có dịch nên được tổ chức cách ly tập trung trong theo kế hoạch 14 ngày; ban đầu tất cả không có biểu hiện bệnh nhưng ngày thứ 10 thì có một người sốt nên người này được chuyển đi nơi khác để điều trị và theo dõi thêm, những người còn lại đến ngày thứ 14 cũng không có ai bị sốt vậy, những người này sẽ được ra khỏi nơi cách ly hay vẫn tiếp tục phải cách ly?
+    - Tại sao phải hạn chế đi lại với những người đang sống trong vùng có dịch mặc dù họ không có biểu biện bị bệnh hoặc nghi ngờ tiếp xúc với người bệnh?
+    - Những người đang sống trong vùng có dịch cần phải hạn chế đi lại cho đến khi nào và tại sao?
+    - Một người đang ở trong vùng có dịch, ban đầu khỏe mạnh, sau đó tự nhiên bị sốt thì có phải là đã bị nhiễm Covid-19 hay không?
+    - Tại sao lại cần tiến hành giám sát thân nhiệt để kiểm soát dịch bệnh?
+    - Ngoài giám sát thân nhiệt còn có biện pháp nào để kiểm soát dịch bệnh nữa không?
+    - Những cách đo thân nhiệt nào thường được áp dụng trong phòng chống dịch và độ tin cậy của các phương pháp ấy như thế nào?
+    - Nếu không có nhiệt kế điện tử thì nên dùng nhiệt kế gì để giám sát thân nhiệt cho nhiều người và phải lưu ý vấn đề gì khi sử dụng loại nhiệt kế đó?
+    - Khi đo nhiệt độ ở trán bằng nhiệt kế điện tử, nhiệt độ bao nhiêu trở lên thì coi là bị sốt?
+    - Tại sao đeo khẩu trang có thể ngăn ngừa được bệnh lây nhiễm qua đường hô hấp?
+    - Có bao nhiêu loại khẩu trang y tế, cấu tạo cơ bản và công dụng của mỗi loại?
+    - Khi nào cần dùng khẩu trang y tế N95 để dự phòng lây nhiễm Covid-19?
+    - Đeo khẩu trang là để bảo vệ người chưa bị nhiễm hay bảo vệ người đã bị nhiễm Covid-19?
+    - Tại sao người đã nhiễm Covid-19 vẫn cần phải đeo khẩu trang?
+    - Vì sao nói khẩu trang y tế 3 lớp đã có thể ngăn cản hiệu quả lây nhiễm Covid-19?
+    - Đeo khẩu trang y tế như như nào là đúng cách?
+    - Khi ở bên ngoài vùng có dịch có nhất thiết phải đeo khẩu trang không?
+    - Khi nào cần đeo khẩu trang?
+    - Khẩu trang vải có tác dụng dự phòng lây nhiễm Covid-19 không?
+    - Covid-19 là virus gây bệnh đường hô hấp, tại sao rửa tay lại hạn chế được lây nhiễm mầm bệnh?
+    - Khi nào thì phải rửa tay để hạn chế lây nhiễm Covid-19?
+    - Phải rửa tay như như nào mới đúng để có thể hạn chế được sự lây nhiễm của Covid-19?
+    - Vì sao phải rửa tay bằng xà phòng?
+    - Vì sao khi rửa tay với xà phòng cần phải rửa tối thiểu trong 30 giây?
+    - Thế nào gọi là rửa tay khô?
+    - Dung dịch rửa tay khô phải bảo đảm điều kiện gì mới có thể sử dụng để rửa tay khô phòng lây nhiễm Covid-19?
+    - Ngoài việc rửa tay sạch, cần thực hiện thêm thói quen gì với đôi tay để hạn chế lây nhiễm Covid-19?
+    - Tại sao phải vệ sinh môi trường để hạn chế lây nhiễm Covid-19?
+    - Cần vệ sinh môi trường như thế nào để hạn chế lây nhiễm Covid-19?
+    - Cần vệ sinh nhà cửa như thế nào để hạn chế lây nhiễm Covid-19?
+    - Những đồ vật nào cần phải vệ sinh thường xuyên để hạn chế lây nhiễm Covid-19?
+    - Vệ sinh đồ vật và môi trường như thế nào là đúng cách?
+    - Chất tẩy rửa nào thường được sử dụng để vệ sinh đồ vật và môi trường dự phòng lây nhiễm Covid-19?
+    - Nên vệ sinh cá nhân như thế nào để đề phòng lây nhiễm Covid-19?
+    - Nên vệ sinh mũi, họng như thế nào để đề phòng lây nhiễm Covid-19?
+    - Vì sao cần giữ ấm cơ thể để đề phòng lây nhiễm Covid-19?
+    - Nên duy trì chế độ ăn như thế nào để tăng sức đề kháng phòng chống Covid-19?
+    - Ăn nhiều tỏi có tác dụng chống Covid-19 không?
+    - Nên chuẩn bị tâm lý như thế nào để vượt qua đại dịch Covid-19?

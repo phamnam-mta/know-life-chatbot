@@ -1,0 +1,124 @@
+version: "3.0"
+
+stories:
+- story: check covid-4.1
+  steps:
+  - intent: deny
+  - action: utter_ask_fever
+  - intent: affirm
+  - action: utter_ask_weaken_immune
+  - intent: deny
+  - action: utter_ask_fever_period
+  - intent: affirm
+  - action: utter_high_risk
+  - action: utter_ask_if_need_help
+  - action: utter_guide
+
+- story: check covid-4.2
+  steps:
+  - intent: deny
+  - action: utter_ask_fever
+  - intent: affirm
+  - action: utter_ask_weaken_immune
+  - intent: deny
+  - action: utter_ask_fever_period
+  - intent: deny
+  - action: utter_low_risk
+  - action: utter_ask_if_need_help
+  - action: utter_guide
+
+- story: check covid-4
+  steps:
+  - intent: check_covid_symptom
+  - action: utter_disclaimer
+  - intent: affirm
+  - action: utter_introduction
+  - action: user_info_form
+  - active_loop: user_info_form
+  - active_loop: null
+  - action: utter_ask_serious_symptom
+  - intent: deny
+  - action: utter_ask_fever
+  - intent: affirm
+  - action: utter_ask_weaken_immune
+  - intent: affirm
+  - action: utter_emergency
+  - action: utter_ask_if_need_help
+  - action: utter_guide
+
+- story: check covid-3.2
+  steps:
+  - intent: deny
+  - action: utter_ask_fever
+  - intent: deny
+  - action: utter_ask_cough
+  - intent: affirm
+  - action: utter_high_risk
+  - action: utter_ask_if_need_help
+  - action: utter_guide
+
+- story: check covid-3.3
+  steps:
+  - intent: deny
+  - action: utter_ask_fever
+  - intent: deny
+  - action: utter_ask_cough
+  - intent: deny
+  - action: utter_ask_common_symptom
+  - intent: affirm
+  - action: utter_high_risk
+  - action: utter_ask_if_need_help
+  - action: utter_guide
+
+- story: check covid-3.1
+  steps:
+  - intent: check_covid_symptom
+  - action: utter_disclaimer
+  - intent: affirm
+  - action: utter_introduction
+  - action: user_info_form
+  - active_loop: user_info_form
+  - active_loop: null
+  - action: utter_ask_serious_symptom
+  - intent: deny
+  - action: utter_ask_fever
+  - intent: deny
+  - action: utter_ask_cough
+  - intent: deny
+  - action: utter_ask_common_symptom
+  - intent: deny
+  - action: utter_low_risk
+  - action: utter_ask_if_need_help
+  - action: utter_guide
+
+- story: check covid-2
+  steps:
+  - intent: check_covid_symptom
+  - action: utter_disclaimer
+  - intent: affirm
+  - action: utter_introduction
+  - action: user_info_form
+  - active_loop: user_info_form
+  - active_loop: null
+  - action: utter_ask_serious_symptom
+  - intent: affirm
+  - action: utter_emergency
+  - action: utter_ask_if_need_help
+  - action: utter_guide
+
+- story: check covid-1
+  steps:
+  - intent: check_covid_symptom
+  - action: utter_disclaimer
+  - intent: deny
+  - action: utter_ask_if_need_help
+  - action: utter_guide
+
+# - story: red flag
+#     steps:
+#       - checkpoint: red_flag
+#       - intent: agree
+#       - action: action_book_appt
+#       - action: action_ask_need_help
+#       - action: action_session_restart
+

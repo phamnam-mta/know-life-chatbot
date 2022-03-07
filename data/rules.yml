@@ -1,0 +1,18 @@
+version: "3.0"
+
+rules:
+  - rule: greet
+    steps:
+    - intent: greet
+    - action: utter_greet
+    - action: utter_guide
+
+  - rule: check_covid_symptom
+    steps:
+    - intent: check_covid_symptom
+    - action: utter_disclaimer
+
+  - rule: respond to FAQs
+    steps:
+    - intent: covid_faq
+    - action: action_covid_faq
