@@ -57,7 +57,7 @@ responses:
       - payload: /deny
         title: Không
       - payload: /affirm
-        title: Tôi bị sốt nhưng không biết bao nhiêu độ
+        title: Tôi không biết
 
   utter_ask_fever_period:
   - text: Bạn bị sốt bao nhiêu ngày rồi?
